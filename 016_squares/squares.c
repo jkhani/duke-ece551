@@ -30,7 +30,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
 	   ((unsigned)(x - x_offset) <= (size2)) &&
 	   
       //     y is equal to either y_offset OR y_offset + size2 - 1 )
-	   ((y == y_offset) || (y == y_offset + size2 - 1))
+	   ((y == y_offset) || (y == (y_offset + size2 - 1)))
 	   )
       // OR
 	  ||
@@ -38,7 +38,7 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
       //    ((y is between y_offset and y_offset + size2) AND
 	   ((unsigned)(y - y_offset) <= (size2)) &&
       //     x is equal to either x_offset OR x_offset + size2 -1)
-	   ((x == x_offset) || (x == x_offset + size2 - 1))
+	   ((x == x_offset) || (x == (x_offset + size2 - 1)))
 	   )
 	  )
 	{
