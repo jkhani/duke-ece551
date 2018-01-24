@@ -1,16 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
- typedef struct _retire_info {
-   int MONTHS;
-   double CONTRIBUTION;
-   double RATE_OF_RETURN;
- } retire_info;
+struct _retire_info {
+   int months;
+   double contribution;
+   double rate_of_return;
+};
+
+typedef struct _retire_info retire_info;
 
 double calcBalance (int startMonth, double currBalance, retire_info savingsInfo) {
-  int months = savingsInfo.MONTHS;
-  double contribution = savingsInfo.CONTRIBUTION;
-  double rofReturn = savingsInfo.RATE_OF_RETURN;
+  int months = savingsInfo.months;
+  double contribution = savingsInfo.contribution;
+  double rofReturn = savingsInfo.rate_of_return;
 
   for (int currMonth = startMonth; currMonth < (months + startMonth); currMonth++) {
     printf("Age %3d month %2d you have $%.2lf\n",(currMonth/12),(currMonth % 12), currBalance);
@@ -29,7 +31,7 @@ void retirement (int startAge,//in months
 
   double newBalance = calcBalance(startAge, initial, working);
 
-  int retiredMonth = startAge + working.MONTHS;
+  int retiredMonth = startAge + working.months;
 
   newBalance = calcBalance(retiredMonth, newBalance, retired);
 }
@@ -37,14 +39,14 @@ void retirement (int startAge,//in months
 int main (void) {
 
   retire_info working;
-  working.MONTHS = 489;
-  working.CONTRIBUTION = 1000;
-  working.RATE_OF_RETURN = 0.045/12;
+  working.months = 489;
+  working.contribution = 1000;
+  working.rate_of_return = 0.045/12;
 
   retire_info retired;
-  retired.MONTHS = 384;
-  retired.CONTRIBUTION = -4000;
-  retired.RATE_OF_RETURN = 0.01/12;
+  retired.months = 384;
+  retired.contribution = -4000;
+  retired.rate_of_return = 0.01/12;
 
   int startAge = 327;
   double initial = 21345;
