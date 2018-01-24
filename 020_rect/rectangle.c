@@ -16,15 +16,56 @@ int max (int a, int b) {
 }
 
 //Declare your rectangle structure here!
+struct _rectangle {
+  int x;
+  int y;
+  int width;
+  int height;
+};
 
+typedef struct _rectangle rectangle;
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
+  // checks if width is given as negative value
+  if (r.width < 0) {
+    // shift x coordinate so the rectangle is defined by bottom left corner
+    r.x = r.x + r.width;
+    // change width to positive value
+    r.width = -1 * r.width;
+  }
+
+  // check if height is given as negative value
+  if (r.height < 0) {
+    r.y = r.y + r.height;
+    r.height = -1 * r.height;
+  }
+  
   return r;
 }
 rectangle intersection(rectangle r1, rectangle r2) {
   //WRITE THIS FUNCTION
-  return r1;
+  r1 = canonicalize(r1);
+  r2 = canonicalize(r2);
+  
+  rectangle interRect;
+  interRect.x = 0;
+  interRect.y = 0;
+  interRect.width = 0;
+  interRect.height = 0;
+  
+  if ((r1.x <= (r2.x + r2.width)) &&
+      ((r1.x + r1.width) >= r2.x) &&
+      ((r1.y+r1.height) <= r2.y) &&
+      (r1.y >= (r2.y+r2.height))){
+
+    interRect.x = max(r1.x,r2.x);
+    interRect.y = max(r1.y,r2.y);
+    interRect.width = min((r1.x+r1.width)-interRect.x,(r2.x+r2.width)-interRect.x);
+    interRect.height = min((r1.y+r1.height)-interRect.y,(r2.y+r2.height)-interRect.y);    
+  }
+
+  return interRect;
 }
 
 //You should not need to modify any code below this line
