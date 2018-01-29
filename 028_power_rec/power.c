@@ -3,7 +3,7 @@
 
 unsigned power_helper(unsigned base, unsigned exp){
   // corner case
-  if (base==0 && exp==0) {
+  if (exp==0) {
     return 1;
   }
 
