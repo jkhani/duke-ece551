@@ -18,7 +18,7 @@ int main(void){
     int result = seq1(testCases[x]);
     printf("seq1(%d) = %d\n", testCases[x], result);
   }
-  return EXIT_SUCCESS
+  return EXIT_SUCCESS;
 }
 */
 //  Step 1 (C): write printSeq1Range
@@ -53,7 +53,7 @@ int main(void){
   printSeq1Range(-1,-100);
   printSeq1Range(-6,-1);
   
-  return EXIT_SUCCESS
+  return EXIT_SUCCESS;
 }
 
 // Be sure to #include any header files you need!
