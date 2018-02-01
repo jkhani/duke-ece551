@@ -1,0 +1,8 @@
+Grading at 02/01/2018:14:56:22.573181
+For commit ID 5a1eed90b6d6cd1065d0df839f8d323c36598cc0
+Attempting to compile test.c
+The code did not compile
+Your file matched the expected output
+Your output matched what we expected
+
+Overall Grade: F
