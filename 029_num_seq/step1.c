@@ -32,7 +32,7 @@ void printSeq1Range(int low, int high){
       }
     }
   }
-  printf("/n");
+  printf("\n");
 }
 //  Step 1 (D): add test cases to main to test printSeq1Range
 //
