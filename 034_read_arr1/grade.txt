@@ -1,8 +1,10 @@
-Grading at 02/01/2018:14:56:22.573181
-For commit ID 5a1eed90b6d6cd1065d0df839f8d323c36598cc0
+Grading at 02/01/2018:15:01:42.827445
+For commit ID 6afcb74b6b266fd661b83d2a68f1fba13403c553
 Attempting to compile test.c
-The code did not compile
+gcc -std=gnu99 -pedantic -Wall -c test.c
+gcc -o test test.o
+compiled
 Your file matched the expected output
 Your output matched what we expected
 
-Overall Grade: F
+Overall Grade: A
