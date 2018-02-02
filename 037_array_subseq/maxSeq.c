@@ -3,8 +3,8 @@
 
 size_t maxSeq(int * array, size_t n){
   // corner case for NULL array
-  if (array == NULL){
-    return NULL;
+  if (n == 0){
+    return 0;
   }
   else{
     // variable for holding current length of increasing numbers
