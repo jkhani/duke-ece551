@@ -40,17 +40,26 @@ void printSeq1Range(int low, int high){
 //  Step 1 (D): add test cases to main to test printSeq1Range
 //
 int main(void){
+  // array of testcases for testing seq1(), tests large negatives, small negatives, examples from instructions, and large positive values
   int testCases[] = {-10000,-100,-50,-4,-1,0,1,4,50,100,10000};
+  // calculate number of testcases (could be hardcoded)
   int numCases = sizeof(testCases)/sizeof(*testCases);
+  // for loop for running through testcase arrays
   for (int x = 0; x < numCases; x++){
     int result = seq1(testCases[x]);
+    // print call and results of seq1
     printf("seq1(%d) = %d\n", testCases[x], result);
-  }
+  };
 
+  // 2 arrays for testing printSeq1Range
+  // array of "low" values
   int testLows[] = {0,-2,7,2,0,100,-1,-1,-6};
+  // array of "high" values
   int testHighs[] = {4,6,3,-1,0,1,-4,-100,-1};
+  // calculate number of test cases from the number of elements
   int numTests = sizeof(testLows)/sizeof(*testLows);
   for (int i = 0; i < numTests; i++){
+    // print call and results of printSeq1Range
     printf("printSeq1Range(%d,%d)\n",testLows[i],testHighs[i]);
     printSeq1Range(testLows[i],testHighs[i]);
   }
