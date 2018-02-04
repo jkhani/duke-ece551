@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 size_t maxSeq(int * array, size_t n){
-  // corner case for NULL array
+  // corner case for array size 0
   if (n == 0){
     return 0;
   }
@@ -16,7 +16,9 @@ size_t maxSeq(int * array, size_t n){
       if (array[i] > array[i-1]){
 	// if so, add to the sequence
 	temp_seq += 1;
+	// check if current longest seq is greater than the previous max sequence
 	if (temp_seq > seq_max){
+	  // if so, change max sequence to new longest streak
 	  seq_max = temp_seq;
 	}
       }
