@@ -23,22 +23,28 @@ int main(void){
   return EXIT_SUCCESS;
 }
 */
+
 //  Step 1 (C): write printSeq1Range
-// 
+// prints the values of seq1 evaluated between the integers low and high
 void printSeq1Range(int low, int high){
+  // first check that low is less than high, otherwise just print a blank line
   if (low < high) {
+    // loop through the integer values between low and high
     for (int i = low; i < high; i++){
+      // call seq1 for each integer
       int result = seq1(i);
+      // print results
       printf("%d", result);
       if (i < (high - 1)){
-	  printf(",");
+	// if not at the last integer in the series, print a comma
+	printf(",");
       }
     }
   }
   printf("\n");
 }
 //  Step 1 (D): add test cases to main to test printSeq1Range
-//
+
 int main(void){
   // array of testcases for testing seq1(), tests large negatives, small negatives, examples from instructions, and large positive values
   int testCases[] = {-10000,-100,-50,-4,-1,0,1,4,50,100,10000};
@@ -53,11 +59,12 @@ int main(void){
 
   // 2 arrays for testing printSeq1Range
   // array of "low" values
-  int testLows[] = {0,-2,7,2,0,100,-1,-1,-6};
+  int testLows[] = {0,-2,7,2,0,100,-1,-1,-6,1000,-1004};
   // array of "high" values
-  int testHighs[] = {4,6,3,-1,0,1,-4,-100,-1};
+  int testHighs[] = {4,6,3,-1,0,1,-4,-100,-1,1005,-999};
   // calculate number of test cases from the number of elements
   int numTests = sizeof(testLows)/sizeof(*testLows);
+  // loop through testcase values
   for (int i = 0; i < numTests; i++){
     // print call and results of printSeq1Range
     printf("printSeq1Range(%d,%d)\n",testLows[i],testHighs[i]);
