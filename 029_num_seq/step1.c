@@ -55,7 +55,7 @@ int main(void){
     int result = seq1(testCases[x]);
     // print call and results of seq1
     printf("seq1(%d) = %d\n", testCases[x], result);
-  };
+  }
 
   // 2 arrays for testing printSeq1Range
   // array of "low" values
