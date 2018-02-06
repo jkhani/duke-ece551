@@ -1,4 +1,4 @@
-10 return dangling pointer
+8 use of uninitialized value
 10 return dangling pointer
 19 index out of bounds
 20 index out of bounds
