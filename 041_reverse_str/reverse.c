@@ -30,6 +30,9 @@ void reverse(char * str) {
     str++;
   }
   }
+  else{
+    str--;
+  }
 }
 
 int main(void) {
