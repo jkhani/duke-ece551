@@ -2,8 +2,32 @@
 #include <stdlib.h>
 #include <string.h>
 
+// takes a string and reverses it
 void reverse(char * str) {
-  //WRITE ME!
+  // create variable to store length of string
+  int len = 0;
+  // determine the size of the string
+  while(*str != '\0'){
+    len++;
+    str++;
+  }
+  // pointer to original string will now be pointing to NULL value
+
+  // create copy of string
+  char str_cp[len];
+
+  // loop through string starting from the end, b for backward indexing
+  for(int b = 0; b< len; b++){
+    str--; // start from the first value before the NULL
+    str_cp[b] = *str; // set the ith value of the copy to the value str is pointing to
+  }
+  // string copy will be the reverse of original string
+
+  // loop through copy and change original string value to that of copy
+  for(int f = 0; f <len; f++){
+    *str = str_cp[f];
+    str++;
+  }
 }
 
 int main(void) {
