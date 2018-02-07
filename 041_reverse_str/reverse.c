@@ -13,6 +13,7 @@ void reverse(char * str) {
   }
   // pointer to original string will now be pointing to NULL value
 
+  if (len > 0){
   // create copy of string
   char str_cp[len];
 
@@ -27,6 +28,7 @@ void reverse(char * str) {
   for(int f = 0; f <len; f++){
     *str = str_cp[f];
     str++;
+  }
   }
 }
 
