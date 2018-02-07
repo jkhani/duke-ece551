@@ -4,6 +4,10 @@
 
 // takes a string and reverses it
 void reverse(char * str) {
+
+  if (str == NULL){
+    return;
+  }
   // create variable to store length of string
   int len = 0;
   // determine the size of the string
@@ -13,7 +17,6 @@ void reverse(char * str) {
   }
   // pointer to original string will now be pointing to NULL value
 
-  if (len > 0){
   // create copy of string
   char str_cp[len];
 
@@ -28,10 +31,6 @@ void reverse(char * str) {
   for(int f = 0; f <len; f++){
     *str = str_cp[f];
     str++;
-  }
-  }
-  else{
-    str--;
   }
 }
 
