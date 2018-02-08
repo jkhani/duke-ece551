@@ -1,14 +1,14 @@
-Grading at 02/08/2018:18:04:06.844256
-For commit ID fd864dabebfc3bc6915ea8f8178e8cb6eb2459d0
+Grading at 02/08/2018:18:04:51.464579
+For commit ID f34f6ef9df3b9bee23ef3f697c45c331746ad76b
 ****************testing step1.c*********************
 Attempting to compile step1.c -> step1
 Looking for int main
-Found on line 42, column 1 
+Found on line 48, column 1 
 Checking that main actually returns a value
 Looking for int seq1(int)
 Found on line 8, column 1 
 Looking for void printSeq1Range(int,int) 
-Found on line 28, column 1 
+Found on line 29, column 1 
 Removing your main and adding ours
 Attempting to compile removedmain.c -> removedmain
  - seq1(-93) was Correct
@@ -80,7 +80,7 @@ printSeq1Range(99, 100) was Correct
 Removing your seq1/printSeq1Range and testing your main...
 Attempting to compile rmfns.c -> rmfns
 You have 11 test cases for seq1
-You have 9 test cases for printSeq1Range
+You have 11 test cases for printSeq1Range
 Step 1 Summary:
    Part A (seq1):                    8 / 8 [ 8 pts]
    Part B+D (main):                  8 / 8 [ 8 pts]
