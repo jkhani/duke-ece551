@@ -1,0 +1,19 @@
+Hi  Joshua, here are some comments on the code quality of your
+029 assignment:
+
+Indentation: good 
+
+Abstraction: good
+
+Variable names: good
+
+Formatting: good
+
+Comments: comments are good, but no need to include everything
+
+Other: nice job
+
+Let us know if you have any questions!
+
+--Eevee
+
