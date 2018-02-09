@@ -3,19 +3,23 @@
 #include <string.h>
 #include <ctype.h>
 
-
+// set line size based on instructions
 #define LINE_SIZE 10
 int rotateMatrix(FILE * f){
 
+  // to rotate clockwise, elements in the 1st row should be placed in the last column
+  // so colInd of rotated matrix starts at 10
   int colInd = LINE_SIZE;
-  char newMatrix[10][10];
-  char line[LINE_SIZE+1];
+  char newMatrix[10][10]; // matrix to store chars from input matrix
+  char line[LINE_SIZE+2];
   while (fgets(line, LINE_SIZE+2, f) != NULL){
+    // error if line longer than 10
     if (strchr(line, '\n') == NULL) {
-      printf("Line is too long!\n");
+      fprintf(stderr,"Line is too long!\n");
       return EXIT_FAILURE;
     }
 
+    // subtract 1 from the colInd before using b/c 0-indexing
     colInd--;
 
     for (int i = 0; i < LINE_SIZE; i++){
@@ -32,24 +36,12 @@ int rotateMatrix(FILE * f){
   }
 
   return EXIT_SUCCESS;
-
-  /* 1st APPROACH
-  char  newMatrix[10][10];
-  int rowInd = 0;
-  int colInd = 0;
-  int index = 0;
-  while ((c = fgetc(f)) != EOF){
-    rowInd = index % 10;
-    colInd = 9-index/10;
-    printf("c = %d, row = %d, col = %d\n",c,rowInd,colInd);
-    newMatrix[rowInd][colInd]=c;
-    index++;
-  }*/
     
 }
 
 int main(int argc, char ** argv){
 
+  // check that input file was provided as argument
   if (argc != 2){
     fprintf(stderr,"Usage: rotateMatrix inputFilename\n");
     return EXIT_FAILURE;
@@ -57,6 +49,7 @@ int main(int argc, char ** argv){
 
   FILE * f = fopen(argv[1], "r");
 
+  // error if file not openable
   if (f == NULL){
     perror("Could not open file");
     return EXIT_FAILURE;
@@ -64,6 +57,7 @@ int main(int argc, char ** argv){
 
   rotateMatrix(f);
 
+  // error if file doesn't close
   if (fclose(f) != 0) {
     perror("Failed to close the input file!");
     return EXIT_FAILURE;
