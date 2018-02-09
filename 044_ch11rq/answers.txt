@@ -2,7 +2,7 @@ B
 C
 B
 D
-G
+B
 B
 D
 A
