@@ -27,6 +27,10 @@ void breaker(FILE * f){
 
   int key = (e_encrypted+'a')-'e';
 
+  // check if key is negative
+  if (key < 0){
+    key += 26;
+  }
   // print key to command line
   printf("%d\n",key);
 }
