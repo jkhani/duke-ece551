@@ -12,7 +12,7 @@ int rotateMatrix(FILE * f){
   // so colInd of rotated matrix starts at 10
   int colInd = LINE_SIZE;
   char newMatrix[10][10]; // matrix to store chars from input matrix
-  char line[LINE_SIZE+2];
+  char line[LINE_SIZE+2]; //+2 to hold the \n and \0 characters
   char ch;
 
   while (fgets(line, LINE_SIZE+2, f) != NULL){
@@ -25,23 +25,22 @@ int rotateMatrix(FILE * f){
     // subtract 1 from the colInd before using b/c 0-indexing
     colInd--;
 
+    // error if there are less than 10 rows
+    if (colInd < 0){
+      fprintf(stderr,"Matrix not right number of rows!\n");
+      return EXIT_FAILURE;
+    }
+
     for (int i = 0; i < LINE_SIZE; i++){
       ch = line[i];
       // error if newline character before 10 non-newline characters
       if (ch == '\n'){
+	printf("col = %d",colInd);
 	fprintf(stderr,"Line too short!\n");
 	return EXIT_FAILURE;
       }
       newMatrix[i][colInd] = ch;
     }
-  }
-
-  printf("colInd = %d", colInd);
-
-  // error if there are less than 10 rows
-  if (colInd != 0){
-    fprintf(stderr,"Matrix not right number of rows!\n");
-    return EXIT_FAILURE;
   }
 
   for (int i = 0; i < LINE_SIZE; i++){
