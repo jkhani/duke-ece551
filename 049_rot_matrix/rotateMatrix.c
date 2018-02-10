@@ -14,8 +14,8 @@ int rotateMatrix(FILE * f){
   char line[LINE_SIZE+2];
   while (fgets(line, LINE_SIZE+2, f) != NULL){
     // error if line longer than 10
-    if (strchr(line, '\n') == NULL) {
-      fprintf(stderr,"Line is too long!\n");
+    if (* strchr(line, '\n') != line[10]) {
+      fprintf(stderr,"Line not right size!\n");
       return EXIT_FAILURE;
     }
 
