@@ -27,6 +27,7 @@ int rotateMatrix(FILE * f){
 
     for (int i = 0; i < LINE_SIZE; i++){
       ch = line[i];
+      // error if newline character before 10 non-newline characters
       if (ch == '\n'){
 	fprintf(stderr,"Not enough columns!\n");
 	return EXIT_FAILURE;
@@ -35,6 +36,7 @@ int rotateMatrix(FILE * f){
     }
   }
 
+  // error if there are less than 10 rows
   if (colInd != 0){
     fprintf(stderr,"Matrix not right number of rows!\n");
     return EXIT_FAILURE;
