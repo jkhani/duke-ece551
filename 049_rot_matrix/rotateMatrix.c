@@ -6,7 +6,7 @@
 
 // set line size based on instructions
 #define LINE_SIZE 10
-int rotateMatrix(FILE * f){
+void rotateMatrix(FILE * f){
 
   // to rotate clockwise, elements in the 1st row should be placed in the last column
   // so colInd of rotated matrix starts at 10
@@ -19,7 +19,7 @@ int rotateMatrix(FILE * f){
     // error if line longer than 10
     if (strchr(line, '\n') == NULL) {
       fprintf(stderr,"Line is too long!\n");
-      return EXIT_FAILURE;
+      exit(EXIT_FAILURE);
     }
 
     // subtract 1 from the colInd before using b/c 0-indexing
@@ -27,7 +27,7 @@ int rotateMatrix(FILE * f){
 
     if (colInd < 0){
       fprintf(stderr, "Too many rows\n");
-      return EXIT_FAILURE;
+      exit(EXIT_FAILURE);
     }
 
     for (int i = 0; i < LINE_SIZE; i++){
@@ -35,7 +35,7 @@ int rotateMatrix(FILE * f){
       // error if newline character before 10 non-newline characters
       if (ch == '\n'){
 	fprintf(stderr,"Line too short!\n");
-	return EXIT_FAILURE;
+	exit(EXIT_FAILURE);
       }
       newMatrix[i][colInd] = ch;
     }
@@ -44,7 +44,7 @@ int rotateMatrix(FILE * f){
       // error if there are less than 10 rows
   if (colInd != 0){
     fprintf(stderr,"Matrix not right number of rows!\n");
-    return EXIT_FAILURE;
+    exit(EXIT_FAILURE);
   }
 
 
@@ -54,8 +54,6 @@ int rotateMatrix(FILE * f){
     }
     printf("\n");
   }
-
-  return EXIT_SUCCESS;
     
 }
 
