@@ -12,9 +12,11 @@ int rotateMatrix(FILE * f){
   int colInd = LINE_SIZE;
   char newMatrix[10][10]; // matrix to store chars from input matrix
   char line[LINE_SIZE+2];
+  char ch;
+
   while (fgets(line, LINE_SIZE+2, f) != NULL){
     // error if line longer than 10
-    if (* strchr(line, '\n') != line[10]) {
+    if (strchr(line, '\n') == NULL) {
       fprintf(stderr,"Line not right size!\n");
       return EXIT_FAILURE;
     }
@@ -23,7 +25,7 @@ int rotateMatrix(FILE * f){
     colInd--;
 
     for (int i = 0; i < LINE_SIZE; i++){
-      char ch = line[i];
+      ch = line[i];
       newMatrix[i][colInd] = ch;
     }      
   }
