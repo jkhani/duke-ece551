@@ -29,12 +29,14 @@ int rotateMatrix(FILE * f){
       ch = line[i];
       // error if newline character before 10 non-newline characters
       if (ch == '\n'){
-	fprintf(stderr,"Not enough columns!\n");
+	fprintf(stderr,"Line too short!\n");
 	return EXIT_FAILURE;
       }
       newMatrix[i][colInd] = ch;
     }
   }
+
+  printf("colInd = %d", colInd);
 
   // error if there are less than 10 rows
   if (colInd != 0){
@@ -65,7 +67,7 @@ int main(int argc, char ** argv){
 
   // error if file not openable
   if (f == NULL){
-    fprintf(stderr,"Could not open file");
+    fprintf(stderr,"Could not open file!\n");
     return EXIT_FAILURE;
   }
 
@@ -73,7 +75,7 @@ int main(int argc, char ** argv){
 
   // error if file doesn't close
   if (fclose(f) != 0) {
-    fprintf(stderr,"Failed to close the input file!");
+    fprintf(stderr,"Failed to close the input file!\n");
     return EXIT_FAILURE;
   }
 
