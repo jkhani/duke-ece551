@@ -3,6 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 
+
 // set line size based on instructions
 #define LINE_SIZE 10
 int rotateMatrix(FILE * f){
@@ -27,7 +28,12 @@ int rotateMatrix(FILE * f){
     for (int i = 0; i < LINE_SIZE; i++){
       ch = line[i];
       newMatrix[i][colInd] = ch;
-    }      
+    }
+  }
+
+  if (colInd != 0){
+    fprintf(stderr,"Matrix not right number of rows!");
+    return EXIT_FAILURE;
   }
 
   for (int i = 0; i < LINE_SIZE; i++){
