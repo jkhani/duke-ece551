@@ -25,12 +25,6 @@ int rotateMatrix(FILE * f){
     // subtract 1 from the colInd before using b/c 0-indexing
     colInd--;
 
-    // error if there are less than 10 rows
-    if (colInd < 0){
-      fprintf(stderr,"Matrix not right number of rows!\n");
-      return EXIT_FAILURE;
-    }
-
     for (int i = 0; i < LINE_SIZE; i++){
       ch = line[i];
       // error if newline character before 10 non-newline characters
@@ -42,6 +36,13 @@ int rotateMatrix(FILE * f){
       newMatrix[i][colInd] = ch;
     }
   }
+
+      // error if there are less than 10 rows
+  if (colInd < 0){
+    fprintf(stderr,"Matrix not right number of rows!\n");
+    return EXIT_FAILURE;
+  }
+
 
   for (int i = 0; i < LINE_SIZE; i++){
     for (int j = 0; j < LINE_SIZE; j++){
