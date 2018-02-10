@@ -18,7 +18,7 @@ int rotateMatrix(FILE * f){
   while (fgets(line, LINE_SIZE+2, f) != NULL){
     // error if line longer than 10
     if (strchr(line, '\n') == NULL) {
-      fprintf(stderr,"Line not right size!\n");
+      fprintf(stderr,"Line is too long!\n");
       return EXIT_FAILURE;
     }
 
@@ -27,12 +27,16 @@ int rotateMatrix(FILE * f){
 
     for (int i = 0; i < LINE_SIZE; i++){
       ch = line[i];
+      if (ch == '\n'){
+	fprintf(stderr,"Not enough columns!\n");
+	return EXIT_FAILURE;
+      }
       newMatrix[i][colInd] = ch;
     }
   }
 
   if (colInd != 0){
-    fprintf(stderr,"Matrix not right number of rows!");
+    fprintf(stderr,"Matrix not right number of rows!\n");
     return EXIT_FAILURE;
   }
 
