@@ -1,10 +1,10 @@
-aaaaaeaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
-aaaaaaaaaa
+0123456789
+abcdefghij
+*.........
+.*........
+..*.......
+...*......
+....*.....
+.....*....
+HelloWorld
+Coding Fun

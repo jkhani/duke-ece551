@@ -1,8 +1,5 @@
-test1.txt
-test2.txt
-test3.txt
- 
-test5.txt testextra.txt
-test6.txt
-test7.txt
-test8.txt
+00000000: 7465 7374 312e 7478 740a 7465 7374 322e  test1.txt.test2.
+00000010: 7478 740a 7465 7374 332e 7478 740a 2031  txt.test3.txt. 00000020: 7465 7374 352e 7478 7420 7465 7374 4578  test5.txt testEx
+00000030: 7472 612e 7478 7420 0a74 6573 7436 2e74  tra.txt .test6.t
+00000040: 7874 0a74 6573 7437 2e74 7874 0a74 6573  xt.test7.txt.tes
+00000050: 7438 2e74 7874 0a                        t8.txt.
