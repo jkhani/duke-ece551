@@ -1,33 +1,8 @@
-Grading at 02/12/2018:01:42:07.593388
-For commit ID 9a53fdf83529e21ec7e4a7146af3eab3e0dc8c9a
+Grading at 02/12/2018:01:43:28.233704
+For commit ID f0e4692d8214d7f61dd560ca710ba1e9e92a1d17
 Your file matched the expected output
 Your output matched what we expected
 Attempting to compile test.c
-  - Valgrind reported errors
-valgrind was not clean
-==27012== Memcheck, a memory error detector
-==27012== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==27012== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==27012== 
-==27012== Parent PID: 27011
-==27012== 
-==27012== 
-==27012== HEAP SUMMARY:
-==27012==     in use at exit: 16 bytes in 1 blocks
-==27012==   total heap usage: 3 allocs, 2 frees, 32 bytes allocated
-==27012== 
-==27012== 16 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==27012==    at 0x4C2DB8F: malloc (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
-==27012==    by 0x40064F: main (in test)
-==27012== 
-==27012== LEAK SUMMARY:
-==27012==    definitely lost: 16 bytes in 1 blocks
-==27012==    indirectly lost: 0 bytes in 0 blocks
-==27012==      possibly lost: 0 bytes in 0 blocks
-==27012==    still reachable: 0 bytes in 0 blocks
-==27012==         suppressed: 0 bytes in 0 blocks
-==27012== 
-==27012== For counts of detected and suppressed errors, rerun with: -v
-==27012== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+valgrind reported memory errors
 
 Overall Grade: C
