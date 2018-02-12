@@ -20,6 +20,7 @@ int main(void) {
   q = (int *) malloc(2 * sizeof(*q));
   p = q;
   q = NULL;
+  free(q->points);
   free(q);
   return EXIT_SUCCESS;
 }
