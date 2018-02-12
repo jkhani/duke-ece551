@@ -47,7 +47,7 @@ int main(int argc, char ** argv) {
   //WRITE YOUR CODE HERE!
   // If no input file provided, use stdin
   if (argc ==1) {
-    printf("No input file provided.\nType strings to be sorted.\nPress CTRL+d to indicate EOF.\n");
+    // printf("No input file provided.\nType strings to be sorted.\nPress CTRL+d to indicate EOF.\n");
     readData(stdin);
   }
   else {
