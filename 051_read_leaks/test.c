@@ -16,11 +16,10 @@ int main(void) {
   int ** r = &q;
   p[0] = f(1);
   *r = NULL;
-  free(p);
   q = (int *) malloc(2 * sizeof(*q));
   p = q;
   q = NULL;
-  free(q->points);
+  free(p);
   free(q);
   return EXIT_SUCCESS;
 }
