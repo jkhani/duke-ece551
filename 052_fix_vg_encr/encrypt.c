@@ -4,7 +4,8 @@
 #include <string.h>
 
 void encrypt(FILE * f, int key, FILE * outfile){
-  char * line;
+  // set to NULL to fully initialize the pointer
+  char * line=NULL;
   size_t sz;
   while (getline(&line,&sz, f) >= 0) {
     char * ptr = line;
@@ -22,6 +23,8 @@ void encrypt(FILE * f, int key, FILE * outfile){
     }
     fprintf(outfile, "%s", line);
   }
+  // free alloc'd memory created by getline
+  free(line);
 }
 
 int main(int argc, char ** argv) {
@@ -45,6 +48,7 @@ int main(int argc, char ** argv) {
   strcat(outFileName, ".enc");
   FILE * outFile = fopen(outFileName, "w");
   encrypt(f,key, outFile);
+ 
   if (fclose(outFile) != 0) {
     perror("Failed to close the input file!");
     return EXIT_FAILURE;
@@ -53,6 +57,9 @@ int main(int argc, char ** argv) {
     perror("Failed to close the input file!");
     return EXIT_FAILURE;
   }
+
+  // free alloc'd memory
+  free(outFileName);
 
   return EXIT_SUCCESS;
 }
