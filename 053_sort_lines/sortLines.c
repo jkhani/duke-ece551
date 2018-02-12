@@ -36,6 +36,7 @@ void readData(FILE * f){
   sortData(lines,i);
   for (size_t j = 0; j < i; j++){
     printf("%s", lines[j]);
+    free(lines[j]);
   }
 
   free(lines);
