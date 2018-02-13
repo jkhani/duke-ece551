@@ -65,7 +65,7 @@ board_t * makeBoard(int w, int h, int numMines) {
   }
 
   
-  return NULL;
+  return b;
 }
 
 void printBoard(board_t * b) {    
