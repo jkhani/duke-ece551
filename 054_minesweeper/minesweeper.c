@@ -139,7 +139,7 @@ int countMines(board_t * b, int x, int y) {
       }
     }
   }
-  return 0;
+  return count;
 }
 int click (board_t * b, int x, int y) {
   if (x < 0 || x >= b->width ||
