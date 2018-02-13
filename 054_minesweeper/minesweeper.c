@@ -28,7 +28,7 @@ void addRandomMine(board_t * b) {
   int x;
   int y;
   //we could have a board too small for the number
-  //of mines taht we request. try w*h*10 times before
+  //of mines that we request. try w*h*10 times before
   //we give up
   int limit = b->width * b->height * 10;
   do {
@@ -42,8 +42,32 @@ void addRandomMine(board_t * b) {
 
 board_t * makeBoard(int w, int h, int numMines) {
   //WRITE ME!
+
+  // initialize board_t struct
+  board_t * b = malloc(sizeof(*b));
+  b->width = w;
+  b->height = h;
+  b->totalMines = numMines;
+
+  b->board = malloc(b->height*sizeof(*b->board));
+
+  // initialize all squares to UNKNOWN
+  for (int y = 0; y < b->height; y++){
+    b->board[y] = malloc(b->width*sizeof(*b->board[y]));
+    for (int x = 0; x < b->width; x++){
+      b->board[y][x] = UNKNOWN;
+    }
+  }
+
+  // call addRandomMine up to numMines
+  for (int count = 0; count<numMines; count++){
+    addRandomMine(b);
+  }
+
+  
   return NULL;
 }
+
 void printBoard(board_t * b) {    
   int found = 0;
   printf("    ");
@@ -94,8 +118,27 @@ void printBoard(board_t * b) {
   }
   printf("\nFound %d of %d mines\n", found, b->totalMines);
 }
+
+// function for counting the number of mines surrounding a given x,y coordinate
 int countMines(board_t * b, int x, int y) {
   //WRITE ME!
+
+  int count = 0;
+
+  for (int ny = y-1; ny <= y+1; ny++){
+    // don't count out of bounds
+    if (ny >= 0 && ny < b->height){
+      for (int nx = x-1; nx <= x+1; nx++){
+	if (nx >= 0 && nx < b->width){
+	  if(nx != x || ny != y){
+	    if(IS_MINE(b->board[ny][nx])){
+	      count++;
+	    }
+	  }
+	}
+      }
+    }
+  }
   return 0;
 }
 int click (board_t * b, int x, int y) {
@@ -119,11 +162,28 @@ int click (board_t * b, int x, int y) {
 
 int checkWin(board_t * b) {
   //WRITE ME!
-  return 0;
+
+  // check if any squares are UNKNOWN
+  for(int ny = 0; ny < b->height; ny++){
+    for(int nx = 0; nx < b->width; nx++){
+      if (b->board[ny][nx] == UNKNOWN){
+	return 0;
+      }
+    }
+  }
+
+  return 1;
 }
 
 void freeBoard(board_t * b) {
   //WRITE ME!
+  for(int ny = 0; ny < b->height; ny++){
+    free(b->board[ny]);
+  }
+
+  free(b->board);
+  free(b);
+  
 }
 
 int readInt(char ** linep, size_t * lineszp) {
