@@ -25,7 +25,12 @@ state_t parseLine(const char * line) {
   
   // loop through line until pointer points to ':'
   int i = 0;
-  while(*line != ':'){
+  while(*line != ':' && *line != '\0'){
+    // exit with error if first part of string contains non-alphabetic characters
+    if (!isalpha(*line) && *line != ' '){
+      fprintf(stderr,"Line provided includes non-alphabetic values where name should be!\n");
+      exit(EXIT_FAILURE);
+    }
      // exit with error if name exceeds max length for state
     if(i > MAX_STATE_NAME_LENGTH){
       fprintf(stderr,"State name too long!");
