@@ -14,7 +14,7 @@ state_t parseLine(const char * line) {
   //STEP 1: write me
   
   state_t stateData;
-
+  
   // loop through line until pointer points to ':'
   int i = 0;
   while(*line != ':'){
@@ -23,11 +23,11 @@ state_t parseLine(const char * line) {
     line++;
   }
 
-  // progress pointer to next character after :
+  // advance pointer to next character after :
   line++;
   stateData.population = atoi(line);
 
-  // progress pointer until next : in string
+  // advance pointer until next : in string
   while(*line != ':'){
     line++;
   }
@@ -43,9 +43,11 @@ unsigned int countElectoralVotes(state_t * stateData,
 				 size_t nStates) {
   //STEP 2: write me
   unsigned int totalVotesForA = 0;
+  uint64_t currPop = 0;
 
   for(size_t currState = 0; currState < nStates; currState++){
-    if(voteCounts > (stateData[currState].population/2)){
+    currPop = stateData[currState].population;
+    if(*voteCounts > currPop/2){
       totalVotesForA += stateData[currState].electoralVotes;
     }
   }
