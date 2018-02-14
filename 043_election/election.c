@@ -23,6 +23,10 @@ state_t parseLine(const char * line) {
     line++;
   }
 
+  // append '\0' to end of name
+  i++;
+  stateData.name[i] = '\0';
+
   // advance pointer to next character after :
   line++;
   stateData.population = atoi(line);
