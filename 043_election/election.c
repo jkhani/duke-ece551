@@ -58,6 +58,8 @@ unsigned int countElectoralVotes(state_t * stateData,
 
   for(size_t currState = 0; currState < nStates; currState++){
     currPop = stateData[currState].population;
+    // compare voteCounts for currState with 1/2 population for currState
+    // candidate A gets all votes for currState if more than 50% of vote
     if(voteCounts[currState] > (currPop/2)){
       totalVotesForA += stateData[currState].electoralVotes;
     }
@@ -65,11 +67,31 @@ unsigned int countElectoralVotes(state_t * stateData,
   
   return totalVotesForA;
 }
-
+/*
+printRecounts determines which states had a margin of victory within +/-0.5%
+prints to terminal the identified states and the results
+*/
 void printRecounts(state_t * stateData, 
 		   uint64_t * voteCounts, 
 		   size_t nStates) {
   //STEP 3: write me
+  float percentOfVotes = 0;
+  // need to typecast voteCounts and population as float
+  float currVoteCount = 0;
+  float currPop = 0;
+
+  for(size_t currState = 0; currState < nStates; currState++){
+    currVoteCount = voteCounts[currState];
+    currPop = stateData[currState].population;
+   
+    percentOfVotes = currVoteCount/currPop;
+    // check if percentOfVotes won by Candidate A is between 49.5 and 50.5% of the population for currState
+    // if so, report results
+    if(percentOfVotes >= .495 && percentOfVotes <= .505){
+      printf("%s requires a recount (Candidate A has %.2f%% of the vote)\n",stateData[currState].name,percentOfVotes*100);
+    }
+  }
+    
 }
 void printLargestWin(state_t * stateData, 
 		     uint64_t * voteCounts, 
