@@ -20,13 +20,20 @@ state_t parseLine(const char * line) {
     exit(EXIT_FAILURE);
   }
 
+  // exit with error if first value in line is not alphabetic
+  if (!isalpha(*line)){
+    fprintf(stderr,"First value of line should be alphabetic!\n");
+    exit(EXIT_FAILURE);
+  }
+  
+
   // declare struct for storing state data
   state_t stateData;
   
   // loop through line until pointer points to ':'
   int i = 0;
-  while(*line != ':' && *line != '\0'){
-    // exit with error if first part of string contains non-alphabetic characters
+  while(*line != ':'){
+    // exit with error if first part of string contains non-alphabetic values other than <SPACE>
     if (!isalpha(*line) && *line != ' '){
       fprintf(stderr,"Line provided includes non-alphabetic values where name should be!\n");
       exit(EXIT_FAILURE);
@@ -39,6 +46,11 @@ state_t parseLine(const char * line) {
     stateData.name[i] = *line;
     i++;
     line++;
+    
+    if(*line == '\0'){
+      fprintf(stderr,"End of line reached before population or electoralVotes!");
+      exit(EXIT_FAILURE);
+    }
   }
 
   // append '\0' to end of name
