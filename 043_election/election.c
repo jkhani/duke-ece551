@@ -16,7 +16,7 @@ state_t parseLine(const char * line) {
 
   // exit with error if line provided is NULL
   if (line == NULL){
-    fprintf(stderr,"Line provided is NULL");
+    fprintf(stderr,"Line provided is NULL\n");
     exit(EXIT_FAILURE);
   }
 
@@ -25,7 +25,12 @@ state_t parseLine(const char * line) {
     fprintf(stderr,"First value of line should be alphabetic!\n");
     exit(EXIT_FAILURE);
   }
-  
+
+  // exit with error if no : found in input line
+  if (strchr(line,':') == NULL){
+    fprintf(stderr, "No ':' found in string. Expected format: Name:Population:Electoral Votes\n");
+    exit(EXIT_FAILURE);
+  }
 
   // declare struct for storing state data
   state_t stateData;
@@ -40,15 +45,16 @@ state_t parseLine(const char * line) {
     }
      // exit with error if name exceeds max length for state
     if(i > MAX_STATE_NAME_LENGTH){
-      fprintf(stderr,"State name too long!");
+      fprintf(stderr,"State name too long!\n");
       exit(EXIT_FAILURE);
     }
     stateData.name[i] = *line;
     i++;
     line++;
-    
+
+    // exit with error if a null terminator is reached before ':'
     if(*line == '\0'){
-      fprintf(stderr,"End of line reached before population or electoralVotes!");
+      fprintf(stderr,"End of line reached before population or electoralVotes provided in string!\n");
       exit(EXIT_FAILURE);
     }
   }
@@ -59,6 +65,12 @@ state_t parseLine(const char * line) {
   // advance pointer to next character after :
   line++;
   stateData.population = atoi(line);
+
+  // check that some value for the population was found
+  if (stateData.population == 0){
+    fprintf(stderr,"Population can't be 0!\n");
+    exit(EXIT_FAILURE);
+  }
 
   // advance pointer until next : in string
   while(*line != ':'){
