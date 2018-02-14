@@ -92,6 +92,12 @@ state_t parseLine(const char * line) {
     exit(EXIT_FAILURE);
   }
 
+  // check that some value for the electoral vote count was found
+  if (stateData.electoralVotes == 0 || !isdigit(*line)){
+    fprintf(stderr,"Electoral vote number can't be 0!");
+    exit(EXIT_FAILURE);
+  }
+
   return stateData;
   
 }
