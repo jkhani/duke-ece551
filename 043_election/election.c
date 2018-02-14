@@ -13,12 +13,24 @@ returns a struct for each state with the parsed info
 */
 state_t parseLine(const char * line) {
   //STEP 1: write me
-  
+
+  // exit with error if line provided is NULL
+  if (line == NULL){
+    fprintf(stderr,"Line provided is NULL");
+    exit(EXIT_FAILURE);
+  }
+
+  // declare struct for storing state data
   state_t stateData;
   
   // loop through line until pointer points to ':'
   int i = 0;
   while(*line != ':'){
+     // exit with error if name exceeds max length for state
+    if(i > MAX_STATE_NAME_LENGTH){
+      fprintf(stderr,"State name too long!");
+      exit(EXIT_FAILURE);
+    }
     stateData.name[i] = *line;
     i++;
     line++;
@@ -91,10 +103,35 @@ void printRecounts(state_t * stateData,
       printf("%s requires a recount (Candidate A has %.2f%% of the vote)\n",stateData[currState].name,percentOfVotes*100);
     }
   }
-    
 }
+
+/*
+printLargestWin determines the state where Candidate A won the largest percentage of the vote andprints the results to terminal.
+ */
 void printLargestWin(state_t * stateData, 
 		     uint64_t * voteCounts, 
 		     size_t nStates) {
   //STEP 4: write me
+  float percentOfVotes = 0;
+  // need to typecast voteCounts and population as float
+  float currVoteCount = 0;
+  float currPop = 0;
+  // track the state where Candidate A had he largest percent of the vote and what that percentage was
+  size_t stateWithMax;
+  float maxPercentWin = 0;
+
+  for(size_t currState = 0; currState < nStates; currState++){
+    currVoteCount = voteCounts[currState];
+    currPop = stateData[currState].population;
+    percentOfVotes = currVoteCount/currPop;
+
+    // if currState has higher percent than current max state, change max state
+    if(percentOfVotes > maxPercentWin){
+      maxPercentWin = percentOfVotes;
+      stateWithMax = currState;
+    }
+  }
+
+  
+  printf("Candidate A won %s with %.2f%% of the vote\n",stateData[stateWithMax].name,maxPercentWin*100);
 }
