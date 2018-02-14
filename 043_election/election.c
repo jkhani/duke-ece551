@@ -6,9 +6,10 @@
 //include any other headers you need here...
 
 
-/* parseLine parses an input string with the expected format:
+/* 
+parseLine parses an input string with the expected format:
    Name:Population:Electoral Votes
-   returns a struct for each state with the parsed info
+returns a struct for each state with the parsed info
 */
 state_t parseLine(const char * line) {
   //STEP 1: write me
@@ -24,7 +25,6 @@ state_t parseLine(const char * line) {
   }
 
   // append '\0' to end of name
-  i++;
   stateData.name[i] = '\0';
 
   // advance pointer to next character after :
@@ -42,6 +42,13 @@ state_t parseLine(const char * line) {
   return stateData;
   
 }
+
+/*
+countElectoralVotes takes 3 arguments, a pointer to stateData struct, pointer to voteCounts, and number of states
+for each state, if voteCounts > .5*population of state, candidate A gets all the electoral votes from that state
+returns the total number of electoral votes for candidate A
+
+ */
 unsigned int countElectoralVotes(state_t * stateData, 
 				 uint64_t * voteCounts, 
 				 size_t nStates) {
@@ -51,7 +58,7 @@ unsigned int countElectoralVotes(state_t * stateData,
 
   for(size_t currState = 0; currState < nStates; currState++){
     currPop = stateData[currState].population;
-    if(*voteCounts > currPop/2){
+    if(voteCounts[currState] > (currPop/2)){
       totalVotesForA += stateData[currState].electoralVotes;
     }
   }
