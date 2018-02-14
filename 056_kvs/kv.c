@@ -15,9 +15,9 @@ kvarray_t * readKVs(const char * fname) {
   }
 
   kvpair_t pairs;
-  kv_array pairArray;
+  kvarray_t * pairArray = malloc(sizeof(*pairArray));
 
-  const char *curr = NULL;
+  char *curr = NULL;
   size_t linecap;
   // count kv pairs
   size_t numPairs = 0;
@@ -31,22 +31,36 @@ kvarray_t * readKVs(const char * fname) {
       i++;
       curr++;
     }
+    pairs.key[i]='\0';
+    
     while(*curr != '\0'){
       pairs.value[j]=*curr;
       j++;
       curr++;
+      curr = NULL;
     }
 
     pairArray = realloc(pairArray, (numPairs+1) *sizeof(*pairArray));
     pairArray[numPairs].kv_array = pairs;
     
   }
-    
-  
+
+  if(fclose(f) != 0){
+    fprintf(stderr, "Failed to close the input file!");
+    exit(EXIT_FAILURE);
+  }
+      
 }
 
 void freeKVs(kvarray_t * pairs) {
   //WRITE ME
+
+  size_t numPairs = pairs.numPairs;
+  for(size_t i = 0; i < numPairs; i++){
+    free(pairs->kv_array[i]);
+  }
+
+  free(pairs);
 }
 
 void printKVs(kvarray_t * pairs) {
