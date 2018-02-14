@@ -52,8 +52,8 @@ state_t parseLine(const char * line) {
     i++;
     line++;
 
-    // exit with error if a null terminator is reached before ':'
-    if(*line == '\0'){
+    // exit with error if a newline character or null terminator is reached before ':'
+    if(*line == '\n' || *line == '\0'){
       fprintf(stderr,"End of line reached before population or electoralVotes provided in string!\n");
       exit(EXIT_FAILURE);
     }
@@ -67,8 +67,14 @@ state_t parseLine(const char * line) {
   stateData.population = atoi(line);
 
   // check that some value for the population was found
-  if (stateData.population == 0){
+  if (stateData.population == 0 || !isdigit(*line)){
     fprintf(stderr,"Population can't be 0!\n");
+    exit(EXIT_FAILURE);
+  }
+
+  // exit with error if second not : found in input line
+  if (strchr(line,':') == NULL){
+    fprintf(stderr, "Second ':' not found in string. Expected format: Name:Population:Electoral Votes\n");
     exit(EXIT_FAILURE);
   }
 
@@ -76,9 +82,15 @@ state_t parseLine(const char * line) {
   while(*line != ':'){
     line++;
   }
-
+  
   line++;
   stateData.electoralVotes = atoi(line);
+
+  // exit with error if too many : found in input line
+  if (strchr(line,':') != NULL){
+    fprintf(stderr, "Too many sections! Expected format: Name:Population:Electoral Votes\n");
+    exit(EXIT_FAILURE);
+  }
 
   return stateData;
   
@@ -86,7 +98,8 @@ state_t parseLine(const char * line) {
 
 /*
 countElectoralVotes takes 3 arguments, a pointer to stateData struct, pointer to voteCounts, and number of states
-for each state, if voteCounts > .5*population of state, candidate A gets all the electoral votes from that state
+for each state
+if voteCounts > .5*population of state, candidate A gets all the electoral votes from that state
 returns the total number of electoral votes for candidate A
 
  */
@@ -108,6 +121,7 @@ unsigned int countElectoralVotes(state_t * stateData,
   
   return totalVotesForA;
 }
+
 /*
 printRecounts determines which states had a margin of victory within +/-0.5%
 prints to terminal the identified states and the results
@@ -161,6 +175,5 @@ void printLargestWin(state_t * stateData,
     }
   }
 
-  
   printf("Candidate A won %s with %.2f%% of the vote\n",stateData[stateWithMax].name,maxPercentWin*100);
 }
