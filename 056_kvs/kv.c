@@ -12,7 +12,7 @@ returns kvpair_t struct with key and value properties set
 kvpair_t parseKeyVals (char * line){
 
   kvpair_t kvPair;
-  kvPair.key = malloc(sizeof(*kvPair.key));
+  kvPair.key = NULL;
 
   // advance through line until '=' or null terminator
   size_t keyLen = 0;
@@ -59,7 +59,7 @@ kvarray_t * readKVs(const char * fname) {
   }
 
   kvarray_t * kvArray = malloc(sizeof(*kvArray));
-  kvArray->kvPairs = malloc(sizeof(*kvArray->kvPairs));
+  kvArray->kvPairs = NULL;
 
   char *curr = NULL;
   size_t linecap;
