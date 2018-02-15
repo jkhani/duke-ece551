@@ -21,12 +21,15 @@ counts_t * countFile(const char * filename, kvarray_t * kvArray) {
   counts_t * countsArray = createCounts();
 
   char *curr = NULL;
-  char * name = NULL;
+  char * countStr = NULL;
   size_t linecap;
 
   while(getline(&curr, &linecap, f) >= 0){
-    name = lookupValue(kvArray, curr);
-    addCount(countsArray, name);    
+    if(strchr(curr,'\n') != NULL){
+      *strchr(curr,'\n') = '\0';
+    }
+    countStr = lookupValue(kvArray, curr);
+    addCount(countsArray, countStr);
   }
 
   return countsArray;
