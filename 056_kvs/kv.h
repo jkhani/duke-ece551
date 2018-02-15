@@ -12,7 +12,7 @@ typedef struct _kvpair_t kvpair_t;
 struct _kvarray_t { 
   //DEFINE ME!
   size_t numPairs;
-  char ** kv_array;
+  kvpair_t * kvPairs;
 
 };
 typedef struct _kvarray_t kvarray_t;

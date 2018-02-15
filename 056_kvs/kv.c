@@ -4,69 +4,123 @@
 #include "kv.h"
 
 
+/* 
+parses char * line based on the following format:
+   key=value
+returns kvpair_t struct with key and value properties set
+*/
+kvpair_t parseKeyVals (char * line){
+
+  kvpair_t kvPair;
+  kvPair.key = malloc(sizeof(*kvPair.key));
+
+  // advance through line until '=' or null terminator
+  size_t keyLen = 0;
+  while(*line != '=' && *line != '\0'){
+    // reallocate memory to accomodate length of key
+    kvPair.key = realloc(kvPair.key,(keyLen+1) *sizeof(*kvPair.key));
+    kvPair.key[keyLen] = *line;
+    keyLen++;
+    line++;    
+  }
+
+  // append null terminator to key string
+  kvPair.key = realloc(kvPair.key,(keyLen+1) *sizeof(*kvPair.key));
+  kvPair.key[keyLen] = '\0';
+
+  // advance to character after '='
+  line++;
+
+  // remove trailing newline character from each line
+  if(strchr(line,'\n') != NULL){
+    *strchr(line,'\n') = '\0';
+  }
+
+  // rest of string is the value
+  kvPair.value = line;
+
+  return kvPair;
+  
+}
+
+/*
+opens file specified by fname, passes each line in the file to parseKeyVals to get key/value structs, stores each k/v pair in an array in kvarray_t struct
+returns kvarray_t struct with k/v pairs and number of pairs
+*/
 
 kvarray_t * readKVs(const char * fname) {
   //WRITE ME
 
   FILE * f = fopen(fname, "r");
+  // exit with error if file cannot be opened
   if (f == NULL){
     fprintf(stderr,"Could not open file");
     exit(EXIT_FAILURE);
   }
 
-  kvpair_t pairs;
-  kvarray_t * pairArray = malloc(sizeof(*pairArray));
+  kvarray_t * kvArray = malloc(sizeof(*kvArray));
+  kvArray->kvPairs = malloc(sizeof(*kvArray->kvPairs));
 
   char *curr = NULL;
   size_t linecap;
-  // count kv pairs
   size_t numPairs = 0;
-  // count key length
-  size_t i = 0;
-  // count pair length
-  size_t j = 0;
-  while(getline(&curr, &linecap, f) >= 0){
-    while(*curr != '=' && *curr != '\0'){
-      pairs.key[i]=*curr;
-      i++;
-      curr++;
-    }
-    pairs.key[i]='\0';
-    
-    while(*curr != '\0'){
-      pairs.value[j]=*curr;
-      j++;
-      curr++;
-      curr = NULL;
-    }
 
-    pairArray = realloc(pairArray, (numPairs+1) *sizeof(*pairArray));
-    pairArray[numPairs].kv_array = pairs;
-    
+  while(getline(&curr, &linecap, f) >= 0){
+    kvArray->kvPairs = realloc(kvArray->kvPairs,(numPairs+1) *sizeof(*kvArray->kvPairs));
+    kvArray->kvPairs[numPairs] = parseKeyVals(curr);
+  
+    curr = NULL;
+    numPairs++;
   }
 
+  free(curr);
+
+  kvArray->numPairs = numPairs;
+
+  // exit with error if file can't be closed
   if(fclose(f) != 0){
     fprintf(stderr, "Failed to close the input file!");
     exit(EXIT_FAILURE);
   }
+
+  return kvArray;
       
 }
 
 void freeKVs(kvarray_t * pairs) {
   //WRITE ME
 
-  size_t numPairs = pairs.numPairs;
-  for(size_t i = 0; i < numPairs; i++){
-    free(pairs->kv_array[i]);
+  for(size_t i = 0; i < pairs->numPairs; i++){
+    free(pairs->kvPairs[i].key);
   }
 
+  free(pairs->kvPairs);
   free(pairs);
+
 }
 
 void printKVs(kvarray_t * pairs) {
   //WRITE ME
+
+  for(size_t i = 0; i < pairs->numPairs; i++){
+    printf("key = '%s' value = '%s'\n",pairs->kvPairs[i].key,pairs->kvPairs[i].value);
+  }
 }
+
 
 char * lookupValue(kvarray_t * pairs, const char * key) {
   //WRITE ME
+
+  char * value = NULL;
+
+  for(size_t i = 0; i < pairs->numPairs; i++){
+    if(!strcmp(key,pairs->kvPairs[i].key)){
+      value = pairs->kvPairs[i].value;
+    }
+  }
+
+  return value;
+
+  
 }
+
