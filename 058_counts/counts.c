@@ -26,7 +26,7 @@ void addCount(counts_t * c, const char * name) {
     if(c->numStrings == 0){
       c->stringCounts = realloc(c->stringCounts,(c->numStrings+1) *sizeof(*c->stringCounts));
       c->stringCounts[c->numStrings].stringVal = name;
-      c->stringCounts[c->numStrings].counts++;
+      c->stringCounts[c->numStrings].counts=1;
       c->numStrings++;
     }
     else{
