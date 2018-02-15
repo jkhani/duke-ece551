@@ -2,7 +2,7 @@
 #define __COUNTS_H__
 struct _one_count_t {
   //DEFINE ME
-  char * stringVal;
+  const char * stringVal;
   size_t counts;
 
 };
