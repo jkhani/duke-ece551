@@ -18,14 +18,14 @@ kvpair_t parseKeyVals (char * line){
   size_t keyLen = 0;
   while(*line != '=' && *line != '\0'){
     // reallocate memory to accomodate length of key
-    kvPair.key = realloc(kvPair.key,(keyLen+1) *sizeof(*kvPair.key));
+    kvPair.key = realloc(kvPair.key,(keyLen+1) *sizeof(kvPair.key));
     kvPair.key[keyLen] = *line;
     keyLen++;
     line++;    
   }
 
   // append null terminator to key string
-  kvPair.key = realloc(kvPair.key,(keyLen+1) *sizeof(*kvPair.key));
+  //  kvPair.key = realloc(kvPair.key,(keyLen+1) *sizeof(kvPair.key));
   kvPair.key[keyLen] = '\0';
 
   // advance to character after '='
@@ -68,7 +68,7 @@ kvarray_t * readKVs(const char * fname) {
   while(getline(&curr, &linecap, f) >= 0){
     kvArray->kvPairs = realloc(kvArray->kvPairs,(numPairs+1) *sizeof(*kvArray->kvPairs));
     kvArray->kvPairs[numPairs] = parseKeyVals(curr);
-  
+
     curr = NULL;
     numPairs++;
   }
@@ -119,8 +119,6 @@ char * lookupValue(kvarray_t * pairs, const char * key) {
     }
   }
 
-  return value;
-
-  
+  return value;  
 }
 
