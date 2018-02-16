@@ -31,6 +31,7 @@ counts_t * countFile(const char * filename, kvarray_t * kvArray) {
     countStr = lookupValue(kvArray, curr);
     addCount(countsArray, countStr);
 
+    countStr = NULL
     curr = NULL;
   }
 
