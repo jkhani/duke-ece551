@@ -13,6 +13,7 @@ kvpair_t parseKeyVals (char * line){
 
   kvpair_t kvPair;
   kvPair.key = NULL;
+  kvPair.value = NULL;
 
   // advance through line until '=' or null terminator
   size_t keyLen = 0;
@@ -37,7 +38,7 @@ kvpair_t parseKeyVals (char * line){
   }
 
   // rest of string is the value
-  kvPair.value = line;
+  kvPair.value = strdup(line);
 
   return kvPair;
   
@@ -69,12 +70,13 @@ kvarray_t * readKVs(const char * fname) {
     kvArray->kvPairs = realloc(kvArray->kvPairs,(numPairs+1) *sizeof(*kvArray->kvPairs));
     kvArray->kvPairs[numPairs] = parseKeyVals(curr);
 
+    free(curr);
+
     curr = NULL;
     numPairs++;
   }
 
   free(curr);
-
   kvArray->numPairs = numPairs;
 
   // exit with error if file can't be closed
@@ -92,6 +94,7 @@ void freeKVs(kvarray_t * pairs) {
 
   for(size_t i = 0; i < pairs->numPairs; i++){
     free(pairs->kvPairs[i].key);
+    free(pairs->kvPairs[i].value);
   }
 
   free(pairs->kvPairs);
