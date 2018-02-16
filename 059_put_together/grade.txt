@@ -1,5 +1,5 @@
-Grading at 02/16/2018:17:25:26.657176
-For commit ID 816cf40385a36459b2319c9222b3588054caa934
+Grading at 02/16/2018:17:27:52.188581
+For commit ID 596d82b1e2c33b313e68035ed9ef78d1d4909dff
 Attempting to compile:
 rm -f  outname.o  counts.o  main.o  kv.o count_values *~
 gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 outname.c
@@ -22,28 +22,28 @@ Your file matched the expected output
 Your output is correct
   - Valgrind showed memory leaks
 valgrind was not clean
-==51624== Memcheck, a memory error detector
-==51624== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==51624== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==51624== 
-==51624== Parent PID: 51623
-==51624== 
-==51624== 
-==51624== HEAP SUMMARY:
-==51624==     in use at exit: 1,104 bytes in 2 blocks
-==51624==   total heap usage: 236 allocs, 234 frees, 35,489 bytes allocated
-==51624== 
-==51624== LEAK SUMMARY:
-==51624==    definitely lost: 0 bytes in 0 blocks
-==51624==    indirectly lost: 0 bytes in 0 blocks
-==51624==      possibly lost: 0 bytes in 0 blocks
-==51624==    still reachable: 1,104 bytes in 2 blocks
-==51624==         suppressed: 0 bytes in 0 blocks
-==51624== Reachable blocks (those to which a pointer was found) are not shown.
-==51624== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==51624== 
-==51624== For counts of detected and suppressed errors, rerun with: -v
-==51624== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==51845== Memcheck, a memory error detector
+==51845== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==51845== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==51845== 
+==51845== Parent PID: 51844
+==51845== 
+==51845== 
+==51845== HEAP SUMMARY:
+==51845==     in use at exit: 1,104 bytes in 2 blocks
+==51845==   total heap usage: 236 allocs, 234 frees, 35,489 bytes allocated
+==51845== 
+==51845== LEAK SUMMARY:
+==51845==    definitely lost: 0 bytes in 0 blocks
+==51845==    indirectly lost: 0 bytes in 0 blocks
+==51845==      possibly lost: 0 bytes in 0 blocks
+==51845==    still reachable: 1,104 bytes in 2 blocks
+==51845==         suppressed: 0 bytes in 0 blocks
+==51845== Reachable blocks (those to which a pointer was found) are not shown.
+==51845== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==51845== 
+==51845== For counts of detected and suppressed errors, rerun with: -v
+==51845== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 #################################################
 testcase3:
 Your file matched the expected output
@@ -57,28 +57,28 @@ Your file matched the expected output
 Your output is correct
   - Valgrind showed memory leaks
 valgrind was not clean
-==51644== Memcheck, a memory error detector
-==51644== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==51644== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==51644== 
-==51644== Parent PID: 51643
-==51644== 
-==51644== 
-==51644== HEAP SUMMARY:
-==51644==     in use at exit: 1,656 bytes in 3 blocks
-==51644==   total heap usage: 200 allocs, 197 frees, 43,170 bytes allocated
-==51644== 
-==51644== LEAK SUMMARY:
-==51644==    definitely lost: 0 bytes in 0 blocks
-==51644==    indirectly lost: 0 bytes in 0 blocks
-==51644==      possibly lost: 0 bytes in 0 blocks
-==51644==    still reachable: 1,656 bytes in 3 blocks
-==51644==         suppressed: 0 bytes in 0 blocks
-==51644== Reachable blocks (those to which a pointer was found) are not shown.
-==51644== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==51644== 
-==51644== For counts of detected and suppressed errors, rerun with: -v
-==51644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==51865== Memcheck, a memory error detector
+==51865== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==51865== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==51865== 
+==51865== Parent PID: 51864
+==51865== 
+==51865== 
+==51865== HEAP SUMMARY:
+==51865==     in use at exit: 1,656 bytes in 3 blocks
+==51865==   total heap usage: 200 allocs, 197 frees, 43,170 bytes allocated
+==51865== 
+==51865== LEAK SUMMARY:
+==51865==    definitely lost: 0 bytes in 0 blocks
+==51865==    indirectly lost: 0 bytes in 0 blocks
+==51865==      possibly lost: 0 bytes in 0 blocks
+==51865==    still reachable: 1,656 bytes in 3 blocks
+==51865==         suppressed: 0 bytes in 0 blocks
+==51865== Reachable blocks (those to which a pointer was found) are not shown.
+==51865== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==51865== 
+==51865== For counts of detected and suppressed errors, rerun with: -v
+==51865== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 #################################################
 testcase4:
 Your file matched the expected output
@@ -86,27 +86,27 @@ Comparing file list3a.txt.counts with answer
 Your output is correct
   - Valgrind showed memory leaks
 valgrind was not clean
-==51665== Memcheck, a memory error detector
-==51665== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==51665== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==51665== 
-==51665== Parent PID: 51664
-==51665== 
-==51665== 
-==51665== HEAP SUMMARY:
-==51665==     in use at exit: 552 bytes in 1 blocks
-==51665==   total heap usage: 10,272 allocs, 10,271 frees, 400,255,612 bytes allocated
-==51665== 
-==51665== LEAK SUMMARY:
-==51665==    definitely lost: 0 bytes in 0 blocks
-==51665==    indirectly lost: 0 bytes in 0 blocks
-==51665==      possibly lost: 0 bytes in 0 blocks
-==51665==    still reachable: 552 bytes in 1 blocks
-==51665==         suppressed: 0 bytes in 0 blocks
-==51665== Reachable blocks (those to which a pointer was found) are not shown.
-==51665== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==51665== 
-==51665== For counts of detected and suppressed errors, rerun with: -v
-==51665== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==51887== Memcheck, a memory error detector
+==51887== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==51887== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==51887== 
+==51887== Parent PID: 51886
+==51887== 
+==51887== 
+==51887== HEAP SUMMARY:
+==51887==     in use at exit: 552 bytes in 1 blocks
+==51887==   total heap usage: 10,272 allocs, 10,271 frees, 400,255,612 bytes allocated
+==51887== 
+==51887== LEAK SUMMARY:
+==51887==    definitely lost: 0 bytes in 0 blocks
+==51887==    indirectly lost: 0 bytes in 0 blocks
+==51887==      possibly lost: 0 bytes in 0 blocks
+==51887==    still reachable: 552 bytes in 1 blocks
+==51887==         suppressed: 0 bytes in 0 blocks
+==51887== Reachable blocks (those to which a pointer was found) are not shown.
+==51887== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==51887== 
+==51887== For counts of detected and suppressed errors, rerun with: -v
+==51887== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 
 Overall Grade: B
