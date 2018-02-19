@@ -1,112 +1,20 @@
-Grading at 02/19/2018:13:38:55.000090
-For commit ID 0450934a59220b191620537846c5321818b7b59e
+Grading at 02/19/2018:19:40:46.948181
+For commit ID a45b07d5c94e0de5b72d03667fda0defce7b865c
 Attempting to compile:
 rm -f  outname.o  counts.o  main.o  kv.o count_values *~
 gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 outname.c
 gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 counts.c
-gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 main.c
-gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 kv.c
-gcc -Wall -Werror -std=gnu99 -pedantic -ggdb3 -o count_values  outname.o  counts.o  main.o  kv.o
-#################################################
-testcase1:
-testcase1 passed, your program successfully indicated a failure
-  - Valgrind was clean (no errors, no memory leaks)
-valgrind was clean
-#################################################
-testcase2:
-Your file matched the expected output
-Comparing file list1a.txt.counts with answer
-Your output is correct
-Comparing file list1b.txt.counts with answer
-Your file matched the expected output
-Your output is correct
-  - Valgrind showed memory leaks
-valgrind was not clean
-==129100== Memcheck, a memory error detector
-==129100== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==129100== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==129100== 
-==129100== Parent PID: 129099
-==129100== 
-==129100== 
-==129100== HEAP SUMMARY:
-==129100==     in use at exit: 1,104 bytes in 2 blocks
-==129100==   total heap usage: 257 allocs, 255 frees, 38,009 bytes allocated
-==129100== 
-==129100== LEAK SUMMARY:
-==129100==    definitely lost: 0 bytes in 0 blocks
-==129100==    indirectly lost: 0 bytes in 0 blocks
-==129100==      possibly lost: 0 bytes in 0 blocks
-==129100==    still reachable: 1,104 bytes in 2 blocks
-==129100==         suppressed: 0 bytes in 0 blocks
-==129100== Reachable blocks (those to which a pointer was found) are not shown.
-==129100== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==129100== 
-==129100== For counts of detected and suppressed errors, rerun with: -v
-==129100== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-#################################################
-testcase3:
-Your file matched the expected output
-Comparing file list2a.txt.counts with answer
-Your output is correct
-Comparing file list2b.txt.counts with answer
-Your file matched the expected output
-Your output is correct
-Comparing file list2c.txt.counts with answer
-Your file matched the expected output
-Your output is correct
-  - Valgrind showed memory leaks
-valgrind was not clean
-==129128== Memcheck, a memory error detector
-==129128== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==129128== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==129128== 
-==129128== Parent PID: 129127
-==129128== 
-==129128== 
-==129128== HEAP SUMMARY:
-==129128==     in use at exit: 1,656 bytes in 3 blocks
-==129128==   total heap usage: 221 allocs, 218 frees, 45,690 bytes allocated
-==129128== 
-==129128== LEAK SUMMARY:
-==129128==    definitely lost: 0 bytes in 0 blocks
-==129128==    indirectly lost: 0 bytes in 0 blocks
-==129128==      possibly lost: 0 bytes in 0 blocks
-==129128==    still reachable: 1,656 bytes in 3 blocks
-==129128==         suppressed: 0 bytes in 0 blocks
-==129128== Reachable blocks (those to which a pointer was found) are not shown.
-==129128== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==129128== 
-==129128== For counts of detected and suppressed errors, rerun with: -v
-==129128== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-#################################################
-testcase4:
-Your file matched the expected output
-Comparing file list3a.txt.counts with answer
-Your output is correct
-  - Valgrind showed memory leaks
-valgrind was not clean
-==129149== Memcheck, a memory error detector
-==129149== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
-==129149== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
-==129149== 
-==129149== Parent PID: 129148
-==129149== 
-==129149== 
-==129149== HEAP SUMMARY:
-==129149==     in use at exit: 552 bytes in 1 blocks
-==129149==   total heap usage: 10,279 allocs, 10,278 frees, 400,256,452 bytes allocated
-==129149== 
-==129149== LEAK SUMMARY:
-==129149==    definitely lost: 0 bytes in 0 blocks
-==129149==    indirectly lost: 0 bytes in 0 blocks
-==129149==      possibly lost: 0 bytes in 0 blocks
-==129149==    still reachable: 552 bytes in 1 blocks
-==129149==         suppressed: 0 bytes in 0 blocks
-==129149== Reachable blocks (those to which a pointer was found) are not shown.
-==129149== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==129149== 
-==129149== For counts of detected and suppressed errors, rerun with: -v
-==129149== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+counts.c: In function ‘freeCounts’:
+counts.c:70:10: error: passing argument 1 of ‘free’ discards ‘const’ qualifier from pointer target type [-Werror=discarded-qualifiers]
+     free(c->stringCounts[i].stringVal);
+          ^
+In file included from counts.c:2:0:
+/usr/include/stdlib.h:483:13: note: expected ‘void *’ but argument is of type ‘const char *’
+ extern void free (void *__ptr) __THROW;
+             ^
+cc1: all warnings being treated as errors
+Makefile:10: recipe for target 'counts.o' failed
+make: *** [counts.o] Error 1
+The code did not compile! Please try git add . to push all files in your working directory 
 
-Overall Grade: B
+Overall Grade: F
