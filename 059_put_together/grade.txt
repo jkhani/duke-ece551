@@ -1,20 +1,112 @@
-Grading at 02/19/2018:19:40:46.948181
-For commit ID a45b07d5c94e0de5b72d03667fda0defce7b865c
+Grading at 02/19/2018:19:47:52.528260
+For commit ID bf458ae5088d419e030509a8708be547e86d48c1
 Attempting to compile:
 rm -f  outname.o  counts.o  main.o  kv.o count_values *~
 gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 outname.c
 gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 counts.c
-counts.c: In function ‘freeCounts’:
-counts.c:70:10: error: passing argument 1 of ‘free’ discards ‘const’ qualifier from pointer target type [-Werror=discarded-qualifiers]
-     free(c->stringCounts[i].stringVal);
-          ^
-In file included from counts.c:2:0:
-/usr/include/stdlib.h:483:13: note: expected ‘void *’ but argument is of type ‘const char *’
- extern void free (void *__ptr) __THROW;
-             ^
-cc1: all warnings being treated as errors
-Makefile:10: recipe for target 'counts.o' failed
-make: *** [counts.o] Error 1
-The code did not compile! Please try git add . to push all files in your working directory 
+gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 main.c
+gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 kv.c
+gcc -Wall -Werror -std=gnu99 -pedantic -ggdb3 -o count_values  outname.o  counts.o  main.o  kv.o
+#################################################
+testcase1:
+testcase1 passed, your program successfully indicated a failure
+  - Valgrind was clean (no errors, no memory leaks)
+valgrind was clean
+#################################################
+testcase2:
+Your file matched the expected output
+Comparing file list1a.txt.counts with answer
+Your output is correct
+Comparing file list1b.txt.counts with answer
+Your file matched the expected output
+Your output is correct
+  - Valgrind showed memory leaks
+valgrind was not clean
+==5398== Memcheck, a memory error detector
+==5398== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==5398== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5398== 
+==5398== Parent PID: 5397
+==5398== 
+==5398== 
+==5398== HEAP SUMMARY:
+==5398==     in use at exit: 1,104 bytes in 2 blocks
+==5398==   total heap usage: 257 allocs, 255 frees, 38,009 bytes allocated
+==5398== 
+==5398== LEAK SUMMARY:
+==5398==    definitely lost: 0 bytes in 0 blocks
+==5398==    indirectly lost: 0 bytes in 0 blocks
+==5398==      possibly lost: 0 bytes in 0 blocks
+==5398==    still reachable: 1,104 bytes in 2 blocks
+==5398==         suppressed: 0 bytes in 0 blocks
+==5398== Reachable blocks (those to which a pointer was found) are not shown.
+==5398== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5398== 
+==5398== For counts of detected and suppressed errors, rerun with: -v
+==5398== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+#################################################
+testcase3:
+Your file matched the expected output
+Comparing file list2a.txt.counts with answer
+Your output is correct
+Comparing file list2b.txt.counts with answer
+Your file matched the expected output
+Your output is correct
+Comparing file list2c.txt.counts with answer
+Your file matched the expected output
+Your output is correct
+  - Valgrind showed memory leaks
+valgrind was not clean
+==5418== Memcheck, a memory error detector
+==5418== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==5418== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5418== 
+==5418== Parent PID: 5417
+==5418== 
+==5418== 
+==5418== HEAP SUMMARY:
+==5418==     in use at exit: 1,656 bytes in 3 blocks
+==5418==   total heap usage: 221 allocs, 218 frees, 45,690 bytes allocated
+==5418== 
+==5418== LEAK SUMMARY:
+==5418==    definitely lost: 0 bytes in 0 blocks
+==5418==    indirectly lost: 0 bytes in 0 blocks
+==5418==      possibly lost: 0 bytes in 0 blocks
+==5418==    still reachable: 1,656 bytes in 3 blocks
+==5418==         suppressed: 0 bytes in 0 blocks
+==5418== Reachable blocks (those to which a pointer was found) are not shown.
+==5418== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5418== 
+==5418== For counts of detected and suppressed errors, rerun with: -v
+==5418== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+#################################################
+testcase4:
+Your file matched the expected output
+Comparing file list3a.txt.counts with answer
+Your output is correct
+  - Valgrind showed memory leaks
+valgrind was not clean
+==5447== Memcheck, a memory error detector
+==5447== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==5447== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==5447== 
+==5447== Parent PID: 5446
+==5447== 
+==5447== 
+==5447== HEAP SUMMARY:
+==5447==     in use at exit: 552 bytes in 1 blocks
+==5447==   total heap usage: 10,279 allocs, 10,278 frees, 400,256,452 bytes allocated
+==5447== 
+==5447== LEAK SUMMARY:
+==5447==    definitely lost: 0 bytes in 0 blocks
+==5447==    indirectly lost: 0 bytes in 0 blocks
+==5447==      possibly lost: 0 bytes in 0 blocks
+==5447==    still reachable: 552 bytes in 1 blocks
+==5447==         suppressed: 0 bytes in 0 blocks
+==5447== Reachable blocks (those to which a pointer was found) are not shown.
+==5447== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==5447== 
+==5447== For counts of detected and suppressed errors, rerun with: -v
+==5447== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 
-Overall Grade: F
+Overall Grade: B
