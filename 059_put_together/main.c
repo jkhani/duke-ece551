@@ -39,6 +39,13 @@ counts_t * countFile(const char * filename, kvarray_t * kvArray) {
 
   free(curr);
 
+  if(fclose(f) != 0){
+    fprintf(stderr,"Failed to close file\n");
+    exit(EXIT_FAILURE);
+  }
+
+  
+
   return countsArray;
     
 }
