@@ -46,7 +46,7 @@ B. A debugger construct which causes execution to stop when a particular
    location changes.
 C. A debugger construct which causes execution to stop when the program
    would otherwise crash.
-D. A debugger construct which causes execution to stop when a particular
+D.  A debugger construct which causes execution to stop when a particular
    line of output is generated.
 
 7. What is a watchpoint?
