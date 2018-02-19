@@ -66,6 +66,9 @@ void printCounts(counts_t * c, FILE * outFile) {
 
 void freeCounts(counts_t * c) {
   //WRITE ME
+  for(size_t i = 0; i<c->numStrings; i++){
+    free(c->stringCounts[i].stringVal);
+  }
 
   free(c->stringCounts);
   free(c);
