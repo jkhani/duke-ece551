@@ -1,5 +1,5 @@
-Grading at 02/20/2018:03:05:05.865262
-For commit ID 6b0458f79080a07259798200d3eae76b7ceadae8
+Grading at 02/20/2018:03:05:22.359962
+For commit ID e178650912139cf6b8945b0278b6b0e37e80395d
 Good for you: you committed election.h
 election.c exists (good)
 Attempting to compile election.c
@@ -16,7 +16,7 @@ testcase2 of step1:
 testcase2 passed [1/1]
 #################################################
 testcase3 of step1:
-valgrind reported memory errors [0/1]
+testcase3 passed [1/1]
 #################################################
 testcase4 of step1:
 testcase4 passed [1/1]
@@ -70,4 +70,4 @@ testcase4 of step4:
 Difficult corner cases
 Your output is correct [6/6]
 
-Overall Grade: 93
+Overall Grade: 94
