@@ -1,4 +1,4 @@
-Grading at 02/20/2018:03:05:22.359962
+Grading at 02/22/2018:19:26:08.377679
 For commit ID e178650912139cf6b8945b0278b6b0e37e80395d
 Good for you: you committed election.h
 election.c exists (good)
@@ -27,7 +27,10 @@ testcase5 passed [10/10]
 #################################################
 testcase6 of step1:
 Difficult corner cases
-Line_1_did_not_match
+Line_52_did_not_match
+Line_53_did_not_match
+Line_54_did_not_match
+Line_55_did_not_match
 Your file did not match the expected ouput
 testcase6 failed, your output did not match with the answer [0/6]
 #################################################
