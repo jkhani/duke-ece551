@@ -1,0 +1,15 @@
+Hi  Joshua, here are some comments on the code quality of your
+043 assignment:
+
+Abstraction: parseLine is too long, the entire function should be able to fit in one view on the screen. You should abstract out tasks you do often into their own functions, for example finding the next ":". 
+
+Formatting: Great formatting
+
+Comments: Great use of comments!
+
+Other: Good job overall
+
+Let us know if you have any questions!
+
+--Lidea
+
