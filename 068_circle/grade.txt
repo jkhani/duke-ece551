@@ -1,5 +1,5 @@
-Grading at 02/24/2018:03:47:22.938706
-For commit ID dd0b8a33ad537cc3b3123c793bc31848a5981707
+Grading at 02/24/2018:03:55:03.957408
+For commit ID 1e7c31a6ea99667c0c89b8fa50cd8b7e8b9cef11
 Attempting to compile:
 rm -f  circle.o  point.o  main.o circles *~
 g++ -c -Wall -Werror -std=gnu++98 -pedantic -ggdb3 circle.cpp
