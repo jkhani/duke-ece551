@@ -10,7 +10,6 @@ void Circle::move(double dx, double dy){
 double Circle::intersectionArea(const Circle & otherCircle){
   double R = otherCircle.radius;
   double dist = center.distanceFrom(otherCircle.center);
-  printf("d = %g",dist);
   
   if (dist > (radius+R)){
     return 0;
