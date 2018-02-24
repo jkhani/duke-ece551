@@ -17,7 +17,10 @@ double Circle::intersectionArea(const Circle & otherCircle){
   }
 
   if ((dist < abs(radius - R)) || (dist == 0)){
-    return 4*3.1415926535897;
+    if (R > radius){
+      R = radius;
+    }
+    return R*R*3.1415926535897;
   }
   
   double area1 = radius*radius*acos(((dist*dist)+(radius*radius)-(R*R))/(2*dist*radius));
