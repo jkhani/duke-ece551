@@ -9,22 +9,26 @@ void Circle::move(double dx, double dy){
 
 double Circle::intersectionArea(const Circle & otherCircle){
   double R = otherCircle.radius;
-  double dist = center.distanceFrom(otherCircle.center);
+  double r = radius;
+  double d = center.distanceFrom(otherCircle.center);
   
-  if (dist > (radius+R)){
+  if (d > (r+R)){
     return 0;
   }
 
-  if ((dist < abs(radius - R)) || (dist == 0)){
-    if (R > radius){
-      R = radius;
+  if ((d < abs(r - R)) || (d == 0)){
+    if (R > r){
+      R = r;
     }
-    return R*R*3.1415926535897;
+    return R*R*3.1415926535;
   }
   
-  double area1 = radius*radius*acos(((dist*dist)+(radius*radius)-(R*R))/(2*dist*radius));
-  double area2 = R*R*acos(((dist*dist)+(R*R)-(radius*radius))/(2*dist*R));
-  double area3 = pow(((-dist+radius+R)*(dist+radius-R)*(dist-radius+R)*(dist+radius+R)),.5);
+  double a = r*r;
+  double b = R*R;
 
-  return area1+area2-((1/2)*area3);
+  double x = (a - b + (d*d))/(2*d);
+  double z = x*x;
+  double y = sqrt(a - z);
+
+  return a*asin(y/r) + b * asin(y/R) - y * (x+sqrt(z+b-a));
 }
