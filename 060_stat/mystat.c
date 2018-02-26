@@ -13,7 +13,15 @@ line1() takes a pointer to a stat struct, checks if the file is a symbolic
 link, and then prints the File name accordingly"
  */
 void line1(struct stat * buf, const char * pathname){
-      printf("  File: ‘%s’\n", pathname);
+  if (S_ISLNK(buf->st_mode)){
+    char linktarget[256];
+    ssize_t len = readlink(pathname,linktarget, 256);
+    linktarget[len] = '\0';
+    printf("  File: '%s' -> '%s'\n", pathname,linktarget);
+  }
+  else{
+    printf("  File: '%s'\n", pathname);
+  }
 }
 
 
