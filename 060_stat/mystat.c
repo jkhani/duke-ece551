@@ -140,36 +140,47 @@ void printTimeStrings (struct stat buf){
   printf("Access: %s\nModify: %s\nChange: %s\n Birth: -\n",
 	 accessStr, modStr, changeStr);
 }
+/*
+This program is a clone of the linux stat() method which retrieves info
+about the file pointed to by a pathname provided as a command line 
+argument.
+
+This program can accept multiple command line arguments in which each
+argument (after the program name) points to a specific file.
+ */
 
 int main(int argc, char ** argv){
   // create struct for holding info from lstat (defined in <sys/stat.h>)
   struct stat fileInfo;
 
   // return error if path to specific file not provided
-  if (argc !=2) {
-    fprintf(stderr, "Usage: %s <pathname>\n", argv[0]);
+  if (argc < 2) {
+    fprintf(stderr, "No filename given! Usage: %s <pathname>\n", argv[0]);
     return EXIT_FAILURE;
   }
 
-  // return error and explanation of error returned by lstat()
-  if (lstat(argv[1], &fileInfo) < 0 ) {
-    fprintf(stderr,"lstat() returned error\n");
-    return EXIT_FAILURE;
+  // print information about each file
+  for (int i = 1; i<argc; i++){
+    // return error and explanation of error returned by lstat()
+    if (lstat(argv[i], &fileInfo) < 0 ) {
+      fprintf(stderr,"lstat() returned error\n");
+      return EXIT_FAILURE;
+    }
+
+    // print 1st line of stat
+    printf("  File: ‘%s’\n",argv[1]);
+
+    // print 2nd line of stat
+    line2(& fileInfo);
+
+    // print 3rd line of stat
+    line3(& fileInfo);
+
+    // print 4th line of stat
+    line4_Access(& fileInfo); line4_UidGid(& fileInfo);
+
+    // print 4 time strings from stat
+    printTimeStrings(fileInfo);
   }
-
-  // print 1st line of stat
-  printf("  File: ‘%s’\n",argv[1]);
-
-  // print 2nd line of stat
-  line2(& fileInfo);
-
-  // print 3rd line of stat
-  line3(& fileInfo);
-
-  // print 4th line of stat
-  line4_Access(& fileInfo); line4_UidGid(& fileInfo);
-
-  // print 4 time strings from stat
-  printTimeStrings(fileInfo);
 
 }
