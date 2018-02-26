@@ -16,13 +16,14 @@ void line2(struct stat * buf){
   // holds fileType string
   char * fileType;
   switch (buf->st_mode & S_IFMT){
-   case S_IFBLK: fileType = "block special file"; break;
-   case S_IFCHR: fileType = "character special file"; break;
-   case S_IFDIR: fileType = "directory"; break;
-   case S_IFIFO: fileType = "fifo"; break;
-   case S_IFLNK: fileType = "symbolic link"; break;
-   case S_IFREG: fileType = "regular file"; break;
+   case S_IFBLK:  fileType = "block special file"; break;
+   case S_IFCHR:  fileType = "character special file"; break;
+   case S_IFDIR:  fileType = "directory"; break;
+   case S_IFIFO:  fileType = "fifo"; break;
+   case S_IFLNK:  fileType = "symbolic link"; break;
+   case S_IFREG:  fileType = "regular file"; break;
    case S_IFSOCK: fileType = "socket"; break;
+   default:       fileType = "unknown?"; break;
   }
     
   printf("  Size: %-10lu\tBlocks: %-10lu IO Block: %-6lu %s\n",
@@ -36,6 +37,59 @@ line3() takes a pointer to a stat struct and prints line 3 from stat
 void line3(struct stat * buf){
   printf("Device: %lxh/%lud\tInode: %-10lu  Links: %lu\n",
 	 buf->st_dev,buf->st_dev,buf->st_ino,buf->st_nlink);
+}
+
+/*
+line4() takes a pointer to a stat struct and prints line 4 from stat.
+Uses switch/case to construct human-readable description of permissions.
+ */
+
+void line4(struct stat * buf){
+  char permissions[10+1] = "----------\0";
+  switch (buf->st_mode & S_IFMT){
+   case S_IFBLK: permissions[0] = 'b'; break;
+   case S_IFCHR: permissions[0] = 'c'; break;
+   case S_IFDIR: permissions[0] = 'd'; break;
+   case S_IFIFO: permissions[0] = 'p'; break;
+   case S_IFLNK: permissions[0] = 'l'; break;
+   case S_IFREG: permissions[0] = '-'; break;
+   case S_IFSOCK: permissions[0] = 's'; break;
+  }
+
+  // check read,write, and executable permissions for owner
+  if (!((buf->st_mode & S_IRUSR) == 0)) {
+    permissions[1] = 'r';
+  }
+  if (!((buf->st_mode & S_IWUSR) == 0)) {
+    permissions[2] = 'w';
+  }
+  if (!((buf->st_mode & S_IXUSR) == 0)) {
+    permissions[3] = 'x';
+  }
+
+  // check read,write, and executable permissions for group
+  if (!((buf->st_mode & S_IRGRP) == 0)) {
+    permissions[4] = 'r';
+  }
+  if (!((buf->st_mode & S_IWGRP) == 0)) {
+    permissions[5] = 'w';
+  }
+  if (!((buf->st_mode & S_IXGRP) == 0)) {
+    permissions[6] = 'x';
+  }
+
+  // check read,write, and executable permissions for others
+  if (!((buf->st_mode & S_IROTH) == 0)) {
+    permissions[7] = 'r';
+  }
+  if (!((buf->st_mode & S_IWOTH) == 0)) {
+    permissions[8] = 'w';
+  }
+  if (!((buf->st_mode & S_IXOTH) == 0)) {
+    permissions[9] = 'x';
+  }
+  
+  printf("Access: (%04o/%s)\n", (buf->st_mode & ~S_IFMT), permissions);
 }
   
 
@@ -76,5 +130,7 @@ int main(int argc, char ** argv){
   // print 3rd line of stat
   line3(& fileInfo);
 
+  // print 4th line of stat
+  line4(& fileInfo);
     
 }
