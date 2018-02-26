@@ -10,7 +10,7 @@
 
 /*
 line1() takes a pointer to a stat struct, checks if the file is a symbolic
-link, and then prints the File name accordingly"
+link, and then prints the 1st line of stat accordingly"
  */
 void line1(struct stat * buf, const char * pathname){
   if (S_ISLNK(buf->st_mode)){
@@ -168,6 +168,7 @@ void printTimeStrings (struct stat buf){
   free(modStr);
   free(changeStr);
 }
+
 /*
 This program is a clone of the linux stat() method which retrieves info
 about the file pointed to by a pathname provided as a command line 
@@ -183,15 +184,15 @@ int main(int argc, char ** argv){
 
   // return error if path to specific file not provided
   if (argc < 2) {
-    fprintf(stderr, "No filename given! Usage: %s <pathname>\n", argv[0]);
+    fprintf(stderr, "Usage: %s <pathname>\n", argv[0]);
     return EXIT_FAILURE;
   }
 
   // print information about each file
   for (int i = 1; i<argc; i++){
     // return error and explanation of error returned by lstat()
-    if (lstat(argv[i], &fileInfo) < 0 ) {
-      fprintf(stderr,"lstat() returned error\n");
+    if (lstat(argv[i], &fileInfo) == -1 ) {
+      perror("stat");
       return EXIT_FAILURE;
     }
 
