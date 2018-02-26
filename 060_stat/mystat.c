@@ -32,11 +32,18 @@ void line2(struct stat * buf){
 }
 
 /*
-line3() takes a pointer to a stat struct and prints line 3 from stat
+line3() takes a pointer to a stat struct and prints line 3 from stat.
+Use macros S_ISHCR() and S_ISBLK() to determine if file is a device.
 */
 void line3(struct stat * buf){
-  printf("Device: %lxh/%lud\tInode: %-10lu  Links: %lu\n",
-	 buf->st_dev,buf->st_dev,buf->st_ino,buf->st_nlink);
+  if (S_ISCHR(buf->st_mode) || S_ISBLK(buf->st_mode)){
+    printf("Device: %lxh/%lud\tInode: %-10lu  Links: %-5lu Device type: %d,%d\n",
+	   buf->st_dev,buf->st_dev,buf->st_ino,buf->st_nlink,major(buf->st_rdev),minor(buf->st_rdev));
+  }
+  else{
+    printf("Device: %lxh/%lud\tInode: %-10lu  Links: %lu\n",
+	   buf->st_dev,buf->st_dev,buf->st_ino,buf->st_nlink);
+  }
 }
 
 /*
@@ -139,6 +146,10 @@ void printTimeStrings (struct stat buf){
   
   printf("Access: %s\nModify: %s\nChange: %s\n Birth: -\n",
 	 accessStr, modStr, changeStr);
+
+  free(accessStr);
+  free(modStr);
+  free(changeStr);
 }
 /*
 This program is a clone of the linux stat() method which retrieves info
