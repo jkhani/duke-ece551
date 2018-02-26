@@ -25,9 +25,17 @@ void line2(struct stat * buf){
    case S_IFSOCK: fileType = "socket"; break;
   }
     
-  printf("  Size: %-10lu\tBlocks: %-10lu IO Block: %-6lu %s\n",buf->st_size,
-	 buf->st_blocks, buf->st_blksize, fileType);
+  printf("  Size: %-10lu\tBlocks: %-10lu IO Block: %-6lu %s\n",
+	 buf->st_size, buf->st_blocks, buf->st_blksize, fileType);
     
+}
+
+/*
+line3() takes a pointer to a stat struct and prints line 3 from stat
+*/
+void line3(struct stat * buf){
+  printf("Device: %lxh/%lud\tInode: %-10lu  Links: %lu\n",
+	 buf->st_dev,buf->st_dev,buf->st_ino,buf->st_nlink);
 }
   
 
@@ -64,6 +72,9 @@ int main(int argc, char ** argv){
 
   // print 2nd line of stat
   line2(& fileInfo);
+
+  // print 3rd line of stat
+  line3(& fileInfo);
 
     
 }
