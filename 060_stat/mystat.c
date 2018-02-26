@@ -40,12 +40,15 @@ void line3(struct stat * buf){
 }
 
 /*
-line4() takes a pointer to a stat struct and prints line 4 from stat.
+line4() takes a pointer to a stat struct and prints Access portion of 
+line 4 from stat.
 Uses switch/case to construct human-readable description of permissions.
  */
 
 void line4_Access(struct stat * buf){
   char permissions[10+1] = "----------\0";
+
+  // checks filetype using macros for interpretting bits
   switch (buf->st_mode & S_IFMT){
    case S_IFBLK: permissions[0] = 'b'; break;
    case S_IFCHR: permissions[0] = 'c'; break;
@@ -93,7 +96,9 @@ void line4_Access(struct stat * buf){
 }
 
 /*
-line4_UidGid() takes pointer to stat struct and 
+line4_UidGid() takes pointer to stat struct and prints Uid and Gid part
+ of line 4 from stat. Uses getpwuid() and getgrgid() methods to get
+username and group name.
  */
 
 void line4_UidGid(struct stat * buf){
@@ -120,6 +125,20 @@ char * time2str(const time_t * when, long ns) {
   strftime(temp2,32,"%z",t);
   snprintf(ans,128,"%s.%09ld %s", temp1, ns, temp2);
   return ans;
+}
+
+/*
+printTimeStrings() takes a stat struct and prints the time of last access,
+modification, and status change associated with the file.
+Makes a call to time2str() to construct time string.
+ */
+void printTimeStrings (struct stat buf){
+  char *accessStr = time2str(&buf.st_atime, buf.st_atim.tv_nsec);
+  char *modStr = time2str(&buf.st_mtime, buf.st_mtim.tv_nsec);
+  char *changeStr = time2str(&buf.st_ctime, buf.st_ctim.tv_nsec);
+  
+  printf("Access: %s\nModify: %s\nChange: %s\n Birth: -\n",
+	 accessStr, modStr, changeStr);
 }
 
 int main(int argc, char ** argv){
@@ -149,5 +168,8 @@ int main(int argc, char ** argv){
 
   // print 4th line of stat
   line4_Access(& fileInfo); line4_UidGid(& fileInfo);
-    
+
+  // print 4 time strings from stat
+  printTimeStrings(fileInfo);
+
 }
