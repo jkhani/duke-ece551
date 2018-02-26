@@ -9,6 +9,15 @@
 #include <unistd.h>
 
 /*
+line1() takes a pointer to a stat struct, checks if the file is a symbolic
+link, and then prints the File name accordingly"
+ */
+void line1(struct stat * buf, const char * pathname){
+      printf("  File: ‘%s’\n", pathname);
+}
+
+
+/*
 line2() takes a pointer to a stat struct, checks the fileType against a set 
 of possible cases to set fileType string
  */
@@ -179,7 +188,7 @@ int main(int argc, char ** argv){
     }
 
     // print 1st line of stat
-    printf("  File: ‘%s’\n",argv[1]);
+    line1(& fileInfo, argv[i]);
 
     // print 2nd line of stat
     line2(& fileInfo);
