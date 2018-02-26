@@ -211,4 +211,6 @@ int main(int argc, char ** argv){
     printTimeStrings(fileInfo);
   }
 
+  return EXIT_SUCCESS;
+
 }
