@@ -44,7 +44,7 @@ line4() takes a pointer to a stat struct and prints line 4 from stat.
 Uses switch/case to construct human-readable description of permissions.
  */
 
-void line4(struct stat * buf){
+void line4_Access(struct stat * buf){
   char permissions[10+1] = "----------\0";
   switch (buf->st_mode & S_IFMT){
    case S_IFBLK: permissions[0] = 'b'; break;
@@ -89,7 +89,24 @@ void line4(struct stat * buf){
     permissions[9] = 'x';
   }
   
-  printf("Access: (%04o/%s)\n", (buf->st_mode & ~S_IFMT), permissions);
+  printf("Access: (%04o/%s)", (buf->st_mode & ~S_IFMT), permissions);
+}
+
+/*
+line4_UidGid() takes pointer to stat struct and 
+ */
+
+void line4_UidGid(struct stat * buf){
+  struct passwd *pwd;
+  struct group *grp;
+
+  // create passwd struct with user id and username info
+  pwd = getpwuid(buf->st_uid);
+  // create group struct with group id and group name info
+  grp = getgrgid(buf->st_gid);
+  
+  printf("  Uid: (%5d/%8s)   Gid: (%5d/%8s)\n",
+	 buf->st_uid,pwd->pw_name,buf->st_gid,grp->gr_name);
 }
   
 
@@ -131,6 +148,6 @@ int main(int argc, char ** argv){
   line3(& fileInfo);
 
   // print 4th line of stat
-  line4(& fileInfo);
+  line4_Access(& fileInfo); line4_UidGid(& fileInfo);
     
 }
