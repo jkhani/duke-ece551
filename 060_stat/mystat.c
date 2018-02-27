@@ -10,16 +10,19 @@
 
 /*
 line1() takes a pointer to a stat struct, checks if the file is a symbolic
-link, and then prints the 1st line of stat accordingly"
+link, and then prints the 1st line of stat accordingly
  */
 void line1(struct stat * buf, const char * pathname){
+  // check for symbolic link
   if (S_ISLNK(buf->st_mode)){
     char linktarget[256];
     ssize_t len = readlink(pathname,linktarget, 256);
     linktarget[len] = '\0';
+    // append -> plus link target in print statement 
     printf("  File: '%s' -> '%s'\n", pathname,linktarget);
   }
   else{
+    // just print file name
     printf("  File: '%s'\n", pathname);
   }
 }
@@ -27,7 +30,8 @@ void line1(struct stat * buf, const char * pathname){
 
 /*
 line2() takes a pointer to a stat struct, checks the fileType against a set 
-of possible cases to set fileType string
+of possible cases to set fileType string. Checks the bits in the field st_mode
+against a number of macros defining possible file types.
  */
 void line2(struct stat * buf){
   // holds fileType string
@@ -53,6 +57,7 @@ line3() takes a pointer to a stat struct and prints line 3 from stat.
 Use macros S_ISHCR() and S_ISBLK() to determine if file is a device.
 */
 void line3(struct stat * buf){
+  // if device, include device type in print statement
   if (S_ISCHR(buf->st_mode) || S_ISBLK(buf->st_mode)){
     printf("Device: %lxh/%lud\tInode: %-10lu  Links: %-5lu Device type: %d,%d\n",
 	   buf->st_dev,buf->st_dev,buf->st_ino,buf->st_nlink,major(buf->st_rdev),minor(buf->st_rdev));
@@ -70,6 +75,7 @@ Uses switch/case to construct human-readable description of permissions.
  */
 
 void line4_Access(struct stat * buf){
+  // default for most permissions is '-'
   char permissions[10+1] = "----------\0";
 
   // checks filetype using macros for interpretting bits
@@ -164,6 +170,7 @@ void printTimeStrings (struct stat buf){
   printf("Access: %s\nModify: %s\nChange: %s\n Birth: -\n",
 	 accessStr, modStr, changeStr);
 
+  // time2str() allocates memory for the strings so they need to be freed
   free(accessStr);
   free(modStr);
   free(changeStr);
