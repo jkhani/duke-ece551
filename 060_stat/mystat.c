@@ -73,7 +73,6 @@ line4() takes a pointer to a stat struct and prints Access portion of
 line 4 from stat.
 Uses switch/case to construct human-readable description of permissions.
  */
-
 void line4_Access(struct stat * buf){
   // default for most permissions is '-'
   char permissions[10+1] = "----------\0";
@@ -130,7 +129,6 @@ line4_UidGid() takes pointer to stat struct and prints Uid and Gid part
  of line 4 from stat. Uses getpwuid() and getgrgid() methods to get
 username and group name.
  */
-
 void line4_UidGid(struct stat * buf){
   struct passwd *pwd;
   struct group *grp;
@@ -184,7 +182,6 @@ argument.
 This program can accept multiple command line arguments in which each
 argument (after the program name) points to a specific file.
  */
-
 int main(int argc, char ** argv){
   // create struct for holding info from lstat (defined in <sys/stat.h>)
   struct stat fileInfo;
@@ -220,5 +217,4 @@ int main(int argc, char ** argv){
   }
 
   return EXIT_SUCCESS;
-
 }
