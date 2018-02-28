@@ -1,10 +1,12 @@
-Grading at 02/28/2018:20:14:08.005742
-For commit ID bd6abecade56176d5a17180f0960a91d3571e444
+Grading at 02/28/2018:20:20:13.751244
+For commit ID 30a2ca3f2563168949e8e2e1c8de9c4a54af1174
 Attempting to compile:
 rm -f *.o  *~ intArrayTest
 #################################################
 testcase1:
-Your output is incorrect
+Your output is correct
+  - Valgrind was clean (no errors, no memory leaks)
+valgrind was clean
 #################################################
 testcase2:
 Your output is correct
@@ -21,4 +23,4 @@ Your output is correct
   - Valgrind was clean (no errors, no memory leaks)
 valgrind was clean
 
-Overall Grade: C
+Overall Grade: A
