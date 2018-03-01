@@ -72,7 +72,7 @@ IntMatrix IntMatrix::operator+(const IntMatrix & rhs) const {
 
   for (int i=0; i < numRows; i++){
     for (int j=0; j < numColumns; j++){
-      sumMatrix.rows[i][j] = (*rows[i])[j]+(*rhs.rows[i])[j];
+      (*sumMatrix.rows[i])[j] = (*rows[i])[j]+(*rhs.rows[i])[j];
     }
   }
 
