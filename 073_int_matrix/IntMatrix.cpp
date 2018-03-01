@@ -1,3 +1,4 @@
+#include "IntArray.h"
 #include "IntMatrix.h"
 
 IntMatrix::IntMatrix(): numRows(0), numColumns(0){
@@ -8,8 +9,9 @@ IntMatrix::IntMatrix(int r, int c):numRows(r), numColumns(c), rows(new IntArray*
   }
 }
 IntMatrix::IntMatrix(const IntMatrix & rhs): numRows(rhs.numRows), numColumns(rhs.numColumns), rows(new IntArray*[rhs.numRows])  {
-  for(int i=0; i<numRows; i++){
-    rows[i] = rhs.rows[i];
+  for (int i=0; i<numRows; i++){
+    IntArray* tempArr = new IntArray(*rhs.rows[i]);
+    rows[i] = tempArr;
   }
 }
 IntMatrix::~IntMatrix() {
@@ -22,9 +24,10 @@ IntMatrix::~IntMatrix() {
 IntMatrix &IntMatrix::operator=(const IntMatrix & rhs) {
   if(this != &rhs){
     IntArray ** temp = new IntArray*[numRows];
-
+   
     for (int i=0; i<numRows; i++){
-      temp[i] = rhs.rows[i];
+      IntArray* tempArr = new IntArray(*rhs.rows[i]);
+      temp[i] = tempArr;
     }
 
     delete[]rows;
