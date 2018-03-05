@@ -1,5 +1,5 @@
-Grading at 03/05/2018:17:27:47.821266
-For commit ID c5f51d46bace2ae7d5f730cba69e5f6469ffb053
+Grading at 03/05/2018:19:25:04.866280
+For commit ID 7cf287852574ea6e929e66ac2fd61f6b41b2facd
 Looking for malloc in your files
 No uses found (good).
 Looking for free in your files
@@ -18,7 +18,8 @@ g++ -o sortLines --std=gnu++98 -pedantic -Wall -Werror -ggdb3 sortLines.o
 Using sortLines..
 #################################################
 testcase1:
-testcase1 failed, your program didn't indicate this is a failure case
+testcase1 passed, your program successfully indicated a failure
+valgrind was clean
 #################################################
 testcase2:
 Your output is correct
@@ -35,4 +36,4 @@ Your output is correct
   - Valgrind was clean (no errors, no memory leaks)
 valgrind was clean
 
-Overall Grade: B
+Overall Grade: A
