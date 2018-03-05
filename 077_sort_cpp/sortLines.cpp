@@ -27,7 +27,7 @@ int main(int argc, char ** argv) {
     for( int i=1; i<argc; ++i){
       std::ifstream ifs (argv[i]);
 
-      if (ifs.is_open()){
+      if (ifs.is_open() && ifs.good()){
 	while(std::getline(ifs,str) && !ifs.eof()){
 	  str_vec.push_back(str);
 	}
@@ -41,6 +41,9 @@ int main(int argc, char ** argv) {
       for (std::vector<std::string>::const_iterator i = str_vec.begin(); i != str_vec.end(); ++i){
 	std::cout << *i << "\n";
       }
+
+      ifs.close();
+
     }
   }     
   
