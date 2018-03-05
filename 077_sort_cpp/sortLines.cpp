@@ -22,6 +22,10 @@ int main(int argc, char ** argv) {
 	std::cout << *i << "\n";
       }
     }
+    else {
+      std::cerr << "Detected error\n";
+	return EXIT_FAILURE;
+    }
   }
   else {
     for( int i=1; i<argc; ++i){
@@ -42,6 +46,7 @@ int main(int argc, char ** argv) {
 	std::cout << *i << "\n";
       }
 
+      str_vec.clear();
       ifs.close();
 
     }
