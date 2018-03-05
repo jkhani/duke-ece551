@@ -37,7 +37,7 @@ int main(int argc, char ** argv) {
 	}
       }
       else {
-	std::cout << "Error opening file\n";
+	std::cerr << "Error opening file\n";
 	return EXIT_FAILURE;
       }
 
