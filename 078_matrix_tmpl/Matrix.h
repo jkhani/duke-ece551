@@ -5,17 +5,20 @@
 #include <vector>
 #include <cstdlib>
 using namespace std;
+
 //YOUR CODE GOES HERE!
+
 template<typename T>
-class Matrix
-{
+class Matrix{
  private:
   int numRows;
   int numColumns;
   vector< vector<T> > rows;
+
  public:
   //default constructor
- Matrix():numRows(0),numColumns(0){}
+ Matrix():numRows(0),numColumns(0){
+  }
  Matrix(int r, int c):numRows(r), numColumns(c) {
     assert(numRows >= 0 && numColumns >=0);
     for (int i = 0; i < numRows; i++){
@@ -48,17 +51,19 @@ class Matrix
       rows.push_back(rhs[i]);
     }
     return *this;
-    int getRows() const { return numRows;}
-    int getColumns() const { return numColumns;}
-    const vector<T>  & operator[](int index) const {
+  }
+
+  int getRows() const { return numRows;}
+  int getColumns() const { return numColumns;}
+  const vector<T>  & operator[](int index) const {
+    assert(index >= 0 && index <= numRows-1);
+      return rows[index];
+    }
+  vector<T> & operator[](int index){
       assert(index >= 0 && index <= numRows-1);
       return rows[index];
     }
-    vector<T> & operator[](int index){
-      assert(index >= 0 && index <= numRows-1);
-      return rows[index];
-    }
-    bool operator==(const Matrix & rhs) const {
+  bool operator==(const Matrix & rhs) const {
       if(&rhs == this){ return 1;}
       if (numRows != rhs.getRows() || numColumns != rhs.getColumns()){
 	return 0;
@@ -83,6 +88,8 @@ class Matrix
       return matrix;
     }
   };
+
+
   template<typename S>
     std::ostream & operator<<(std::ostream & s, const Matrix<S> & rhs) {
     if( rhs.getRows() == 0 ){
@@ -106,4 +113,5 @@ class Matrix
       }
     return s;
   }
-  #endif
+
+#endif
