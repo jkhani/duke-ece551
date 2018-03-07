@@ -91,13 +91,13 @@ class Matrix{
 
 
   template<typename S>
-    std::ostream & operator<<(std::ostream & s, const Matrix<S> & rhs) {
+    ostream & operator<<(ostream & s, const Matrix<S> & rhs) {
     if( rhs.getRows() == 0 ){
       s <<"[  ]";
     }
     else
       {
-	std::cout << "[ {";
+	cout << "[ {";
 	for (int i = 0; i < rhs.getRows(); i++){
 	  for (int j = 0; j < rhs.getColumns(); j++){
 	    s << rhs[i][j];
