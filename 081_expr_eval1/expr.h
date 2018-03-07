@@ -32,11 +32,14 @@ class PlusExpression: public Expression {
   PlusExpression(Expression * lhs, Expression * rhs): leftArg(lhs), rightArg(rhs) {}
   virtual std::string toString() const {
     std::stringstream ss;
-    ss << leftArg->toString() << " + " << rightArg->toString();
+    ss << "(" << leftArg->toString() << " + " << rightArg->toString() << ")";
     std::string result = ss.str();
     return result;
   }
-  virtual ~PlusExpression() {}
+  virtual ~PlusExpression() {
+    delete leftArg;
+    delete rightArg;
+  }
 };
 
 #endif
