@@ -7,5 +7,5 @@ B
 C
 D
 C
-C
-C
+B
+B
