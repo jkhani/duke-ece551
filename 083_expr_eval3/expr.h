@@ -47,11 +47,8 @@ class PlusExpression: public Expression {
     delete rightArg;
   }
   virtual long evaluate() const {
-    std::stringstream ss;
-    ss << leftArg->toString();
-    long lhs;
+    long lhs = leftArg->evaluate();
     long rhs = rightArg->evaluate();
-    ss >> lhs;
     return lhs + rhs;
   }
 };
@@ -73,11 +70,8 @@ class MinusExpression: public Expression {
     delete rightArg;
   }
   virtual long evaluate() const {
-    std::stringstream ss;
-    ss << leftArg->toString();
-    long lhs;
+    long lhs = leftArg->evaluate();
     long rhs = rightArg->evaluate();
-    ss >> lhs;
     return lhs - rhs;
   }
 };
@@ -99,11 +93,8 @@ class TimesExpression: public Expression {
     delete rightArg;
   }
   virtual long evaluate() const {
-    std::stringstream ss;
-    ss << leftArg->toString();
-    long lhs;
+    long lhs = leftArg->evaluate();
     long rhs = rightArg->evaluate();
-    ss >> lhs;
     return lhs * rhs;
   }
 };
@@ -125,11 +116,8 @@ class DivExpression: public Expression {
     delete rightArg;
   }
   virtual long evaluate() const {
-    std::stringstream ss;
-    ss << leftArg->toString();
-    long lhs;
+    long lhs = leftArg->evaluate();
     long rhs = rightArg->evaluate();
-    ss >> lhs;
     return lhs / rhs;
   }
 };
