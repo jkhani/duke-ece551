@@ -1,0 +1,18 @@
+Grading at 03/08/2018:06:19:16.891271
+For commit ID f9e7cc0237aa87cfeed5ef3370089f7e879c4d3d
+Compiling code
+The code compiled.
+---------------------
+Test case 1
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+---------------------
+Test case 2
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+---------------------
+Test case 3
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+
+Overall Grade: F
