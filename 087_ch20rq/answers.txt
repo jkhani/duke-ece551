@@ -3,7 +3,7 @@ C
 A
 B
 B
-A
+B
 A
 C
 E
