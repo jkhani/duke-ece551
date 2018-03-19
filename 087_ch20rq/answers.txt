@@ -5,8 +5,8 @@ B
 B
 C
 F
-A
-B
+G
+E
 B
 D
 A
