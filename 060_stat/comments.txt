@@ -1,0 +1,15 @@
+Hi  Joshua, here are some comments on the code quality of your
+060 assignment:
+
+Abstraction: Good, but it's better to name the functions based on their functionality to improve readability, instead of just using "line1", "line2", etc. 
+
+Formatting: Good! Just miss adding space between operators in a few lines. There should be a space between ")" and "{" when defining a function's name.
+
+Comments: Very good comments!
+
+Other: 
+
+Let us know if you have any questions!
+
+--Wanxin
+
