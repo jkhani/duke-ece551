@@ -89,8 +89,7 @@ int main(){
     virtual int invoke( int arg){
 
       return arg* arg;
-         +
-	   }
+    }
 
   };
 
