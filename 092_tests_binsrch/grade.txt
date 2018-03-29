@@ -1,0 +1,8 @@
+Grading at 03/29/2018:02:03:49.599647
+For commit ID e73d732cfb9e2a3ca662044a96f16377c036a762
+**Testing broken implementation 1 **
+-------------------------------------
+
+Could not compile test-bsearch.cpp with /usr/local/ece551/bin_search/bsearch1.o
+
+Overall Grade: FAILED
