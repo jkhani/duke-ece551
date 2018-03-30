@@ -1,0 +1,265 @@
+Grading at 03/30/2018:19:15:33.307447
+For commit ID 64888d90b2447494863d80cbb6b92e2179973d99
+-----------------------------------------------
+testcase 1 : Testing with BstMap<int,int>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<int, int>’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<int, int>’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = int; V = int]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = int; V = int]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = int; V = int]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<int, int>’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<int, int>’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 2 : Testing with BstMap<int,std::string>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<int, std::__cxx11::basic_string<char> >’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<int, std::__cxx11::basic_string<char> >’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = int; V = std::__cxx11::basic_string<char>]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = int; V = std::__cxx11::basic_string<char>]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = int; V = std::__cxx11::basic_string<char>]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<int, std::__cxx11::basic_string<char> >’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<int, std::__cxx11::basic_string<char> >’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 3 : Testing with BstMap<int,(a custom class we wrote)>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<int, Tester>’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<int, Tester>’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = int; V = Tester]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = int; V = Tester]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = int; V = Tester]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<int, Tester>’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<int, Tester>’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 4 : Testing with BstMap<std::string,int>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, int>’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<std::__cxx11::basic_string<char>, int>’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = std::__cxx11::basic_string<char>; V = int]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = std::__cxx11::basic_string<char>; V = int]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = std::__cxx11::basic_string<char>; V = int]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, int>’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, int>’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 5 : Testing with BstMap<std::string,std::string>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = std::__cxx11::basic_string<char>; V = std::__cxx11::basic_string<char>]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = std::__cxx11::basic_string<char>; V = std::__cxx11::basic_string<char>]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = std::__cxx11::basic_string<char>; V = std::__cxx11::basic_string<char>]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, std::__cxx11::basic_string<char> >’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 6 : Testing with BstMap<std::string,(a custom class we wrote)>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, Tester>’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<std::__cxx11::basic_string<char>, Tester>’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = std::__cxx11::basic_string<char>; V = Tester]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = std::__cxx11::basic_string<char>; V = Tester]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = std::__cxx11::basic_string<char>; V = Tester]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, Tester>’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<std::__cxx11::basic_string<char>, Tester>’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 7 : Testing with BstMap<(a custom class we wrote),int>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<Tester, int>’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<Tester, int>’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = Tester; V = int]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = Tester; V = int]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = Tester; V = int]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<Tester, int>’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<Tester, int>’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 8 : Testing with BstMap<(a custom class we wrote),std::string>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<Tester, std::__cxx11::basic_string<char> >’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<Tester, std::__cxx11::basic_string<char> >’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = Tester; V = std::__cxx11::basic_string<char>]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = Tester; V = std::__cxx11::basic_string<char>]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = Tester; V = std::__cxx11::basic_string<char>]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<Tester, std::__cxx11::basic_string<char> >’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<Tester, std::__cxx11::basic_string<char> >’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+-----------------------------------------------
+testcase 9 : Testing with BstMap<(a custom class we wrote),(a custom class we wrote)>
+...compiling...
+89-tester.cpp: In function ‘int main()’:
+89-tester.cpp:70:33: error: invalid new-expression of abstract class type ‘BstMap<Tester, Tester>’
+   BSTMapTy * bmt = new BSTMapTy();
+                                 ^
+In file included from 89-tester.cpp:1:0:
+bstmap.h:8:9: note:   because the following virtual functions are pure within ‘BstMap<Tester, Tester>’:
+   class BstMap : public Map <K, V> {
+         ^
+In file included from bstmap.h:4:0,
+                 from 89-tester.cpp:1:
+map.h:8:16: note: 	void Map<K, V>::add(const K&, const V&) [with K = Tester; V = Tester]
+   virtual void add(const K & key, const V & value) = 0;
+                ^
+map.h:9:21: note: 	const V& Map<K, V>::lookup(const K&) const [with K = Tester; V = Tester]
+   virtual const V & lookup(const K& key) const throw (std::invalid_argument) = 0;
+                     ^
+map.h:10:16: note: 	void Map<K, V>::remove(const K&) [with K = Tester; V = Tester]
+   virtual void remove(const K& key) = 0;
+                ^
+89-tester.cpp:95:36: error: invalid new-expression of abstract class type ‘BstMap<Tester, Tester>’
+   BSTMapTy * m2 = new BSTMapTy(*bmt);
+                                    ^
+89-tester.cpp:166:26: error: invalid new-expression of abstract class type ‘BstMap<Tester, Tester>’
+   m = bmt = new BSTMapTy();
+                          ^
+The code did not compile.  This test failed.
+
+Overall Grade: F
