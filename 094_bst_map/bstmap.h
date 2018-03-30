@@ -27,7 +27,7 @@ template<typename K, typename V>
  BstMap(): root(NULL), numOfKeys(0) {}
   ~BstMap(){}
 
-  Node* findNode(Node* sub_root, K key){
+  virtual Node* findNode(Node* sub_root, K key){
 
     if(numOfKeys > 0){
       Node *curr_node = sub_root;
