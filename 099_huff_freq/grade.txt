@@ -1,0 +1,141 @@
+Grading at 04/05/2018:03:32:49.539690
+For commit ID e3288ce31101a33f2f76639cf715a74b48bda199
+compiling
+g++ -ggdb3 -Wall -Werror -pedantic -o testFreq testFreq.cpp readFreq.cpp
+Make succeed, testFreq created
+Testcase 1
+-----------------------
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+==101220== Memcheck, a memory error detector
+==101220== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==101220== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==101220== Command: ./testFreq /etc/issue
+==101220== Parent PID: 101219
+==101220== 
+==101220== Invalid free() / delete / delete[] / realloc()
+==101220==    at 0x4C2F74B: operator delete[](void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==101220==    by 0x401068: main (testFreq.cpp:19)
+==101220==  Address 0x602360 is 0 bytes inside data symbol "_ZZ15readFrequenciesPKcE5freqs"
+==101220== 
+==101220== 
+==101220== HEAP SUMMARY:
+==101220==     in use at exit: 72,704 bytes in 1 blocks
+==101220==   total heap usage: 4 allocs, 4 frees, 85,544 bytes allocated
+==101220== 
+==101220== LEAK SUMMARY:
+==101220==    definitely lost: 0 bytes in 0 blocks
+==101220==    indirectly lost: 0 bytes in 0 blocks
+==101220==      possibly lost: 0 bytes in 0 blocks
+==101220==    still reachable: 0 bytes in 0 blocks
+==101220==         suppressed: 72,704 bytes in 1 blocks
+==101220== 
+==101220== For counts of detected and suppressed errors, rerun with: -v
+==101220== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+Testcase 2
+-----------------------
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+==101224== Memcheck, a memory error detector
+==101224== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==101224== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==101224== Command: ./testFreq /etc/services
+==101224== Parent PID: 101223
+==101224== 
+==101224== Invalid free() / delete / delete[] / realloc()
+==101224==    at 0x4C2F74B: operator delete[](void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==101224==    by 0x401068: main (testFreq.cpp:19)
+==101224==  Address 0x602360 is 0 bytes inside data symbol "_ZZ15readFrequenciesPKcE5freqs"
+==101224== 
+==101224== 
+==101224== HEAP SUMMARY:
+==101224==     in use at exit: 72,704 bytes in 1 blocks
+==101224==   total heap usage: 4 allocs, 4 frees, 85,544 bytes allocated
+==101224== 
+==101224== LEAK SUMMARY:
+==101224==    definitely lost: 0 bytes in 0 blocks
+==101224==    indirectly lost: 0 bytes in 0 blocks
+==101224==      possibly lost: 0 bytes in 0 blocks
+==101224==    still reachable: 0 bytes in 0 blocks
+==101224==         suppressed: 72,704 bytes in 1 blocks
+==101224== 
+==101224== For counts of detected and suppressed errors, rerun with: -v
+==101224== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+Testcase 3
+-----------------------
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+==101228== Memcheck, a memory error detector
+==101228== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==101228== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==101228== Command: ./testFreq /usr/share/dict/words
+==101228== Parent PID: 101227
+==101228== 
+==101228== Use of uninitialised value of size 8
+==101228==    at 0x4F3101E: std::istream::get() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.21)
+==101228==    by 0xFFF000E29: ???
+==101228==    by 0x400FB3: main (testFreq.cpp:10)
+==101228== 
+==101228== Jump to the invalid address stated on the next line
+==101228==    at 0x100000000: ???
+==101228==    by 0x400FB3: main (testFreq.cpp:10)
+==101228==  Address 0x100000000 is not stack'd, malloc'd or (recently) free'd
+==101228== 
+==101228== 
+==101228== Process terminating with default action of signal 11 (SIGSEGV)
+==101228==  Access not within mapped region at address 0x100000000
+==101228==    at 0x100000000: ???
+==101228==    by 0x400FB3: main (testFreq.cpp:10)
+==101228==  If you believe this happened as a result of a stack
+==101228==  overflow in your program's main thread (unlikely but
+==101228==  possible), you can try to increase the size of the
+==101228==  main thread stack using the --main-stacksize= flag.
+==101228==  The main thread stack size used in this run was 8388608.
+==101228== 
+==101228== HEAP SUMMARY:
+==101228==     in use at exit: 81,448 bytes in 3 blocks
+==101228==   total heap usage: 3 allocs, 0 frees, 81,448 bytes allocated
+==101228== 
+==101228== LEAK SUMMARY:
+==101228==    definitely lost: 0 bytes in 0 blocks
+==101228==    indirectly lost: 0 bytes in 0 blocks
+==101228==      possibly lost: 0 bytes in 0 blocks
+==101228==    still reachable: 8,744 bytes in 2 blocks
+==101228==         suppressed: 72,704 bytes in 1 blocks
+==101228== Reachable blocks (those to which a pointer was found) are not shown.
+==101228== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==101228== 
+==101228== For counts of detected and suppressed errors, rerun with: -v
+==101228== Use --track-origins=yes to see where uninitialised values come from
+==101228== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+Testcase 4
+-----------------------
+  - Valgrind reported errors
+Valgrind reported errors (test failed).
+==101232== Memcheck, a memory error detector
+==101232== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==101232== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==101232== Command: ./testFreq /usr/share/dict/cracklib-small
+==101232== Parent PID: 101231
+==101232== 
+==101232== Invalid free() / delete / delete[] / realloc()
+==101232==    at 0x4C2F74B: operator delete[](void*) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==101232==    by 0x401068: main (testFreq.cpp:19)
+==101232==  Address 0x602360 is 0 bytes inside data symbol "_ZZ15readFrequenciesPKcE5freqs"
+==101232== 
+==101232== 
+==101232== HEAP SUMMARY:
+==101232==     in use at exit: 72,704 bytes in 1 blocks
+==101232==   total heap usage: 4 allocs, 4 frees, 85,544 bytes allocated
+==101232== 
+==101232== LEAK SUMMARY:
+==101232==    definitely lost: 0 bytes in 0 blocks
+==101232==    indirectly lost: 0 bytes in 0 blocks
+==101232==      possibly lost: 0 bytes in 0 blocks
+==101232==    still reachable: 0 bytes in 0 blocks
+==101232==         suppressed: 72,704 bytes in 1 blocks
+==101232== 
+==101232== For counts of detected and suppressed errors, rerun with: -v
+==101232== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+
+Overall Grade: F
