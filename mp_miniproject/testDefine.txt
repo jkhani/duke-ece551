@@ -1,0 +1,29 @@
+// check define string works
+define (f x y z) = (+ (* x y) (- z 3))
+// check that excess spaces don't prevent function definition
+define              (tooManySpaces           here            here2)         =             (+           here            here2)
+// check that repeated variables get ignored
+define (repeatedVars x x y z) = (+ (* x y) (- z 3))
+// check invalid define string
+define (((()))) ===
+// check repeated function name
+define (f x y) = (+ (* x y))
+// check numbers as function name
+define (112 x y z) = (+ (* x y) (- z 3))
+// check all built-in functions are treated as valid operations (sin,cos,sqrt,log,pow,mod)
+define (sinFunc x) = (sin x)
+define (cosFunc x) = (cos x)
+define (sqrtFunc x) = (sqrt x)
+define (logFunc x) = (log x)
+define (powFunc x y) = (pow x y)
+define (modFunc x y) = (% x y)
+// check all built-in functions at once
+define (allFunc_Embedded x y z) = (sin (cos (sqrt (log (pow (% x y) (* (- x z) (/ x (+ x y))))))))
+// check that functions with a lot of parameters are handled correctly
+define (lotsVars a b c d e f g h i j k l m n o p q r s t u v w x y z) = (* (- (pow a (/ b (* c (% (sqrt d) (log e))))) (+ (pow f (/ g (* h (% (sqrt i) (log j))))) (pow k (/ l (* m (% (sqrt n) (log o))))))) (- (pow p (/ q (* r (% (sqrt s) (log t))))) (pow u (/ v (* w (% (sqrt x) (* y z)))))))
+// check that operation that expects 2 arguments throws error when only given 1
+define (simpleAdd x) = (+ x)
+// error is thrown when an invalid operator is placed in the prefix position
+define (nonOperator x y) = (a 2 (+ x y))
+// handles extra long variable names
+define (longVarNames jimmycrackcornidontcare whywouldyoucareiftodayisthedayornewyorkwheredithetimegowhenweweretherewasabirdpicturingglassedinwallswithcakeanddoggieseatcakeandotherstuf) = (% jimmycrackcornidontcare whywouldyoucareiftodayisthedayornewyorkwheredithetimegowhenweweretherewasabirdpicturingglassedinwallswithcakeanddoggieseatcakeandotherstuf)

@@ -1,0 +1,8 @@
+// define function to test gradient 'f(x) = x^2-6*x+5
+define (f x) = (+ (- (* x x) (* 6 x)) 5)
+// min f(x) = -4
+min f .01 .0001 2 10000
+// define function to test gradient 'g(x y z) = x^2+y^2+z^2
+define (g x y z) = (+ (* x x) (+ (* y y) (* z z)))
+min g .01 1 100 -2 10000
+max g .01 1 100 -2 10000

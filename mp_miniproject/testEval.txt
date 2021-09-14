@@ -1,0 +1,35 @@
+// define function to check evaluate
+define (f x y z) = (+ (* x y) (- z 3))
+// check evaluate string works, should print 'f(3 4.2 5) = 14.6'
+evaluate (f 3 4.2 5)
+// check evaluate string works, should print 'f(-1 9.2 6) = -6.2'
+evaluate (f -1 9.2 6)
+// define second function to check evaluate when function as input
+define (g x y) = (/ x y);
+// check that evaluate with function as input 'f( g(6 2) 4.2 5) = 14.6' 
+evaluate (f (g 6 2) 4.2 5)
+// check with multiple embedded functions as input 'f( g(6 2) f(1 1 1) 3) = -3'
+evaluate (f (g 6 2) (f 1 1 1) 3)
+// check works with really large numbers 'f(999999999 999999999 999999999) = 1e+18'
+evaluate (f 999999999 999999999 999999999)
+// define all built-in functions to test evaluate (sin,cos,sqrt,log,pow,mod)
+define (sinFunc x) = (sin x)
+define (cosFunc x) = (cos x)
+define (sqrtFunc x) = (sqrt x)
+define (logFunc x) = (log x)
+define (powFunc x y) = (pow x y)
+define (modFunc x y) = (% x y)
+// sin(0) = 0
+evaluate (sinFunc 0)
+// cos(0) = 1
+evaluate (cosFunc 0)
+// sqrt(4) = 2
+evaluate (sqrtFunc 4)
+// log(100) = ~4.6
+evaluate (logFunc 100)
+// pow(3, 2) = 9
+evaluate (powFunc 3 2)
+// mod(10 2) = 0
+evaluate (modFunc 10 2)
+// check eval works with really small, large, negative numbers 'f(x y z) = 1.015e+58'
+evaluate (f .000000000000000000000000000000000001 -999999999999999999999999999999999 10149203213412654654654654651321645987987754613216565465413)

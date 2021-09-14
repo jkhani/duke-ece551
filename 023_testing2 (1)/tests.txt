@@ -1,0 +1,11 @@
+aaaaa aaaaa
+aabbc aaabb
+abcde abcde
+aaaaaa aaaaaa
+aa aa
+aaaac abcde
+AaaAa AAAAA
+aaaaa aaaaaaa
+aa  a   b
+aabcd aeee
+           

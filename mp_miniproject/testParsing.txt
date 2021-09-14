@@ -1,0 +1,9 @@
+define (allFunc_Embedded x y z) = (sin (cos (sqrt (log (pow (% x y) (* (- x z) (/ x (+ x y))))))))
+define (easyAdd x y) = (+ x y)
+evaluate (easyAdd 1 2)
+define (sinFunc x) = (sin x)
+define (multiParenslhs x y z) = (- (+ x (sin y)) z)
+// catch operation that expects 2 arguments but only give one
+define (simpleAdd x) = (+ x)
+// testing lots of variables
+define (lotsVars a b c d e f g h i j k l m n o p q r s t u v w x y z) = (* (- (pow a (/ b (* c (% (sqrt d) (log e))))) (+ (pow f (/ g (* h (% (sqrt i) (log j))))) (pow k (/ l (* m (% (sqrt n) (log o))))))) (- (pow p (/ q (* r (% (sqrt s) (log t))))) (pow u (/ v (* w (% (sqrt x) (* y z)))))))

@@ -1,0 +1,514 @@
+0000000000000000000000000000000000000000 de00a931eaea4672629a9a44c3c0e1db03637978 jmk88 <jmk88@duke.edu> 1515532597 -0500	clone: from /home/assignments/git/jmk88/ece551
+de00a931eaea4672629a9a44c3c0e1db03637978 0832ec16912bae16e5457fe5a6d0fd1ab74013da jmk88 <jmk88@duke.edu> 1515612866 -0500	pull: Fast-forward
+0832ec16912bae16e5457fe5a6d0fd1ab74013da 97c8e8ced7918ab74e6cff6ed46af43f12fbdc04 jmk88 <jmk88@duke.edu> 1515613017 -0500	commit: Add myNetID.txt file with net id
+97c8e8ced7918ab74e6cff6ed46af43f12fbdc04 228de34ba9a6bf069308d819c8097248fbe9d2f0 jmk88 <jmk88@duke.edu> 1515614783 -0500	pull: Fast-forward
+228de34ba9a6bf069308d819c8097248fbe9d2f0 fef1acdda9c486149a23f60dfaed9b233e4c8f84 jmk88 <jmk88@duke.edu> 1515782398 -0500	commit: Add answers.txt for 001
+fef1acdda9c486149a23f60dfaed9b233e4c8f84 daeceb84c75777e0fb2fabda302d0d1e6983ffe6 jmk88 <jmk88@duke.edu> 1515783614 -0500	commit: Change Q10 answer in answers.txt
+daeceb84c75777e0fb2fabda302d0d1e6983ffe6 8f8070d329b3625a6aa5cd3ff72ffaa32df8c4aa jmk88 <jmk88@duke.edu> 1515783724 -0500	commit: Add .gitignore file
+8f8070d329b3625a6aa5cd3ff72ffaa32df8c4aa 3135a3c2be487db9a9e9319c7e9f74d61e18c01b jmk88 <jmk88@duke.edu> 1515783797 -0500	commit: Edit .gitignore file
+3135a3c2be487db9a9e9319c7e9f74d61e18c01b af56786fafb4839e212bc13e2c589442e16f632f jmk88 <jmk88@duke.edu> 1515787120 -0500	commit: Change Q7 answer in answers.txt
+af56786fafb4839e212bc13e2c589442e16f632f d37061acb72be5b6609ccb383e9e2202399b572a jmk88 <jmk88@duke.edu> 1515787128 -0500	pull: Merge made by the 'recursive' strategy.
+d37061acb72be5b6609ccb383e9e2202399b572a f5ce515b44244bb88c61453b21d35e99397de036 jmk88 <jmk88@duke.edu> 1515787323 -0500	pull: Fast-forward
+f5ce515b44244bb88c61453b21d35e99397de036 f10a1b33eb94ee63c8c1888cca50995b093c51c4 jmk88 <jmk88@duke.edu> 1515792518 -0500	commit: Add done.txt file
+f10a1b33eb94ee63c8c1888cca50995b093c51c4 c43f82bd1ac7a06a8fce494a8fd5c2315b9a9af5 jmk88 <jmk88@duke.edu> 1515792576 -0500	pull: Fast-forward
+c43f82bd1ac7a06a8fce494a8fd5c2315b9a9af5 ed8bbd9bc5769c26049f3eaf9f46e9a604df6d60 jmk88 <jmk88@duke.edu> 1516040426 -0500	commit: Add answers.txt file for Ch3 rq
+ed8bbd9bc5769c26049f3eaf9f46e9a604df6d60 86d2aec99ca53a8c118b38f07ec40ef886cff666 jmk88 <jmk88@duke.edu> 1516040621 -0500	pull: Fast-forward
+86d2aec99ca53a8c118b38f07ec40ef886cff666 0fb286409031c9e41d394238e4956ff30d30a30c jmk88 <jmk88@duke.edu> 1516041426 -0500	commit: Add answer.txt for assignment 4
+0fb286409031c9e41d394238e4956ff30d30a30c 176a62113de4e678fc3319f31bc31678ab4d41a1 jmk88 <jmk88@duke.edu> 1516042969 -0500	commit: Add answer.txt for assignment 5
+176a62113de4e678fc3319f31bc31678ab4d41a1 f061078ce25c7106245ea7d5c6bf23d9d99add1b jmk88 <jmk88@duke.edu> 1516042978 -0500	pull: Merge made by the 'recursive' strategy.
+f061078ce25c7106245ea7d5c6bf23d9d99add1b 8fc64b75afac6d4f9fac50e5fef046d84bd1655f jmk88 <jmk88@duke.edu> 1516043023 -0500	pull: Fast-forward
+8fc64b75afac6d4f9fac50e5fef046d84bd1655f b92d5ce525a34380d93fba6b6c4b85204d86d605 jmk88 <jmk88@duke.edu> 1516043296 -0500	commit: Add errors.txt and code.c for assignment 6
+b92d5ce525a34380d93fba6b6c4b85204d86d605 2ac48bcdb394e2ae2ae37dc931824dc323892fef jmk88 <jmk88@duke.edu> 1516043359 -0500	pull: Fast-forward
+2ac48bcdb394e2ae2ae37dc931824dc323892fef eee9b631aa6cae47a3950772db32ef4e2e2b352b jmk88 <jmk88@duke.edu> 1516044025 -0500	commit: Add answers.txt for Ch3 rq
+eee9b631aa6cae47a3950772db32ef4e2e2b352b 3f8bb33e239c3d5b544fcdc56082e3cf7dd39839 jmk88 <jmk88@duke.edu> 1516044057 -0500	pull: Fast-forward
+3f8bb33e239c3d5b544fcdc56082e3cf7dd39839 68988f111c3cc8264bbb6e84acd93a63bd5bf4c7 jmk88 <jmk88@duke.edu> 1516044076 -0500	pull: Fast-forward
+68988f111c3cc8264bbb6e84acd93a63bd5bf4c7 5208cb622837931999689586dc81124d8abd1405 jmk88 <jmk88@duke.edu> 1516128761 -0500	commit: Edited .gitignore
+5208cb622837931999689586dc81124d8abd1405 ddd65c6d37dad5e5270606769b7c3eed7246a2b0 jmk88 <jmk88@duke.edu> 1516128798 -0500	commit: Add answer.txt for assignment 8
+ddd65c6d37dad5e5270606769b7c3eed7246a2b0 ffc86a6ad54ac095789f6d469844ae75fb18496c jmk88 <jmk88@duke.edu> 1516129941 -0500	pull: Fast-forward
+ffc86a6ad54ac095789f6d469844ae75fb18496c 66343a0481a5ee606a2f6ff6ba130b8be1f58939 jmk88 <jmk88@duke.edu> 1516150668 -0500	commit: Add answer.txt for assignment 9
+66343a0481a5ee606a2f6ff6ba130b8be1f58939 e5cf87e147660b4b14ce023becdfdd0099a9ed49 jmk88 <jmk88@duke.edu> 1516150911 -0500	commit: Fix answer.txt
+e5cf87e147660b4b14ce023becdfdd0099a9ed49 bfdd86877161c2bc30c11431956f1ceddf2b177a jmk88 <jmk88@duke.edu> 1516150923 -0500	pull: Merge made by the 'recursive' strategy.
+bfdd86877161c2bc30c11431956f1ceddf2b177a a2d7cefc73bf6d8048cc1b3f210cae6b83750579 jmk88 <jmk88@duke.edu> 1516150986 -0500	pull: Fast-forward
+a2d7cefc73bf6d8048cc1b3f210cae6b83750579 509b18471571c44f6e865190e2547be374544617 jmk88 <jmk88@duke.edu> 1516150995 -0500	pull: Fast-forward
+509b18471571c44f6e865190e2547be374544617 57b8d3423f67b80c9a0bf1958c15d2b54bf4834d jmk88 <jmk88@duke.edu> 1516157259 -0500	commit: Add answers.txt file for assignment 10
+57b8d3423f67b80c9a0bf1958c15d2b54bf4834d 8f2e9b284db3f41db95e82d63ba98689df07e1f4 jmk88 <jmk88@duke.edu> 1516157428 -0500	pull: Fast-forward
+8f2e9b284db3f41db95e82d63ba98689df07e1f4 c7fdfdf115d3dc3c08a531c61b171982c266ef3e jmk88 <jmk88@duke.edu> 1516161146 -0500	commit: Add answers.txt for assignment 11
+c7fdfdf115d3dc3c08a531c61b171982c266ef3e e878c703722033c5d0336f6b05379c8eabd7f631 jmk88 <jmk88@duke.edu> 1516161186 -0500	pull: Fast-forward
+e878c703722033c5d0336f6b05379c8eabd7f631 b823f70fa449e4965cf8552e20cf0bccb9775c4a jmk88 <jmk88@duke.edu> 1516161342 -0500	commit: Edit answers.txt
+b823f70fa449e4965cf8552e20cf0bccb9775c4a f7f2c64b82b6e4b976eaf1f0ad8ff4aeb7a95fef jmk88 <jmk88@duke.edu> 1516161389 -0500	pull: Fast-forward
+f7f2c64b82b6e4b976eaf1f0ad8ff4aeb7a95fef 6e7ca57728476dda1d41f37daeb185d046a91f21 jmk88 <jmk88@duke.edu> 1516162754 -0500	commit: Fix line 6 and 7 in answers.txt
+6e7ca57728476dda1d41f37daeb185d046a91f21 028d04fc1bc33995c7aae2cc436d99e034f5f7f0 jmk88 <jmk88@duke.edu> 1516162777 -0500	pull: Fast-forward
+028d04fc1bc33995c7aae2cc436d99e034f5f7f0 64e60e47624ad0afed1aa09978e42b65f0fe2fd0 jmk88 <jmk88@duke.edu> 1516162886 -0500	commit: Fix line 7 in answers.txt
+64e60e47624ad0afed1aa09978e42b65f0fe2fd0 d85d1d205d84dd102f9185233ea4d90209a6b5d5 jmk88 <jmk88@duke.edu> 1516162934 -0500	pull: Fast-forward
+d85d1d205d84dd102f9185233ea4d90209a6b5d5 831221d7cb7aac106d2641b8010a32876e9f4ee2 jmk88 <jmk88@duke.edu> 1516163396 -0500	commit: Fix line 7 in answers.txt
+831221d7cb7aac106d2641b8010a32876e9f4ee2 027d984e47e232a5656963c7070571e91db39570 jmk88 <jmk88@duke.edu> 1516163461 -0500	pull: Fast-forward
+027d984e47e232a5656963c7070571e91db39570 43fabb4be58976810f72b32672299a26c02dfa75 jmk88 <jmk88@duke.edu> 1516164218 -0500	commit: Add mytypes.c file for assignment 12
+43fabb4be58976810f72b32672299a26c02dfa75 194a6c72fb90b58f98dbe4aab5f5da78817b8d7f jmk88 <jmk88@duke.edu> 1516164260 -0500	pull: Fast-forward
+194a6c72fb90b58f98dbe4aab5f5da78817b8d7f f785870b52a628ada4997a92343a7eaa1826a795 jmk88 <jmk88@duke.edu> 1516165788 -0500	commit: Add answers.txt for assignment 13
+f785870b52a628ada4997a92343a7eaa1826a795 67e006b1ec1d5e97d233db45d9a5352df7dc4f99 jmk88 <jmk88@duke.edu> 1516165826 -0500	pull: Fast-forward
+67e006b1ec1d5e97d233db45d9a5352df7dc4f99 781ebab88047f1346ff20cec1b9ac8263839a1be jmk88 <jmk88@duke.edu> 1516166547 -0500	commit: Fix 1 answer in answers.txt
+781ebab88047f1346ff20cec1b9ac8263839a1be 098e4bde6916f8428c79e2a554ad0aabd83c630f jmk88 <jmk88@duke.edu> 1516166587 -0500	pull: Fast-forward
+098e4bde6916f8428c79e2a554ad0aabd83c630f e8c29ab3e794c73adb7f7f8f4f58b336588a0690 jmk88 <jmk88@duke.edu> 1516166667 -0500	commit: Fix 1 answer in answers.txt
+e8c29ab3e794c73adb7f7f8f4f58b336588a0690 8686192694e64448c6e509b713ca452ffb661d87 jmk88 <jmk88@duke.edu> 1516166772 -0500	pull: Fast-forward
+8686192694e64448c6e509b713ca452ffb661d87 f42bb6c5a5431ab8eb18d45993bc91e8f5a46c16 jmk88 <jmk88@duke.edu> 1516167481 -0500	commit: Edit code.c for assignment 14
+f42bb6c5a5431ab8eb18d45993bc91e8f5a46c16 3144ff54d5fe72d9aaae2c03c8b2097d67e4ccbb jmk88 <jmk88@duke.edu> 1516167505 -0500	pull: Fast-forward
+3144ff54d5fe72d9aaae2c03c8b2097d67e4ccbb 40bc530ca084a600043cecfcfd2341cb0aaafc0d jmk88 <jmk88@duke.edu> 1516167708 -0500	commit: Fix line in code.c
+40bc530ca084a600043cecfcfd2341cb0aaafc0d 65f3d721a6646e1c7a54f07a9c1fd8b2210f79a2 jmk88 <jmk88@duke.edu> 1516167749 -0500	pull: Fast-forward
+65f3d721a6646e1c7a54f07a9c1fd8b2210f79a2 31936e35dbdc7a1d1f2a664551a1360ecec9b35a jmk88 <jmk88@duke.edu> 1516168943 -0500	commit: Edit code2.c for assignment 15
+31936e35dbdc7a1d1f2a664551a1360ecec9b35a 9b3eada0c739abaed936a926ae9835b721c49d0b jmk88 <jmk88@duke.edu> 1516168968 -0500	pull: Fast-forward
+9b3eada0c739abaed936a926ae9835b721c49d0b 5778be2c2e77088a20a369f73c56254323e90362 jmk88 <jmk88@duke.edu> 1516204706 -0500	commit: Edit squares.c for assignment 16
+5778be2c2e77088a20a369f73c56254323e90362 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516205008 -0500	pull: Fast-forward
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516394342 -0500	checkout: moving from master to testing
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516395480 -0500	checkout: moving from testing to master
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516395494 -0500	checkout: moving from master to testing
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516396597 -0500	checkout: moving from testing to master
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516396623 -0500	checkout: moving from master to testing
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 aeed7fbd6695c2d9c418baf73ac13e95acdba748 jmk88 <jmk88@duke.edu> 1516396638 -0500	checkout: moving from testing to master
+aeed7fbd6695c2d9c418baf73ac13e95acdba748 edd4823c13034727a8c8232c30f9f493158cc0a0 jmk88 <jmk88@duke.edu> 1516539882 -0500	commit: Put parentheses around operations in conditionals in squares.c
+edd4823c13034727a8c8232c30f9f493158cc0a0 8d519fb3af9d85f9ad0716b2bd39d3dd1a100823 jmk88 <jmk88@duke.edu> 1516539926 -0500	pull: Fast-forward
+8d519fb3af9d85f9ad0716b2bd39d3dd1a100823 d0950fa246b5e16fd0a4f3226027b3f7e697425e jmk88 <jmk88@duke.edu> 1516540000 -0500	pull: Fast-forward
+d0950fa246b5e16fd0a4f3226027b3f7e697425e afca0c327c824f4a3e9e0dff202b6d88f8d06577 jmk88 <jmk88@duke.edu> 1516594078 -0500	commit: Removed operation for between conditionals, used && structure instead in squares.c
+afca0c327c824f4a3e9e0dff202b6d88f8d06577 b2dae9a2473315bbe652190da790180492162980 jmk88 <jmk88@duke.edu> 1516594123 -0500	pull: Fast-forward
+b2dae9a2473315bbe652190da790180492162980 7f23b191e83937b4cb7c06ad0d918b2dcbfebfdc jmk88 <jmk88@duke.edu> 1516594190 -0500	commit: Removed 'return 0' in squares.c
+7f23b191e83937b4cb7c06ad0d918b2dcbfebfdc 78fff8f9920668ff4fd4a5901f871ea0b7a73d3b jmk88 <jmk88@duke.edu> 1516594304 -0500	commit: Fixed left side of between conditional so that <= was >= in squares.c
+78fff8f9920668ff4fd4a5901f871ea0b7a73d3b 821fdb5fb071cbd080b60c8ee6ae0db59bfa89e1 jmk88 <jmk88@duke.edu> 1516594320 -0500	pull: Merge made by the 'recursive' strategy.
+821fdb5fb071cbd080b60c8ee6ae0db59bfa89e1 5976125210ab68ed753a1dd5363a483324147303 jmk88 <jmk88@duke.edu> 1516594475 -0500	pull: Fast-forward
+5976125210ab68ed753a1dd5363a483324147303 983664afc54f72f0d2095d9f7eb8a268016aedcb jmk88 <jmk88@duke.edu> 1516595476 -0500	commit: Create answer.txt for assignment 17
+983664afc54f72f0d2095d9f7eb8a268016aedcb 8aeb234bf6ea719bc2f6d52b7e0e6996e4727ff4 jmk88 <jmk88@duke.edu> 1516595528 -0500	pull: Fast-forward
+8aeb234bf6ea719bc2f6d52b7e0e6996e4727ff4 c81e2dd433df658cf4e2a65c6e2367b1a4b68e48 jmk88 <jmk88@duke.edu> 1516598964 -0500	commit: Create answer.txt file for ch 5 rq
+c81e2dd433df658cf4e2a65c6e2367b1a4b68e48 735e9c29f6baf65ea2d812fb0e01b9f7f2ca035c jmk88 <jmk88@duke.edu> 1516598994 -0500	pull: Fast-forward
+735e9c29f6baf65ea2d812fb0e01b9f7f2ca035c 470921e03fb039fd84bd0d5db4328b044dc17c7d jmk88 <jmk88@duke.edu> 1516600055 -0500	commit: Change answer for q3 of ch5 rq
+470921e03fb039fd84bd0d5db4328b044dc17c7d 2f676fd028dff72c293bcddce738b81928eec5a9 jmk88 <jmk88@duke.edu> 1516600082 -0500	pull: Fast-forward
+2f676fd028dff72c293bcddce738b81928eec5a9 e066d420b632716eab67bf5bc9d5203fe80bf01e jmk88 <jmk88@duke.edu> 1516600136 -0500	commit: Change answer for q3 of ch5 rq
+e066d420b632716eab67bf5bc9d5203fe80bf01e 67287c7c18c941ab5e68b0a03ee987c45ec63074 jmk88 <jmk88@duke.edu> 1516600170 -0500	pull: Fast-forward
+67287c7c18c941ab5e68b0a03ee987c45ec63074 90f510de5b0b8fbc0fe101d141eb59b60406d92a jmk88 <jmk88@duke.edu> 1516771778 -0500	commit: Create retirement.c file for assignment 19
+90f510de5b0b8fbc0fe101d141eb59b60406d92a 846ec37bd00e7681635b05b708cfbbb4a13506f2 jmk88 <jmk88@duke.edu> 1516771871 -0500	commit: Push compiled retirement file
+846ec37bd00e7681635b05b708cfbbb4a13506f2 46732f4e1047bda19f461ab04d7e8b19413751f8 jmk88 <jmk88@duke.edu> 1516771909 -0500	pull: Fast-forward
+46732f4e1047bda19f461ab04d7e8b19413751f8 24140c144710d8ee9b22c1ae229996f3c6358380 jmk88 <jmk88@duke.edu> 1516772337 -0500	commit: Edit retirement.c to comply with expectation (lowercased variable names, typedef struct...for alias)
+24140c144710d8ee9b22c1ae229996f3c6358380 c3b0845ae90adeebace5aa133a7d920b86c9373e jmk88 <jmk88@duke.edu> 1516772375 -0500	pull: Fast-forward
+c3b0845ae90adeebace5aa133a7d920b86c9373e 1da716a5053c49fbda2030a2cb094e7b3d29d7fb jmk88 <jmk88@duke.edu> 1516818956 -0500	commit: Edit rectangle.c for assignment 20
+1da716a5053c49fbda2030a2cb094e7b3d29d7fb 7396059f0da2d0d2d6ec55f2c818c4186ce04aac jmk88 <jmk88@duke.edu> 1516818998 -0500	pull: Fast-forward
+7396059f0da2d0d2d6ec55f2c818c4186ce04aac f5f6e2993168938efa7183394fde044daa6ad87e jmk88 <jmk88@duke.edu> 1516819487 -0500	commit: Fix conditional statement in intersection function of rectangle.c
+f5f6e2993168938efa7183394fde044daa6ad87e 02293649828a75c154289187619bacfbaa788a91 jmk88 <jmk88@duke.edu> 1516819528 -0500	pull: Fast-forward
+02293649828a75c154289187619bacfbaa788a91 4f3d76b46a2643dd50a055220c008dece14c4355 jmk88 <jmk88@duke.edu> 1516898819 -0500	commit: Add answers.txt file for ch6 rq
+4f3d76b46a2643dd50a055220c008dece14c4355 df29e13d28875802ddbecab038e2c9e434ce7017 jmk88 <jmk88@duke.edu> 1516899139 -0500	commit: Fixed answers.txt
+df29e13d28875802ddbecab038e2c9e434ce7017 96565b734b9615248aab0046b70bcbf7205fd54e jmk88 <jmk88@duke.edu> 1516899144 -0500	pull: Merge made by the 'recursive' strategy.
+96565b734b9615248aab0046b70bcbf7205fd54e 0b83c643842c5fee845816bb071658318acc9263 jmk88 <jmk88@duke.edu> 1516899186 -0500	pull: Fast-forward
+0b83c643842c5fee845816bb071658318acc9263 9b9938435b10527df6f0b4bcc710436ba90716c2 jmk88 <jmk88@duke.edu> 1516987185 -0500	commit: Add input.* files for each broken isPrime program
+9b9938435b10527df6f0b4bcc710436ba90716c2 66850d56e99675347f3bf51b382a47d92b760845 jmk88 <jmk88@duke.edu> 1516987209 -0500	pull: Fast-forward
+66850d56e99675347f3bf51b382a47d92b760845 e000df9d439f4aa8abf3cccf211b130b960283ae jmk88 <jmk88@duke.edu> 1516987216 -0500	pull: Fast-forward
+e000df9d439f4aa8abf3cccf211b130b960283ae 8ef5467460448a54079d8a112369eee440128ee1 jmk88 <jmk88@duke.edu> 1516992106 -0500	commit: Add tests.txt file with test cases for run_all.sh
+8ef5467460448a54079d8a112369eee440128ee1 ff1358030699d1cce611334b9ab66408d96abc8d jmk88 <jmk88@duke.edu> 1516992127 -0500	pull: Fast-forward
+ff1358030699d1cce611334b9ab66408d96abc8d 91cb5869f79a2254ae5ccc03521681e9025cf9a2 jmk88 <jmk88@duke.edu> 1516992129 -0500	pull: Fast-forward
+91cb5869f79a2254ae5ccc03521681e9025cf9a2 051c694c1a525f8e92267b54a79983ac000710f2 jmk88 <jmk88@duke.edu> 1516993338 -0500	commit: Add input.txt file for running game
+051c694c1a525f8e92267b54a79983ac000710f2 6a8540a78d7536c62908d91efeea7e83cfed5fe4 jmk88 <jmk88@duke.edu> 1516993366 -0500	pull: Fast-forward
+6a8540a78d7536c62908d91efeea7e83cfed5fe4 c639a22a08a35bec5701cb100135c7cb9aa5e620 jmk88 <jmk88@duke.edu> 1517246136 -0500	commit: Add answers.txt for ch7 rq
+c639a22a08a35bec5701cb100135c7cb9aa5e620 5963a39cc54253d1288646eab04fcc4ed63c8047 jmk88 <jmk88@duke.edu> 1517246183 -0500	pull: Fast-forward
+5963a39cc54253d1288646eab04fcc4ed63c8047 089ce504e003273106cf84d367694c3843e3fc91 jmk88 <jmk88@duke.edu> 1517246458 -0500	commit: Changed 1 answer in answers.txt
+089ce504e003273106cf84d367694c3843e3fc91 5b73d8d0ab6767cc8f9dc009f41416638324ef6c jmk88 <jmk88@duke.edu> 1517246527 -0500	pull: Fast-forward
+5b73d8d0ab6767cc8f9dc009f41416638324ef6c 1af040e9dbdb9ec0ef5f7dacb2aba1f4b91c68c9 jmk88 <jmk88@duke.edu> 1517248033 -0500	commit: Add answer.txt file for handwritten results of test.c
+1af040e9dbdb9ec0ef5f7dacb2aba1f4b91c68c9 9ef62225e803b13494eeb8bbb2146e4af9c62e54 jmk88 <jmk88@duke.edu> 1517248107 -0500	pull: Fast-forward
+9ef62225e803b13494eeb8bbb2146e4af9c62e54 d96edddf245723af7fc0db169fdb0a78cee48307 jmk88 <jmk88@duke.edu> 1517258628 -0500	commit: Create unit tests for power function
+d96edddf245723af7fc0db169fdb0a78cee48307 c9f82e326d8d1bd07fa4b7d7dd87fba2f2bb7f6a jmk88 <jmk88@duke.edu> 1517258693 -0500	commit: Add compiled test-power file
+c9f82e326d8d1bd07fa4b7d7dd87fba2f2bb7f6a 68bfa88f28c136ce93a5bbde246d3b977c34ea30 jmk88 <jmk88@duke.edu> 1517258716 -0500	pull: Fast-forward
+68bfa88f28c136ce93a5bbde246d3b977c34ea30 eeefaac1b927886e3b7b944c3e1bb8cd47c254ac jmk88 <jmk88@duke.edu> 1517258735 -0500	pull: Fast-forward
+eeefaac1b927886e3b7b944c3e1bb8cd47c254ac 1aed982b5b77c98e67cf18fb711caab2002cec20 jmk88 <jmk88@duke.edu> 1517260766 -0500	commit: Add files for power function
+1aed982b5b77c98e67cf18fb711caab2002cec20 b816bed3106b07f2ca244cfcc70da96bf9046df4 jmk88 <jmk88@duke.edu> 1517260782 -0500	pull: Fast-forward
+b816bed3106b07f2ca244cfcc70da96bf9046df4 3f1f408e43b9c0631ebce2a07e27c4a1ecde5b91 jmk88 <jmk88@duke.edu> 1517260876 -0500	commit: Add corner case for exp=0
+3f1f408e43b9c0631ebce2a07e27c4a1ecde5b91 d4596347d3643df66a1506c6fab117a2840a9f2c jmk88 <jmk88@duke.edu> 1517260893 -0500	pull: Fast-forward
+d4596347d3643df66a1506c6fab117a2840a9f2c f5b30fad5e86b05dbc3b682aca707e22f315592f jmk88 <jmk88@duke.edu> 1517363312 -0500	commit: Create answers.txt file for ch 8 rq
+f5b30fad5e86b05dbc3b682aca707e22f315592f b968239a632a6b4670c393f70e65385f39cdfdbc jmk88 <jmk88@duke.edu> 1517363502 -0500	commit: Changes to .gitignore to ignore step* files in 029 for now
+b968239a632a6b4670c393f70e65385f39cdfdbc 725707c1298ee16394f7bf819deef94727e99da8 jmk88 <jmk88@duke.edu> 1517363605 -0500	pull: Fast-forward
+725707c1298ee16394f7bf819deef94727e99da8 2013162f6313f39919ac078c71953d86df20bb40 jmk88 <jmk88@duke.edu> 1517364259 -0500	pull: Fast-forward
+2013162f6313f39919ac078c71953d86df20bb40 8baabb268c0fcd12c49942aacee8167df8cbdbe6 jmk88 <jmk88@duke.edu> 1517364929 -0500	commit: Change answers.txt: Q9->B
+8baabb268c0fcd12c49942aacee8167df8cbdbe6 351213047b5bb238e7aa404f4f167ebb7ac24607 jmk88 <jmk88@duke.edu> 1517364948 -0500	pull: Fast-forward
+351213047b5bb238e7aa404f4f167ebb7ac24607 3730243d8785c43245e8de36b96e97c554857740 jmk88 <jmk88@duke.edu> 1517365421 -0500	commit: Change answers.txt: Q11->D
+3730243d8785c43245e8de36b96e97c554857740 eb931d1266e83c17aae09f58a32ecaf98cbe46be jmk88 <jmk88@duke.edu> 1517401031 -0500	pull: Fast-forward
+eb931d1266e83c17aae09f58a32ecaf98cbe46be 5dc0010c81849823fc1a709253d38283681d1336 jmk88 <jmk88@duke.edu> 1517401461 -0500	commit: Change answers.txt: Q3->D
+5dc0010c81849823fc1a709253d38283681d1336 52392a04a5d4c41a3e22b8f4b2eaec55b05dba7c jmk88 <jmk88@duke.edu> 1517401481 -0500	pull: Fast-forward
+52392a04a5d4c41a3e22b8f4b2eaec55b05dba7c d942f00fc13e35c2669159cb867d6be20a202fd4 jmk88 <jmk88@duke.edu> 1517402057 -0500	commit: Change answers.txt: Q17->D
+d942f00fc13e35c2669159cb867d6be20a202fd4 bb938eb7c3f78bfb5b31a232035b08b347e1bc2c jmk88 <jmk88@duke.edu> 1517402070 -0500	pull: Fast-forward
+bb938eb7c3f78bfb5b31a232035b08b347e1bc2c 29b178736590c0d13ecb389d666f72a59e077ec5 jmk88 <jmk88@duke.edu> 1517402086 -0500	pull: Fast-forward
+29b178736590c0d13ecb389d666f72a59e077ec5 10e88f3ac71f78e98b4567bac714d3bb18cc1215 jmk88 <jmk88@duke.edu> 1517403297 -0500	commit: Create answer.txt file of hand-written output for test.c
+10e88f3ac71f78e98b4567bac714d3bb18cc1215 4e1c7e1504c668f2d2283be91be9b61f03f13077 jmk88 <jmk88@duke.edu> 1517403341 -0500	commit: Add Makefile, test.o, and test file for running test.c
+4e1c7e1504c668f2d2283be91be9b61f03f13077 931834e7e1ba808974ea3ef7123b52ce47100e4e jmk88 <jmk88@duke.edu> 1517403394 -0500	pull: Fast-forward
+931834e7e1ba808974ea3ef7123b52ce47100e4e 2354e786b1f6db0a793170dee05200bb4f5514a7 jmk88 <jmk88@duke.edu> 1517404095 -0500	commit: Create answer.txt of handwritten results of test.c, add Makefile, test.o, and test files to run test.c
+2354e786b1f6db0a793170dee05200bb4f5514a7 bef635605a4a6a0b8b4f2ab749bfa5a5de9e7010 jmk88 <jmk88@duke.edu> 1517404127 -0500	pull: Fast-forward
+bef635605a4a6a0b8b4f2ab749bfa5a5de9e7010 0d09bfafdef5f66f1b0ad2223423c927879fb3d7 jmk88 <jmk88@duke.edu> 1517440337 -0500	commit: Create answers.txt for Ch 9 rq
+0d09bfafdef5f66f1b0ad2223423c927879fb3d7 9a78a76b1c7595a077aab502d29b05fafd569f1f jmk88 <jmk88@duke.edu> 1517440345 -0500	pull: Fast-forward
+9a78a76b1c7595a077aab502d29b05fafd569f1f b66fa92b92a622871def52cc10b8ef2d95e00a4a jmk88 <jmk88@duke.edu> 1517442396 -0500	commit: Change 5 answers in answers.txt
+b66fa92b92a622871def52cc10b8ef2d95e00a4a ecce82ddf2d111ec1946db2876399022b24d60c6 jmk88 <jmk88@duke.edu> 1517442406 -0500	pull: Fast-forward
+ecce82ddf2d111ec1946db2876399022b24d60c6 28923344a6bc454ca80fc63c499701882b89fd52 jmk88 <jmk88@duke.edu> 1517443275 -0500	commit: Change answers.txt: Q5->C
+28923344a6bc454ca80fc63c499701882b89fd52 0ef4f68dfa3b0ece84c791162463d6724aeb9ead jmk88 <jmk88@duke.edu> 1517443294 -0500	pull: Fast-forward
+0ef4f68dfa3b0ece84c791162463d6724aeb9ead d62a627a20ce23605564d6c03fd141d1e69e720d jmk88 <jmk88@duke.edu> 1517443393 -0500	commit: Change answers.txt: Q6B->C
+d62a627a20ce23605564d6c03fd141d1e69e720d 27e95cae2b5e3e66e8aa7ac85ca76d4b0b8d6c4a jmk88 <jmk88@duke.edu> 1517443415 -0500	pull: Fast-forward
+27e95cae2b5e3e66e8aa7ac85ca76d4b0b8d6c4a 2f919bd40c81c76bd4885b4ee11a9a9b8663b57b jmk88 <jmk88@duke.edu> 1517445398 -0500	commit: Change answers.txt: Q7B->D and Q9B->C
+2f919bd40c81c76bd4885b4ee11a9a9b8663b57b 67fe809c1470da40a65b91dee725fbd7c880285b jmk88 <jmk88@duke.edu> 1517445425 -0500	pull: Fast-forward
+67fe809c1470da40a65b91dee725fbd7c880285b ca6f7ec745985b462f320e90c4a18477f975d9c0 jmk88 <jmk88@duke.edu> 1517446942 -0500	commit: Change answers.txt: Q8B->D
+ca6f7ec745985b462f320e90c4a18477f975d9c0 f7ae05b8f879a09ca45fb972d4ffe9b451b95aa0 jmk88 <jmk88@duke.edu> 1517452602 -0500	commit: Edit .gitignore to ignore step2 and step3 for now, create Makefile to compile step1.c, add edited README file with instructions following honor-statement submission, edit step1.c to have seq1 and printSeq1Range functions
+f7ae05b8f879a09ca45fb972d4ffe9b451b95aa0 a9a7d2d6691a5cf476091d9cf57806b3ac0219a5 jmk88 <jmk88@duke.edu> 1517452659 -0500	commit: Fix typo (; before } in main() )
+a9a7d2d6691a5cf476091d9cf57806b3ac0219a5 8ee331dfb670e973150ba5b87e451fad5372272a jmk88 <jmk88@duke.edu> 1517452732 -0500	commit: Fix typo in printSeq1Range /n->\n so that it actually prints new line
+8ee331dfb670e973150ba5b87e451fad5372272a 33338cab0b5e3c40d7adda572b2685a3d64abbe7 jmk88 <jmk88@duke.edu> 1517452794 -0500	commit: Add compiled step1 program and step1.o file
+33338cab0b5e3c40d7adda572b2685a3d64abbe7 9bd5436f2f212627ec30eb147ec924f9cc156208 jmk88 <jmk88@duke.edu> 1517481283 -0500	pull: Fast-forward
+9bd5436f2f212627ec30eb147ec924f9cc156208 eb3bc0194ba60618af387cd1b57eb777929e791b jmk88 <jmk88@duke.edu> 1517481296 -0500	pull: Fast-forward
+eb3bc0194ba60618af387cd1b57eb777929e791b 5a1eed90b6d6cd1065d0df839f8d323c36598cc0 jmk88 <jmk88@duke.edu> 1517496971 -0500	commit: Create answer.txt file with results from by-hand calc for test.c
+5a1eed90b6d6cd1065d0df839f8d323c36598cc0 2b8a8e649bac88482dddf74ad6866c4dcdb952f0 jmk88 <jmk88@duke.edu> 1517496983 -0500	pull: Fast-forward
+2b8a8e649bac88482dddf74ad6866c4dcdb952f0 6afcb74b6b266fd661b83d2a68f1fba13403c553 jmk88 <jmk88@duke.edu> 1517497296 -0500	commit: Add Makefile and test.o to compile and run test
+6afcb74b6b266fd661b83d2a68f1fba13403c553 648a9277392db15dbc73074c2ec25d14a7d579db jmk88 <jmk88@duke.edu> 1517497308 -0500	pull: Fast-forward
+648a9277392db15dbc73074c2ec25d14a7d579db 4cfa58268a54895245f2e1061523677f432df240 jmk88 <jmk88@duke.edu> 1517497312 -0500	pull: Fast-forward
+4cfa58268a54895245f2e1061523677f432df240 079d8aaa5b483fc4d70e022e94ea25e080370b57 jmk88 <jmk88@duke.edu> 1517498944 -0500	commit: Add compiled arrayMax program, Makefile for arrayMax, and arrayMax.c file with function for finding the max of the array
+079d8aaa5b483fc4d70e022e94ea25e080370b57 b53426a7c9887b99eda90de03cc1c758fa569f63 jmk88 <jmk88@duke.edu> 1517498979 -0500	pull: Fast-forward
+b53426a7c9887b99eda90de03cc1c758fa569f63 3c238d29325a2a0ebabd6c2dc579e58aa2922d46 jmk88 <jmk88@duke.edu> 1517533553 -0500	commit: Add test-subseq.c file with test conditions for maxseq program
+3c238d29325a2a0ebabd6c2dc579e58aa2922d46 f9c5793d3e4d90b8c5533150ceae1699ffee4c7c jmk88 <jmk88@duke.edu> 1517536042 -0500	commit: Add test conditions in test-subseq.c for array of 3 equal values, array from neg to pos, add compiled test-subseq program
+f9c5793d3e4d90b8c5533150ceae1699ffee4c7c 2767fccbb0b78a9a0b5a19904834fba6be80df4d jmk88 <jmk88@duke.edu> 1517536201 -0500	pull: Fast-forward
+2767fccbb0b78a9a0b5a19904834fba6be80df4d 05cfbe43f0ece26e3c350c6d31d52574ed82f863 jmk88 <jmk88@duke.edu> 1517602511 -0500	commit: Add maxSeq.c file which contains function for determining the maximum length of increasing numbers in an array, test-subseq.c provides test cases for validating maxSeq function, Makefile compiles the c code and generates the .o files
+05cfbe43f0ece26e3c350c6d31d52574ed82f863 dc3ecddd748d5eec126f06eb8043291250daf8e5 jmk88 <jmk88@duke.edu> 1517602564 -0500	pull: Fast-forward
+dc3ecddd748d5eec126f06eb8043291250daf8e5 78c9ede1199afde1438da51b26471e1a7b353302 jmk88 <jmk88@duke.edu> 1517602834 -0500	commit: Changed corner case in maxSeq.c so that it returns NULL instead of 0 if the input array is NULL
+78c9ede1199afde1438da51b26471e1a7b353302 c8f6ef4a279abf1fb64c8ccd9dd66aef87f2d823 jmk88 <jmk88@duke.edu> 1517602845 -0500	pull: Fast-forward
+c8f6ef4a279abf1fb64c8ccd9dd66aef87f2d823 c30ac96ced6abae89486612a971ea518e8d2100a jmk88 <jmk88@duke.edu> 1517603109 -0500	commit: Changed test condition for corner case from array==NULL to n==0
+c30ac96ced6abae89486612a971ea518e8d2100a a6ac25b7b009d0dde423ccebf7b2227e9c7fb013 jmk88 <jmk88@duke.edu> 1517603123 -0500	pull: Fast-forward
+a6ac25b7b009d0dde423ccebf7b2227e9c7fb013 6d0df969dd826bb339cacedb468b7e4df69e7f57 jmk88 <jmk88@duke.edu> 1517778811 -0500	commit: Changed main to use arrays to call printSeq1Range, added line to main to print printSeq1Range... as required in the instructions. Recompiled step1 object and program files
+6d0df969dd826bb339cacedb468b7e4df69e7f57 ead8f45d366a67dd1c04e6e9544b169f72d9664d jmk88 <jmk88@duke.edu> 1517778821 -0500	pull: Merge made by the 'recursive' strategy.
+ead8f45d366a67dd1c04e6e9544b169f72d9664d 017c06db05a6be97b27f37ca262ddfc9ea5f3ac1 jmk88 <jmk88@duke.edu> 1517779943 -0500	commit: Commited step1.c
+017c06db05a6be97b27f37ca262ddfc9ea5f3ac1 2ff4fa48a79be229a6dc8c0f08756093a5920d5d jmk88 <jmk88@duke.edu> 1517782578 -0500	commit: Change Makefile to compile 2 programs for step1 and step2. Add seq2 function to step2.c
+2ff4fa48a79be229a6dc8c0f08756093a5920d5d fd864dabebfc3bc6915ea8f8178e8cb6eb2459d0 jmk88 <jmk88@duke.edu> 1517799282 -0500	commit: Add step3.c file with functions as describe din instructions. Modify Makefile to create step3 program.
+fd864dabebfc3bc6915ea8f8178e8cb6eb2459d0 e78139a62828592c03ea7ea3ad71394191bca2ba jmk88 <jmk88@duke.edu> 1517855289 -0500	commit: Add comments and additional test cases to step1.c, step2.c, step3.c. Recompile object and program files.
+e78139a62828592c03ea7ea3ad71394191bca2ba f34f6ef9df3b9bee23ef3f697c45c331746ad76b jmk88 <jmk88@duke.edu> 1517858583 -0500	commit: Remove ; after for loops
+f34f6ef9df3b9bee23ef3f697c45c331746ad76b 85915a418dd4d4d43a0afb6edff87803bd996d26 jmk88 <jmk88@duke.edu> 1517925437 -0500	commit: Answers.txt for Ch10 rq
+85915a418dd4d4d43a0afb6edff87803bd996d26 fc7806249316fb393df5d9ffc1811e8e03503ae4 jmk88 <jmk88@duke.edu> 1517925528 -0500	pull: Fast-forward
+fc7806249316fb393df5d9ffc1811e8e03503ae4 6ab0390d44b5c7dc638de527d6f771abbdec1a76 jmk88 <jmk88@duke.edu> 1517927314 -0500	commit: Change Q1H->E.
+6ab0390d44b5c7dc638de527d6f771abbdec1a76 abe61ec050de4c9efe6aab5aaf5947fe59e7a023 jmk88 <jmk88@duke.edu> 1517927323 -0500	pull: Fast-forward
+abe61ec050de4c9efe6aab5aaf5947fe59e7a023 c916d21ccf900b0838561f0e9e6166c8ddc2f2af jmk88 <jmk88@duke.edu> 1517927466 -0500	commit: Change Q3D->A.
+c916d21ccf900b0838561f0e9e6166c8ddc2f2af 3f2bbbb8fd5a5b3977238f1d7421da25a76024f7 jmk88 <jmk88@duke.edu> 1517927485 -0500	pull: Fast-forward
+3f2bbbb8fd5a5b3977238f1d7421da25a76024f7 f440f2d9929bc6cf3485da56ce3e8ccde55a245c jmk88 <jmk88@duke.edu> 1517930431 -0500	commit: Q14C->D
+f440f2d9929bc6cf3485da56ce3e8ccde55a245c 9ddad89f73caffdfe22bdf33e783359ef6277afb jmk88 <jmk88@duke.edu> 1517930529 -0500	pull: Fast-forward
+9ddad89f73caffdfe22bdf33e783359ef6277afb ec6af3535a0bc5408853843e399c896f7113da54 jmk88 <jmk88@duke.edu> 1517931230 -0500	commit: Q12G->B
+ec6af3535a0bc5408853843e399c896f7113da54 6f8082faead87b983e07b9ed03584625f2ae1060 jmk88 <jmk88@duke.edu> 1517931251 -0500	pull: Fast-forward
+6f8082faead87b983e07b9ed03584625f2ae1060 54c92cc63c74723aaa3d8613c836667ee248af5d jmk88 <jmk88@duke.edu> 1517946594 -0500	commit: Create answer.txt of handwritten results from test.c
+54c92cc63c74723aaa3d8613c836667ee248af5d f0eb1f080a1294e0081a2deb69631a946ce5cff0 jmk88 <jmk88@duke.edu> 1517946659 -0500	commit: Add object and compiled test program
+f0eb1f080a1294e0081a2deb69631a946ce5cff0 3bbc4a7cfcffc74966c15c33a5153da96ac155a8 jmk88 <jmk88@duke.edu> 1517946685 -0500	pull: Fast-forward
+3bbc4a7cfcffc74966c15c33a5153da96ac155a8 a3e94c448801f660469588b84b53f71a4b9df470 jmk88 <jmk88@duke.edu> 1517951321 -0500	commit: List of errors in broken.c
+a3e94c448801f660469588b84b53f71a4b9df470 bed2f2339608da9ea99a4e81eac598488e7a5e2d jmk88 <jmk88@duke.edu> 1517951336 -0500	pull: Fast-forward
+bed2f2339608da9ea99a4e81eac598488e7a5e2d d7efcc7404e8bd97438037a13ac5196f8f9094b4 jmk88 <jmk88@duke.edu> 1517951501 -0500	commit: Testing error and line number choice - 23 return of dangling pointer
+d7efcc7404e8bd97438037a13ac5196f8f9094b4 c591315c1a1aa86947514fa9ad9a2fa82f001d79 jmk88 <jmk88@duke.edu> 1517951511 -0500	pull: Fast-forward
+c591315c1a1aa86947514fa9ad9a2fa82f001d79 2aa02f33f28ad27cf8e249b149f758f4e082d4d6 jmk88 <jmk88@duke.edu> 1517952112 -0500	commit: Testing error and line number choice - 23 return dangling pointer
+2aa02f33f28ad27cf8e249b149f758f4e082d4d6 9ae2518e2ec2abf2fa1ebd32a06e5ae5711be98b jmk88 <jmk88@duke.edu> 1517952144 -0500	pull: Fast-forward
+9ae2518e2ec2abf2fa1ebd32a06e5ae5711be98b fa63d6d3045789ada61fa0e4bfd4c7ed1f245d7f jmk88 <jmk88@duke.edu> 1517952299 -0500	commit: Testing: 27 use of dangling pointer
+fa63d6d3045789ada61fa0e4bfd4c7ed1f245d7f bfe290d526092a8bc1b5fbd59bed0341230552c3 jmk88 <jmk88@duke.edu> 1517952331 -0500	pull: Fast-forward
+bfe290d526092a8bc1b5fbd59bed0341230552c3 2a54daf621585e36709ccb3fde5006a1ecf93642 jmk88 <jmk88@duke.edu> 1517952435 -0500	commit: Testing: 28 use of dangling pointer
+2a54daf621585e36709ccb3fde5006a1ecf93642 026809cf9281e31521d623f132c721de3508c6cb jmk88 <jmk88@duke.edu> 1517952459 -0500	pull: Fast-forward
+026809cf9281e31521d623f132c721de3508c6cb a96489b9df30b6c19d56273fd96bc375cd13b945 jmk88 <jmk88@duke.edu> 1517952575 -0500	commit: Testing: 10 return dangling pointer
+a96489b9df30b6c19d56273fd96bc375cd13b945 680ae8408237637551825a81b31c0ed5954e80cf jmk88 <jmk88@duke.edu> 1517952589 -0500	pull: Fast-forward
+680ae8408237637551825a81b31c0ed5954e80cf d3d723d3a545f56c2b9c197c8a4e914636d348ac jmk88 <jmk88@duke.edu> 1517952812 -0500	commit: Testing: 19 index out of bounds
+d3d723d3a545f56c2b9c197c8a4e914636d348ac 351d6e8e49109e105ac6860f417f0b7020eebebe jmk88 <jmk88@duke.edu> 1517952832 -0500	pull: Fast-forward
+351d6e8e49109e105ac6860f417f0b7020eebebe a98902e89f1a07e26d9b7d6d4ffd27dad7ca3167 jmk88 <jmk88@duke.edu> 1517952897 -0500	commit: Changed order of errors
+a98902e89f1a07e26d9b7d6d4ffd27dad7ca3167 c2da53127a33eba6ec5afcfa8c4aabea033bc98e jmk88 <jmk88@duke.edu> 1517952930 -0500	pull: Fast-forward
+c2da53127a33eba6ec5afcfa8c4aabea033bc98e 8aae835c69c392ee00e70fab3524338bcfeea9f8 jmk88 <jmk88@duke.edu> 1517953533 -0500	commit: Testing: 10 return dangling pointer
+8aae835c69c392ee00e70fab3524338bcfeea9f8 6d6d8906b234c9c01cf136a06945ef9f0d9ca019 jmk88 <jmk88@duke.edu> 1517953560 -0500	pull: Fast-forward
+6d6d8906b234c9c01cf136a06945ef9f0d9ca019 f46fc291e351f8ec2fbc60e6dab2cbea2aa7e338 jmk88 <jmk88@duke.edu> 1517953946 -0500	commit: Rearrange errors
+f46fc291e351f8ec2fbc60e6dab2cbea2aa7e338 fc5fe60090388753edb4eb75f73cac41cef469b7 jmk88 <jmk88@duke.edu> 1517953963 -0500	pull: Fast-forward
+fc5fe60090388753edb4eb75f73cac41cef469b7 2cc1d543dc6433dd512d8fd854cafb2de6dfe0b0 jmk88 <jmk88@duke.edu> 1517954150 -0500	commit: Try different error
+2cc1d543dc6433dd512d8fd854cafb2de6dfe0b0 517509bada174a329f5d1b6e71d83cdfb9cd42ea jmk88 <jmk88@duke.edu> 1517954168 -0500	pull: Fast-forward
+517509bada174a329f5d1b6e71d83cdfb9cd42ea f3884352ce4661b246893259c612c59ea106349a jmk88 <jmk88@duke.edu> 1517954235 -0500	commit: Try use of uninitialized value
+f3884352ce4661b246893259c612c59ea106349a 1387bb290ab9f7ddd8f974710ee6699aac87e027 jmk88 <jmk88@duke.edu> 1517954342 -0500	pull: Fast-forward
+1387bb290ab9f7ddd8f974710ee6699aac87e027 1645c7447466d2de1ddf7d0e33c2f7afddf3bd4d jmk88 <jmk88@duke.edu> 1517955456 -0500	commit: Try use of dangling pointer
+1645c7447466d2de1ddf7d0e33c2f7afddf3bd4d 1cd29290dbc9264287db4fc1c26998fdc59053d0 jmk88 <jmk88@duke.edu> 1517956803 -0500	commit: Testing whether same line of code can have different errors
+1cd29290dbc9264287db4fc1c26998fdc59053d0 2530258ee8c605ba285a1d00e5f8b9f21e0eaf93 jmk88 <jmk88@duke.edu> 1517956847 -0500	pull: Fast-forward
+2530258ee8c605ba285a1d00e5f8b9f21e0eaf93 e47bb94a7dec3f534c42611352b59532618b6d1b jmk88 <jmk88@duke.edu> 1517956951 -0500	commit: Check if 5 out 6
+e47bb94a7dec3f534c42611352b59532618b6d1b dbeb25a36249fdbd689805330710befe2585ec55 jmk88 <jmk88@duke.edu> 1517956994 -0500	pull: Fast-forward
+dbeb25a36249fdbd689805330710befe2585ec55 0cbd36098afbca6596868c5282ee0b7a737596ce jmk88 <jmk88@duke.edu> 1517957130 -0500	commit: Rearrange first 3 errors
+0cbd36098afbca6596868c5282ee0b7a737596ce df6023a0235f2e0890bc4d228b2bf59f0358c948 jmk88 <jmk88@duke.edu> 1517957150 -0500	pull: Fast-forward
+df6023a0235f2e0890bc4d228b2bf59f0358c948 1e9f0a0176f061713afbd0a64886a2d52ec7477b jmk88 <jmk88@duke.edu> 1517957250 -0500	commit: Rearranged 2 and 3
+1e9f0a0176f061713afbd0a64886a2d52ec7477b 119e97f2a90e877ed09f34b8cdc8e821349be940 jmk88 <jmk88@duke.edu> 1517957269 -0500	pull: Fast-forward
+119e97f2a90e877ed09f34b8cdc8e821349be940 40813c2cd2b67215f2cee3fdad868afb2f14760c jmk88 <jmk88@duke.edu> 1517957381 -0500	commit: Test Line 22: use of dangling pointer
+40813c2cd2b67215f2cee3fdad868afb2f14760c 190c4940675c14f7af75778e0f01d42873361cbe jmk88 <jmk88@duke.edu> 1517957397 -0500	pull: Fast-forward
+190c4940675c14f7af75778e0f01d42873361cbe 7ae47414732e6d824da3f1b95fb8bdd8f5578e55 jmk88 <jmk88@duke.edu> 1517962472 -0500	commit: Change 1st error to use of uninitialized value for line 19
+7ae47414732e6d824da3f1b95fb8bdd8f5578e55 8f348a0f54a882402155f1c4f27539e3f2486c48 jmk88 <jmk88@duke.edu> 1517962541 -0500	pull: Fast-forward
+8f348a0f54a882402155f1c4f27539e3f2486c48 c9a4ca66e47ed5c3d843defda61bf247178c6e04 jmk88 <jmk88@duke.edu> 1517962604 -0500	commit: Forgot to remove wrong line.
+c9a4ca66e47ed5c3d843defda61bf247178c6e04 ddf661caad545690349da61488b88ea37ef29df8 jmk88 <jmk88@duke.edu> 1517962618 -0500	pull: Fast-forward
+ddf661caad545690349da61488b88ea37ef29df8 2b488167cce9684d3c5f87ef26f2b0cf9634386c jmk88 <jmk88@duke.edu> 1517962670 -0500	pull: Fast-forward
+2b488167cce9684d3c5f87ef26f2b0cf9634386c 317c1f5c26120e9dca00f93ae2b1f57011cc4126 jmk88 <jmk88@duke.edu> 1518021206 -0500	commit: Add funciton to reverse.c to reverse string
+317c1f5c26120e9dca00f93ae2b1f57011cc4126 832a120e4f3287b0d57b0cdcd8bad643b919fe57 jmk88 <jmk88@duke.edu> 1518021221 -0500	pull: Fast-forward
+832a120e4f3287b0d57b0cdcd8bad643b919fe57 233f2aafd5f13343f886731bd9b18803e0dd91d0 jmk88 <jmk88@duke.edu> 1518021553 -0500	commit: Add case to prevent changes when length is 0
+233f2aafd5f13343f886731bd9b18803e0dd91d0 a930cf88eccf3f65aee183722aeb1454ef467226 jmk88 <jmk88@duke.edu> 1518021569 -0500	pull: Fast-forward
+a930cf88eccf3f65aee183722aeb1454ef467226 a2e4dc45479e2233f23d8500c75c85fdb0a980e5 jmk88 <jmk88@duke.edu> 1518021619 -0500	commit: Add case to prevent changes when length is 0
+a2e4dc45479e2233f23d8500c75c85fdb0a980e5 cc5172079b4b711229cb01de5ac7efb176219766 jmk88 <jmk88@duke.edu> 1518021637 -0500	pull: Fast-forward
+cc5172079b4b711229cb01de5ac7efb176219766 97a3e5c9f3f16a18279aa765b75816d5e0087119 jmk88 <jmk88@duke.edu> 1518023295 -0500	commit: Add corner case check for NULL input
+97a3e5c9f3f16a18279aa765b75816d5e0087119 2184c93bc9b0a8b227cd46a4e837163ce8e5f50b jmk88 <jmk88@duke.edu> 1518023314 -0500	pull: Fast-forward
+2184c93bc9b0a8b227cd46a4e837163ce8e5f50b b9fccd2904fa8d088b9bad974b6051bf13bb12d5 jmk88 <jmk88@duke.edu> 1518023328 -0500	pull: Fast-forward
+b9fccd2904fa8d088b9bad974b6051bf13bb12d5 012c913e923341ae857b112a1a7b0faf74ab7ea3 jmk88 <jmk88@duke.edu> 1518026914 -0500	commit: Add code for numToBits function in .c file
+012c913e923341ae857b112a1a7b0faf74ab7ea3 f516a8a9dae4d674832ecf30bca05636ebb688ae jmk88 <jmk88@duke.edu> 1518026933 -0500	pull: Fast-forward
+f516a8a9dae4d674832ecf30bca05636ebb688ae c0156a275db1f201a297d5fe62a9af74202a8d2f jmk88 <jmk88@duke.edu> 1518026951 -0500	pull: Fast-forward
+c0156a275db1f201a297d5fe62a9af74202a8d2f 0342339aa3954d154e9a09acda62b43074633979 jmk88 <jmk88@duke.edu> 1518050530 -0500	commit: Add assignment files
+0342339aa3954d154e9a09acda62b43074633979 701e36cda7612d7d5534e135e0d7d27bfa39875d jmk88 <jmk88@duke.edu> 1518125021 -0500	commit: Answers for Ch 11 rq
+701e36cda7612d7d5534e135e0d7d27bfa39875d 385e94bb2887b478a61742d02f948c6f51fc8a54 jmk88 <jmk88@duke.edu> 1518125028 -0500	pull: Merge made by the 'recursive' strategy.
+385e94bb2887b478a61742d02f948c6f51fc8a54 a8d9fd6c6ca4e53f46223d1608ff05a6b6d092fc jmk88 <jmk88@duke.edu> 1518128699 -0500	pull: Fast-forward
+a8d9fd6c6ca4e53f46223d1608ff05a6b6d092fc c652c2053b159852497ca42660db5af4415bcc65 jmk88 <jmk88@duke.edu> 1518129406 -0500	commit: Q5E->A
+c652c2053b159852497ca42660db5af4415bcc65 3c48c740f4d96ccb94d2528ed58a645d2478bf77 jmk88 <jmk88@duke.edu> 1518129420 -0500	pull: Fast-forward
+3c48c740f4d96ccb94d2528ed58a645d2478bf77 fbdec1de9e5d9e3b53e1a8ae5ec5b7465bd6a9c8 jmk88 <jmk88@duke.edu> 1518130027 -0500	commit: Q5A->D, Q6B->F
+fbdec1de9e5d9e3b53e1a8ae5ec5b7465bd6a9c8 cd27d2b887af9d209a3be09a99f02d690a6b29af jmk88 <jmk88@duke.edu> 1518130042 -0500	pull: Fast-forward
+cd27d2b887af9d209a3be09a99f02d690a6b29af 1dac92d2348669ec58f6f5dc90653399c85e202c jmk88 <jmk88@duke.edu> 1518130414 -0500	commit: Q6F->B, this was not the wrong answer. Q5D->H
+1dac92d2348669ec58f6f5dc90653399c85e202c 72f835cd53eb2b665850d2428bf64390b9d391af jmk88 <jmk88@duke.edu> 1518131961 -0500	pull: Fast-forward
+72f835cd53eb2b665850d2428bf64390b9d391af cc8a328190c96bada0bb8bdf56d9cd24bd73e7bf jmk88 <jmk88@duke.edu> 1518140463 -0500	commit: Q5H->G
+cc8a328190c96bada0bb8bdf56d9cd24bd73e7bf f38f25ff5b12792d02840bd524c875804ada8a3a jmk88 <jmk88@duke.edu> 1518140556 -0500	pull: Fast-forward
+f38f25ff5b12792d02840bd524c875804ada8a3a da28a84e20ee0a502a374b065b842a89b00b6a03 jmk88 <jmk88@duke.edu> 1518140811 -0500	commit: Q5G->B
+da28a84e20ee0a502a374b065b842a89b00b6a03 cbce7dbce942097582f4fd02f37b28e05b7a1b1d jmk88 <jmk88@duke.edu> 1518140842 -0500	pull: Fast-forward
+cbce7dbce942097582f4fd02f37b28e05b7a1b1d b46924f41b9ce8d4031a03212e8b6ed1eb59f9f0 jmk88 <jmk88@duke.edu> 1518140952 -0500	commit: Q5B->C
+b46924f41b9ce8d4031a03212e8b6ed1eb59f9f0 3dfc1079c23170b966eb183b6a99d1cd11a96a10 jmk88 <jmk88@duke.edu> 1518141045 -0500	pull: Fast-forward
+3dfc1079c23170b966eb183b6a99d1cd11a96a10 80bed5db7651c728a4a34ec9d8c412d775a80458 jmk88 <jmk88@duke.edu> 1518141160 -0500	commit: Q8A->D
+80bed5db7651c728a4a34ec9d8c412d775a80458 92616faee5402bb599fdc2e9a30fa36032c93afa jmk88 <jmk88@duke.edu> 1518141266 -0500	pull: Fast-forward
+92616faee5402bb599fdc2e9a30fa36032c93afa 506e163b07fd65cecfca07dff97c2c4e1f9816aa jmk88 <jmk88@duke.edu> 1518141450 -0500	commit: Output of test.c
+506e163b07fd65cecfca07dff97c2c4e1f9816aa e82eff71396b6ddc481eb89a0d515a1451e36627 jmk88 <jmk88@duke.edu> 1518141689 -0500	commit: Commit Makefile and compiled test program with associated files
+e82eff71396b6ddc481eb89a0d515a1451e36627 90d0932d1e9cd663564fda1e21d3327839691f59 jmk88 <jmk88@duke.edu> 1518141710 -0500	pull: Fast-forward
+90d0932d1e9cd663564fda1e21d3327839691f59 df76055ed273535e64a9ad6400c907c84ca58df8 jmk88 <jmk88@duke.edu> 1518141994 -0500	commit: Commit compiled encrypt program and answer.txt with calculated results of encrypt.c
+df76055ed273535e64a9ad6400c907c84ca58df8 5791219feae32dae3754cf5849053623b40d078f jmk88 <jmk88@duke.edu> 1518142009 -0500	pull: Fast-forward
+5791219feae32dae3754cf5849053623b40d078f 8a37b5d60c14671bf6558bd689ede72f6dc9572e jmk88 <jmk88@duke.edu> 1518142301 -0500	commit: ECE551: forceably added despite ignore to have your current versions
+8a37b5d60c14671bf6558bd689ede72f6dc9572e 0755491b44b5ac5b8f343f3c698bdbb2a7da79c8 jmk88 <jmk88@duke.edu> 1518193515 -0500	commit: Removed step2* and step3* from .gitignore file so those files could actually be pushed to the remote repo. Add clean target to Makefile for 047.
+0755491b44b5ac5b8f343f3c698bdbb2a7da79c8 dccbf27d7762499ffe36b7c4aecaaf6eaac7759e jmk88 <jmk88@duke.edu> 1518203394 -0500	commit: Commit breaker.c after testing with encrypted.txt file I made using previous assignment assignment code with key = 5
+dccbf27d7762499ffe36b7c4aecaaf6eaac7759e 2cac5674717873c331ee91a7c49c69031d845228 jmk88 <jmk88@duke.edu> 1518203452 -0500	commit: Add test case for if key < 0
+2cac5674717873c331ee91a7c49c69031d845228 426e286cda7f472b39cf51bc186cacf708c0fa9e jmk88 <jmk88@duke.edu> 1518203661 -0500	commit: Modify Makefile to not include clean target for now
+426e286cda7f472b39cf51bc186cacf708c0fa9e b1caa31c4ed887896b339ec1c56a4d05e4888c95 jmk88 <jmk88@duke.edu> 1518203708 -0500	pull: Fast-forward
+b1caa31c4ed887896b339ec1c56a4d05e4888c95 ba485098dc7c6ff666dd97b909e008ed82e1ad14 jmk88 <jmk88@duke.edu> 1518210460 -0500	commit: Commit test files
+ba485098dc7c6ff666dd97b909e008ed82e1ad14 95a1febfa0383a05781cee15199c9d9cae20a4f4 jmk88 <jmk88@duke.edu> 1518210871 -0500	pull: Fast-forward
+95a1febfa0383a05781cee15199c9d9cae20a4f4 8216a2647718daffa86d0197eecb5148b1ee9e9f jmk88 <jmk88@duke.edu> 1518210892 -0500	pull: Fast-forward
+8216a2647718daffa86d0197eecb5148b1ee9e9f f4257f05a8f6587440b6e3c1781dae6da0ef6ee6 jmk88 <jmk88@duke.edu> 1518216932 -0500	commit: Commit rotateMatrix.c file
+f4257f05a8f6587440b6e3c1781dae6da0ef6ee6 2f46c741957957d1927f6d9278cf4fcc9162d9af jmk88 <jmk88@duke.edu> 1518216988 -0500	commit: Add Makefile and compiled files
+2f46c741957957d1927f6d9278cf4fcc9162d9af 667fc5fa33d0835190d4b39c5c27f528174bc997 jmk88 <jmk88@duke.edu> 1518217002 -0500	pull: Fast-forward
+667fc5fa33d0835190d4b39c5c27f528174bc997 45f6c502ada2eaae61059491e5825addab4d4712 jmk88 <jmk88@duke.edu> 1518218880 -0500	commit: Change error messaging for long lines to fprintf to stderr
+45f6c502ada2eaae61059491e5825addab4d4712 53d3417538beb1a2637138f72141a3ecb77110e7 jmk88 <jmk88@duke.edu> 1518218899 -0500	pull: Fast-forward
+53d3417538beb1a2637138f72141a3ecb77110e7 60b5c26c7a1a691649b57442e4957025f5ef5d1b jmk88 <jmk88@duke.edu> 1518219898 -0500	commit: Change way errors are handled to print to stderr instead of using perror
+60b5c26c7a1a691649b57442e4957025f5ef5d1b 1a168b681533cb2938c6021dfc277e158826c2fb jmk88 <jmk88@duke.edu> 1518219956 -0500	commit: Add compiled files
+1a168b681533cb2938c6021dfc277e158826c2fb 0536f920876a914e6092e4ee6449fc0046f340c2 jmk88 <jmk88@duke.edu> 1518220051 -0500	pull: Fast-forward
+0536f920876a914e6092e4ee6449fc0046f340c2 049b26660bfcdc73d7cd057ad5d446c856cce02d jmk88 <jmk88@duke.edu> 1518222625 -0500	commit: Add error for line that doesn't have new line character in the 10th position
+049b26660bfcdc73d7cd057ad5d446c856cce02d d1877cf99dab8ba5bb4db7fe644749eb2f474d6e jmk88 <jmk88@duke.edu> 1518222659 -0500	pull: Fast-forward
+d1877cf99dab8ba5bb4db7fe644749eb2f474d6e bac786e2d3545916dc90693f8953143a8331ab4f jmk88 <jmk88@duke.edu> 1518224049 -0500	commit: Move char declaration out of for loop
+bac786e2d3545916dc90693f8953143a8331ab4f 8b8569909b8077fa4a347d9e65a6244bc2cd733b jmk88 <jmk88@duke.edu> 1518224063 -0500	pull: Fast-forward
+8b8569909b8077fa4a347d9e65a6244bc2cd733b d36ee538120702ceaf283050c0ad9b0c4ffa2965 jmk88 <jmk88@duke.edu> 1518226387 -0500	commit: Not sure if I actually changed anything or made changes then reverted
+d36ee538120702ceaf283050c0ad9b0c4ffa2965 90a6066af37af1317b3dcfe88524d087dfeed5b0 jmk88 <jmk88@duke.edu> 1518226426 -0500	pull: Fast-forward
+90a6066af37af1317b3dcfe88524d087dfeed5b0 a3a2a63becc8250f9b4f1a18651ff80352deedec jmk88 <jmk88@duke.edu> 1518226623 -0500	commit: Add error for rows that are too short
+a3a2a63becc8250f9b4f1a18651ff80352deedec 87ff541c731af2c9aafae8f87093300a5e760022 jmk88 <jmk88@duke.edu> 1518226644 -0500	pull: Fast-forward
+87ff541c731af2c9aafae8f87093300a5e760022 a4a4b785dce9b683cfaa9f3b37fc2a6a5c3d783b jmk88 <jmk88@duke.edu> 1518226767 -0500	commit: Add comments
+a4a4b785dce9b683cfaa9f3b37fc2a6a5c3d783b 7050535575c8f38f9c9c62853933f8a587a98de2 jmk88 <jmk88@duke.edu> 1518227664 -0500	commit: Add '\n' to error messages
+7050535575c8f38f9c9c62853933f8a587a98de2 4319cb9984b6f963346c980789e09ed75dc87e15 jmk88 <jmk88@duke.edu> 1518228224 -0500	commit: Moved error checking stages around
+4319cb9984b6f963346c980789e09ed75dc87e15 fd93ef394aa2222c9657fb0012f5f77782accce8 jmk88 <jmk88@duke.edu> 1518228271 -0500	commit: Add testing file for checking different potential errors quickly
+fd93ef394aa2222c9657fb0012f5f77782accce8 d87277aba757ba6f983da3faabb87516101cfb7a jmk88 <jmk88@duke.edu> 1518228288 -0500	pull: Fast-forward
+d87277aba757ba6f983da3faabb87516101cfb7a 5b87f856c33aae5788c2aec1d523140c7edaa047 jmk88 <jmk88@duke.edu> 1518228484 -0500	commit: Hopefully fixed the memory issues again
+5b87f856c33aae5788c2aec1d523140c7edaa047 8eeb1b354e571b93085e03a4a0c56138077b90a0 jmk88 <jmk88@duke.edu> 1518228500 -0500	pull: Fast-forward
+8eeb1b354e571b93085e03a4a0c56138077b90a0 a43150b3b6ea2d5245cf52adf11eb7b0c9dddc67 jmk88 <jmk88@duke.edu> 1518228727 -0500	commit: Now maybe the memory errors are gone again
+a43150b3b6ea2d5245cf52adf11eb7b0c9dddc67 a2380528ff779c78f7fe6e39469e47612fde7e62 jmk88 <jmk88@duke.edu> 1518228800 -0500	commit: Didn't change anything
+a2380528ff779c78f7fe6e39469e47612fde7e62 0788c2921f79eb59771b5c9348916ad2bd963eac jmk88 <jmk88@duke.edu> 1518228819 -0500	pull: Fast-forward
+0788c2921f79eb59771b5c9348916ad2bd963eac 405aeb00dc411038c04cbf92c07e3d915df9450e jmk88 <jmk88@duke.edu> 1518229148 -0500	commit: Adding another error check in the while loop
+405aeb00dc411038c04cbf92c07e3d915df9450e 2d2d7ea9480ed4a1ac4449652e4e754ed40394c4 jmk88 <jmk88@duke.edu> 1518229166 -0500	pull: Fast-forward
+2d2d7ea9480ed4a1ac4449652e4e754ed40394c4 82c8bc56d4bea138cfc088930245bced6565c653 jmk88 <jmk88@duke.edu> 1518230306 -0500	commit: Changed function to void and used exit(EXIT_FAILURE) instead of returning EXIT_FAILURE
+82c8bc56d4bea138cfc088930245bced6565c653 7dd1c75d4c2d96c5d509eb76d10c68836978a528 jmk88 <jmk88@duke.edu> 1518231162 -0500	commit: Add check for '\0'
+7dd1c75d4c2d96c5d509eb76d10c68836978a528 e8e122baf6bf39e9532352d05e1112a1bcc8ba5f jmk88 <jmk88@duke.edu> 1518231209 -0500	pull: Fast-forward
+e8e122baf6bf39e9532352d05e1112a1bcc8ba5f 9b793e3eb01a3699a7c5ab7ba073bc6a39d5510a jmk88 <jmk88@duke.edu> 1518231431 -0500	pull: Fast-forward
+9b793e3eb01a3699a7c5ab7ba073bc6a39d5510a 2d44fd30b25878c051f5c0e51ad478cc01f46686 jmk88 <jmk88@duke.edu> 1518383871 -0500	commit: Answers for Ch12 rq
+2d44fd30b25878c051f5c0e51ad478cc01f46686 291ba5d1f6871d1fc22114cee826d375bb4acde3 jmk88 <jmk88@duke.edu> 1518384039 -0500	commit: Answers for Ch12 rq
+291ba5d1f6871d1fc22114cee826d375bb4acde3 b39f91bccca2960543e6ad8ae4c7482503442ad8 jmk88 <jmk88@duke.edu> 1518384122 -0500	pull: Fast-forward
+b39f91bccca2960543e6ad8ae4c7482503442ad8 860e7e146fbce875f3ccb9e245822805458e18d1 jmk88 <jmk88@duke.edu> 1518397152 -0500	commit: Create file with lines where memory leaks occur
+860e7e146fbce875f3ccb9e245822805458e18d1 2a905195daf1d24965eb0558f1885865a342c454 jmk88 <jmk88@duke.edu> 1518397183 -0500	pull: Fast-forward
+2a905195daf1d24965eb0558f1885865a342c454 97430c425e8eb2353aee72162dc03bf8d04c5ada jmk88 <jmk88@duke.edu> 1518397324 -0500	commit: Change leak lines to 16 and 21. Now testing that lines 9, 16, and 21 are lines of memory leaks
+97430c425e8eb2353aee72162dc03bf8d04c5ada bc33f8b301cc60d4d4c5c799a0728f41c04a1926 jmk88 <jmk88@duke.edu> 1518397394 -0500	pull: Fast-forward
+bc33f8b301cc60d4d4c5c799a0728f41c04a1926 cb7d32f8d781d65b6723770598535b1335908c43 jmk88 <jmk88@duke.edu> 1518397433 -0500	commit: Change to line 15
+cb7d32f8d781d65b6723770598535b1335908c43 dda70d2e93de057ff419c24bcae2e8d95d3cc002 jmk88 <jmk88@duke.edu> 1518397444 -0500	pull: Fast-forward
+dda70d2e93de057ff419c24bcae2e8d95d3cc002 ae69dbd5f44daed825120b629cea1eda58ba7391 jmk88 <jmk88@duke.edu> 1518398018 -0500	commit: Remove line 15 in leaks.txt
+ae69dbd5f44daed825120b629cea1eda58ba7391 b0151441db19243590ab462cedd9eebe68f2bc46 jmk88 <jmk88@duke.edu> 1518398029 -0500	pull: Fast-forward
+b0151441db19243590ab462cedd9eebe68f2bc46 3d8c01a9fbd547f11eba58b0ec80d9750662dd24 jmk88 <jmk88@duke.edu> 1518398140 -0500	commit: Add free(q-> points) to test.c
+3d8c01a9fbd547f11eba58b0ec80d9750662dd24 c9562603653d8b58dbb39dbfbe2e60c7081708f6 jmk88 <jmk88@duke.edu> 1518398183 -0500	pull: Fast-forward
+c9562603653d8b58dbb39dbfbe2e60c7081708f6 9a53fdf83529e21ec7e4a7146af3eab3e0dc8c9a jmk88 <jmk88@duke.edu> 1518399711 -0500	commit: Add free() call after line 19. Change leaks.txt to include lines 9,19 and 21
+9a53fdf83529e21ec7e4a7146af3eab3e0dc8c9a 8609ccd0157dc36448828f92933b2d59be699024 jmk88 <jmk88@duke.edu> 1518399728 -0500	pull: Fast-forward
+8609ccd0157dc36448828f92933b2d59be699024 f0e4692d8214d7f61dd560ca710ba1e9e92a1d17 jmk88 <jmk88@duke.edu> 1518399802 -0500	commit: Testing additional free() calls for p and r
+f0e4692d8214d7f61dd560ca710ba1e9e92a1d17 7edbec5ea51b39333d129dcfde26d39fc17fc89c jmk88 <jmk88@duke.edu> 1518399831 -0500	pull: Fast-forward
+7edbec5ea51b39333d129dcfde26d39fc17fc89c f831fd5bf8efba4a22e8eeca4dd331c77da7728f jmk88 <jmk88@duke.edu> 1518399995 -0500	commit: Add free for p in test.c
+f831fd5bf8efba4a22e8eeca4dd331c77da7728f ecda42accfc87e7aa39b81e9cc415c231459d8da jmk88 <jmk88@duke.edu> 1518400010 -0500	pull: Fast-forward
+ecda42accfc87e7aa39b81e9cc415c231459d8da 261a9f23ead2481f6ab55666bade472035fc8604 jmk88 <jmk88@duke.edu> 1518400026 -0500	pull: Fast-forward
+261a9f23ead2481f6ab55666bade472035fc8604 3b2b5225dd60005cccd66229bdb1f07e8e55555d jmk88 <jmk88@duke.edu> 1518440757 -0500	pull: Fast-forward
+3b2b5225dd60005cccd66229bdb1f07e8e55555d eee77c77b84a55ceb3a5263dd7c8f2ace819767f jmk88 <jmk88@duke.edu> 1518450152 -0500	commit: Fix 1st error. +5 for allocating for the outfilename to accomodate '\0' added by strcpy
+eee77c77b84a55ceb3a5263dd7c8f2ace819767f cb36adfb654769b7669d0656f7377edba7b50863 jmk88 <jmk88@duke.edu> 1518452894 -0500	commit: Set pointer to NULL to fully initialize. Add free() call to free alloc'd memory from getline() and malloc().
+cb36adfb654769b7669d0656f7377edba7b50863 5884203749f989ba3646ccc7e720387011317832 jmk88 <jmk88@duke.edu> 1518452967 -0500	pull: Fast-forward
+5884203749f989ba3646ccc7e720387011317832 ef41f5c06f460720af697bcc525825fc83fba6bb jmk88 <jmk88@duke.edu> 1518466681 -0500	commit: Changed sortLines.c to use getlines()/realloc() combination as opposed to passing a matrix with each row as a string read form the input file.
+ef41f5c06f460720af697bcc525825fc83fba6bb 7c5e5956bb8edaaa66af262c664cc820001d54d9 jmk88 <jmk88@duke.edu> 1518466758 -0500	pull: Fast-forward
+7c5e5956bb8edaaa66af262c664cc820001d54d9 ef7f0a8ad4b0292ccfb171abd32046c2c42100ad jmk88 <jmk88@duke.edu> 1518467542 -0500	commit: Add free() call to free lines[j] after use.
+ef7f0a8ad4b0292ccfb171abd32046c2c42100ad ec8a6fd24442c5a23831575e194b1511191a331f jmk88 <jmk88@duke.edu> 1518467565 -0500	pull: Fast-forward
+ec8a6fd24442c5a23831575e194b1511191a331f 3b5ac9bdb98d47396e2bf7bd165a102aad14b2e4 jmk88 <jmk88@duke.edu> 1518467698 -0500	commit: Remove printf() line telling user how to input strings when no input file provided
+3b5ac9bdb98d47396e2bf7bd165a102aad14b2e4 adf5f6871f82047991439c3e9caa8cf6e581b1d3 jmk88 <jmk88@duke.edu> 1518467713 -0500	pull: Fast-forward
+adf5f6871f82047991439c3e9caa8cf6e581b1d3 b24fa18f18dcdabbe86e602670ba33ff29f27a53 jmk88 <jmk88@duke.edu> 1518467722 -0500	pull: Fast-forward
+b24fa18f18dcdabbe86e602670ba33ff29f27a53 e62f57d5287d27ed8fe60629fef87f9fa4adf5da jmk88 <jmk88@duke.edu> 1518485978 -0500	commit: Add all functions as described in README
+e62f57d5287d27ed8fe60629fef87f9fa4adf5da 9ac1a822f1aa49d4bc19c2b4dcd12c5c529ba1b1 jmk88 <jmk88@duke.edu> 1518486005 -0500	pull: Fast-forward
+9ac1a822f1aa49d4bc19c2b4dcd12c5c529ba1b1 611314c0bbdb8e044a6ca0170d5e0fbdf017f038 jmk88 <jmk88@duke.edu> 1518486491 -0500	commit: makeBoard now actually returns b
+611314c0bbdb8e044a6ca0170d5e0fbdf017f038 a78cac5c2263b2ffda58c7e2bb85de15540f043d jmk88 <jmk88@duke.edu> 1518486602 -0500	pull: Fast-forward
+a78cac5c2263b2ffda58c7e2bb85de15540f043d 4e50f091dd90b9fc38bbdc4d3110d21b3ae0ad49 jmk88 <jmk88@duke.edu> 1518487059 -0500	commit: countMines returns count now instead of 0
+4e50f091dd90b9fc38bbdc4d3110d21b3ae0ad49 009c678f77a9982e21260d0faec93d5365ad44f6 jmk88 <jmk88@duke.edu> 1518487086 -0500	pull: Fast-forward
+009c678f77a9982e21260d0faec93d5365ad44f6 ddf2b9240bc4380434bb7a01a35ec64c8fa9bc90 jmk88 <jmk88@duke.edu> 1518487093 -0500	pull: Fast-forward
+ddf2b9240bc4380434bb7a01a35ec64c8fa9bc90 1a51518d8b9b35fbd9ad2eff2a4d128f5866db19 jmk88 <jmk88@duke.edu> 1518492079 -0500	commit: Add answers.txt for ch13 rq
+1a51518d8b9b35fbd9ad2eff2a4d128f5866db19 13f8b1dba3fa3a8b925e70e90f9d6e2dcd11b877 jmk88 <jmk88@duke.edu> 1518492092 -0500	pull: Fast-forward
+13f8b1dba3fa3a8b925e70e90f9d6e2dcd11b877 1e993ba40241262df9ead6cf2720d77e5ea51fac jmk88 <jmk88@duke.edu> 1518492205 -0500	commit: Q1C->D
+1e993ba40241262df9ead6cf2720d77e5ea51fac a025116301460b3b4a47adb431bd835855e508cd jmk88 <jmk88@duke.edu> 1518492215 -0500	pull: Fast-forward
+a025116301460b3b4a47adb431bd835855e508cd cab356b82c866e371cff3c6264ab767c257ab4dd jmk88 <jmk88@duke.edu> 1518492236 -0500	commit: Q1C is correct
+cab356b82c866e371cff3c6264ab767c257ab4dd 943b948e95af1938efd52354fb926af75c1d169a jmk88 <jmk88@duke.edu> 1518492564 -0500	commit: Q9->A, Q10->D
+943b948e95af1938efd52354fb926af75c1d169a de3847ab33f9f02eb28bb996b83d2cf583a25ef8 jmk88 <jmk88@duke.edu> 1518492585 -0500	pull: Fast-forward
+de3847ab33f9f02eb28bb996b83d2cf583a25ef8 3014d6ba52fa064fbab9f0c6411f5bf7f4f0fe0f jmk88 <jmk88@duke.edu> 1518492760 -0500	commit: Q9A->B
+3014d6ba52fa064fbab9f0c6411f5bf7f4f0fe0f d4c9f8213915a6d688b6ac66f74988f90e4e874a jmk88 <jmk88@duke.edu> 1518493177 -0500	commit: Q9B->D
+d4c9f8213915a6d688b6ac66f74988f90e4e874a 7a61531af9fba350c4c1d45dca24d09a128255c9 jmk88 <jmk88@duke.edu> 1518526413 -0500	pull: Fast-forward
+7a61531af9fba350c4c1d45dca24d09a128255c9 c09bcc7fff159bf5b24e17d4304ba4ce83b53acd jmk88 <jmk88@duke.edu> 1518593344 -0500	commit: Completed step1 for election.c
+c09bcc7fff159bf5b24e17d4304ba4ce83b53acd a41e43646520785fb83ea4607cf6717c42a462fc jmk88 <jmk88@duke.edu> 1518595912 -0500	commit: Started step2 in election.c
+a41e43646520785fb83ea4607cf6717c42a462fc 7ec3363d2d06d69e05cff7ce33c03cf48cae04ee jmk88 <jmk88@duke.edu> 1518610637 -0500	commit: Trying to fix .name when running printStates
+7ec3363d2d06d69e05cff7ce33c03cf48cae04ee 2dec62d74748d149aeafb474fbbf246d90c9a7eb jmk88 <jmk88@duke.edu> 1518612545 -0500	commit: Append null terminator to end of state name
+2dec62d74748d149aeafb474fbbf246d90c9a7eb 757021a884a08e38c6c428c56571e0e08bd011b2 jmk88 <jmk88@duke.edu> 1518616196 -0500	commit: Wasn't looping through array of voteCounts. Now comparing voteCounts[currState] to population of currState
+757021a884a08e38c6c428c56571e0e08bd011b2 30d89ece2a23e559cb6445bac1e4d75d162ee508 jmk88 <jmk88@duke.edu> 1518618086 -0500	commit: Wrote step3. Typecast voteCounts and population so can print as float
+30d89ece2a23e559cb6445bac1e4d75d162ee508 25a9940304cd6bef955e498fe8a0f1101f676b39 jmk88 <jmk88@duke.edu> 1518625483 -0500	commit: Add error checks for state names that exceed max length, if line is NULL
+25a9940304cd6bef955e498fe8a0f1101f676b39 7a2881b6b05eb0fb2186899e37122d948ede92aa jmk88 <jmk88@duke.edu> 1518626360 -0500	commit: Add error check for alphabetic characters, excepting <SPACE>, in while loop for parseLines()
+7a2881b6b05eb0fb2186899e37122d948ede92aa 2bf1b62b5195aacdfca4fc4873df236763325521 jmk88 <jmk88@duke.edu> 1518628573 -0500	commit: All programs valgrinded cleanly
+2bf1b62b5195aacdfca4fc4873df236763325521 6b0458f79080a07259798200d3eae76b7ceadae8 jmk88 <jmk88@duke.edu> 1518629431 -0500	commit: Add error case for if ':' not found in string.
+6b0458f79080a07259798200d3eae76b7ceadae8 e178650912139cf6b8945b0278b6b0e37e80395d jmk88 <jmk88@duke.edu> 1518630458 -0500	commit: Check that there are 2 and no more than 2 : in input string
+e178650912139cf6b8945b0278b6b0e37e80395d 8a39e4a702e00367897a2f945030ef1dada221fe jmk88 <jmk88@duke.edu> 1518632145 -0500	commit: Add structs to kv.h. Started code for readKV
+8a39e4a702e00367897a2f945030ef1dada221fe a898a885d3bfd235be91b78601e6871ed2f9e95f jmk88 <jmk88@duke.edu> 1518639042 -0500	commit: Fix error check for names that are too long
+a898a885d3bfd235be91b78601e6871ed2f9e95f d4f5ac4c8df04874cfaa499b77b4ef48326bada6 jmk88 <jmk88@duke.edu> 1518639596 -0500	commit: Final code. Valgrinds cleanly
+d4f5ac4c8df04874cfaa499b77b4ef48326bada6 657c6f93f80893e1cdd154001abd667baea06d66 jmk88 <jmk88@duke.edu> 1518645536 -0500	commit: Malloc'ed for structs
+657c6f93f80893e1cdd154001abd667baea06d66 fcf30f189810eaaa941d87aa5a4b71d20b32ab39 jmk88 <jmk88@duke.edu> 1518645593 -0500	commit: kv_test.o:
+fcf30f189810eaaa941d87aa5a4b71d20b32ab39 22bfca2bb7338db58c0e318bb5e7a458fa767923 jmk88 <jmk88@duke.edu> 1518665614 -0500	commit: Add comments to kv.c. Still trying to free some alloc'd memory.
+22bfca2bb7338db58c0e318bb5e7a458fa767923 b95a4e4e528ea61873760dd4660271203bbe90f8 jmk88 <jmk88@duke.edu> 1518665665 -0500	commit: Add compiled files
+b95a4e4e528ea61873760dd4660271203bbe90f8 de4b490774c29294b5c8801e24a7d9406e4333d7 jmk88 <jmk88@duke.edu> 1518665721 -0500	pull: Fast-forward
+de4b490774c29294b5c8801e24a7d9406e4333d7 f88b3d9bb0f6ad372a83114234b10a72479d5928 jmk88 <jmk88@duke.edu> 1518667618 -0500	commit: Wrote outname.c function
+f88b3d9bb0f6ad372a83114234b10a72479d5928 27169b4ef6e327890aefb5e5b7f76d4fb2a9fffd jmk88 <jmk88@duke.edu> 1518667633 -0500	pull: Fast-forward
+27169b4ef6e327890aefb5e5b7f76d4fb2a9fffd e7a249a8dce5c57c4a40eedf1d94820c7d817ab4 jmk88 <jmk88@duke.edu> 1518667710 -0500	pull: Fast-forward
+e7a249a8dce5c57c4a40eedf1d94820c7d817ab4 0542f1ae7e2962d6db1d54f0d47f01b6938dfc89 jmk88 <jmk88@duke.edu> 1518669476 -0500	commit: Initialize kvPair.key to NULL instead of mallocing space from beginning.
+0542f1ae7e2962d6db1d54f0d47f01b6938dfc89 57768becb7467c095d5c97f9205004b7c8788340 jmk88 <jmk88@duke.edu> 1518671933 -0500	commit: Add 4 functions for counts
+57768becb7467c095d5c97f9205004b7c8788340 34a154db6267b82091418e87099e02209aae1f6e jmk88 <jmk88@duke.edu> 1518671948 -0500	pull: Fast-forward
+34a154db6267b82091418e87099e02209aae1f6e dcbe7d8529061d146eda239fec7e29735cbb3990 jmk88 <jmk88@duke.edu> 1518672241 -0500	commit: Fixed issues with uninitialized values
+dcbe7d8529061d146eda239fec7e29735cbb3990 153327d2ab1cef5484bdab07d5b64a80df489f65 jmk88 <jmk88@duke.edu> 1518672254 -0500	pull: Fast-forward
+153327d2ab1cef5484bdab07d5b64a80df489f65 9d866a1b7358621056c913cf7ceda12ebc2b160a jmk88 <jmk88@duke.edu> 1518676693 -0500	commit: Finished putting everything together
+9d866a1b7358621056c913cf7ceda12ebc2b160a 4c3ada4b4895b14d1eba72c4ca07b7357fc0bee8 jmk88 <jmk88@duke.edu> 1518677273 -0500	commit: Added null terminator after using getline() before passing value to lookup function
+4c3ada4b4895b14d1eba72c4ca07b7357fc0bee8 2ebdf0e267322264c1396cfa1675f007c1b358dc jmk88 <jmk88@duke.edu> 1518715121 -0500	commit: Latest version for main.c. Produces correct output but there are memory leaks.
+2ebdf0e267322264c1396cfa1675f007c1b358dc 470d9beb67152194783fb137effbb5179f375c3a jmk88 <jmk88@duke.edu> 1518801752 -0500	commit: Fixed memory leak issuegit add .
+470d9beb67152194783fb137effbb5179f375c3a dd3777304426ef3b28df7f046e88a069215498b7 jmk88 <jmk88@duke.edu> 1518801774 -0500	pull: Fast-forward
+dd3777304426ef3b28df7f046e88a069215498b7 816cf40385a36459b2319c9222b3588054caa934 jmk88 <jmk88@duke.edu> 1518801905 -0500	commit: Fixed mem leak! Wasn't accounting for the fact that line was pointing to the middle of curr and I was only freeing the block after where line was pointing
+816cf40385a36459b2319c9222b3588054caa934 596d82b1e2c33b313e68035ed9ef78d1d4909dff jmk88 <jmk88@duke.edu> 1518801928 -0500	pull: Fast-forward
+596d82b1e2c33b313e68035ed9ef78d1d4909dff 562d1da693c743e29806bfd8c2c368d76a0302df jmk88 <jmk88@duke.edu> 1518802408 -0500	commit: Add curr=NULL in loop for countValues
+562d1da693c743e29806bfd8c2c368d76a0302df 6482d24a6132c21a0ace03f2b52622a110178ace jmk88 <jmk88@duke.edu> 1518802426 -0500	pull: Merge made by the 'recursive' strategy.
+6482d24a6132c21a0ace03f2b52622a110178ace a41983f7d4d47574d8767d8dbf823a5547a734b4 jmk88 <jmk88@duke.edu> 1518802587 -0500	pull: Fast-forward
+a41983f7d4d47574d8767d8dbf823a5547a734b4 343c5fa18e360a46ba49acc98c3ec2d32a0ed526 jmk88 <jmk88@duke.edu> 1518803289 -0500	commit: Set countStr to NULL in while loop for countFile
+343c5fa18e360a46ba49acc98c3ec2d32a0ed526 0b409dfc0e2f686bf64f3999861c20cb2f02eed2 jmk88 <jmk88@duke.edu> 1518803331 -0500	pull: Fast-forward
+0b409dfc0e2f686bf64f3999861c20cb2f02eed2 bcbf28b77caa806858d041254b598670fb6d2e9f jmk88 <jmk88@duke.edu> 1518803378 -0500	commit: Fix type. Added ; after setting countStr to NULL
+bcbf28b77caa806858d041254b598670fb6d2e9f f33e18340e097c0794e035ccd48669e1359df55f jmk88 <jmk88@duke.edu> 1518803395 -0500	pull: Fast-forward
+f33e18340e097c0794e035ccd48669e1359df55f 390879710b55d1d428c54537367ad613f5195f26 jmk88 <jmk88@duke.edu> 1519047231 -0500	commit: Add free(curr) in countFiles
+390879710b55d1d428c54537367ad613f5195f26 9689c5f9d2113a297d52549b11fad923c81ebf85 jmk88 <jmk88@duke.edu> 1519047248 -0500	pull: Merge made by the 'recursive' strategy.
+9689c5f9d2113a297d52549b11fad923c81ebf85 4cfaa1ff352ac721476034426b940b6fc67f0934 jmk88 <jmk88@duke.edu> 1519047446 -0500	commit: Add 060 files
+4cfaa1ff352ac721476034426b940b6fc67f0934 0450934a59220b191620537846c5321818b7b59e jmk88 <jmk88@duke.edu> 1519047494 -0500	commit: Ch6 rq review
+0450934a59220b191620537846c5321818b7b59e 0b0cb051be15005f791f4d7bc2686dc17ee24f31 jmk88 <jmk88@duke.edu> 1519047535 -0500	pull: Fast-forward
+0b0cb051be15005f791f4d7bc2686dc17ee24f31 a45b07d5c94e0de5b72d03667fda0defce7b865c jmk88 <jmk88@duke.edu> 1519069234 -0500	commit: Now free() each stringVal.
+a45b07d5c94e0de5b72d03667fda0defce7b865c 4556a850e937b8838992b46a36a1106a94fffb1d jmk88 <jmk88@duke.edu> 1519069263 -0500	pull: Fast-forward
+4556a850e937b8838992b46a36a1106a94fffb1d 99ad07f5600cffc36a2ca45083b0567d723554ee jmk88 <jmk88@duke.edu> 1519069589 -0500	commit: Revert to commit that worked.
+99ad07f5600cffc36a2ca45083b0567d723554ee bf458ae5088d419e030509a8708be547e86d48c1 jmk88 <jmk88@duke.edu> 1519069658 -0500	commit: Remove unnecessary files
+bf458ae5088d419e030509a8708be547e86d48c1 a152b107a4f6772859c492e98d4dae92aa674836 jmk88 <jmk88@duke.edu> 1519069673 -0500	pull: Fast-forward
+a152b107a4f6772859c492e98d4dae92aa674836 54d17bf4b403d584185ae9ba876fa9f885e6278a jmk88 <jmk88@duke.edu> 1519071516 -0500	commit: Close input file
+54d17bf4b403d584185ae9ba876fa9f885e6278a 17350be9a412fe4fef23ddccda41b58f5636dfc5 jmk88 <jmk88@duke.edu> 1519071532 -0500	commit: Close input file
+17350be9a412fe4fef23ddccda41b58f5636dfc5 275efde5fe3334d316080b5c44a59db942eb8fe9 jmk88 <jmk88@duke.edu> 1519071555 -0500	commit: Add answers for Ch 14 rq
+275efde5fe3334d316080b5c44a59db942eb8fe9 16513188a6e0ea2a1a6a7ea820d14c5bb6d93975 jmk88 <jmk88@duke.edu> 1519071573 -0500	pull: Fast-forward
+16513188a6e0ea2a1a6a7ea820d14c5bb6d93975 794408edbae074ba58a5ccc21add86481c001893 jmk88 <jmk88@duke.edu> 1519074798 -0500	commit: Answers for 1-4 of ch14 rq
+794408edbae074ba58a5ccc21add86481c001893 b124461a48831660a1ecfa91fdae8e0d19aed911 jmk88 <jmk88@duke.edu> 1519074807 -0500	pull: Fast-forward
+b124461a48831660a1ecfa91fdae8e0d19aed911 08bd690f0486b2d6ab64b30992652c48dfc7d15c jmk88 <jmk88@duke.edu> 1519077179 -0500	commit: Answers for Ch 14 rq
+08bd690f0486b2d6ab64b30992652c48dfc7d15c a0ffa92b00cc9283de23bbd0911bfc32995b50eb jmk88 <jmk88@duke.edu> 1519077194 -0500	pull: Fast-forward
+a0ffa92b00cc9283de23bbd0911bfc32995b50eb 44ed82704673c552c567e4b2046a9fad7e8a8958 jmk88 <jmk88@duke.edu> 1519077856 -0500	commit: Change Q2C->D
+44ed82704673c552c567e4b2046a9fad7e8a8958 4a09d23c5b2bf39b3123cfb9c362b2517590e730 jmk88 <jmk88@duke.edu> 1519077867 -0500	pull: Fast-forward
+4a09d23c5b2bf39b3123cfb9c362b2517590e730 d15791a7faf7f83194cee44991e664fcf42a2069 jmk88 <jmk88@duke.edu> 1519077911 -0500	commit: Q2D->A
+d15791a7faf7f83194cee44991e664fcf42a2069 0d638423d9fad62c2a738275e29bed27741f780d jmk88 <jmk88@duke.edu> 1519077921 -0500	pull: Fast-forward
+0d638423d9fad62c2a738275e29bed27741f780d eef3f14bb5a5b880ec7f8082e691c1ba7aaa30ab jmk88 <jmk88@duke.edu> 1519078283 -0500	commit: Q12B->C
+eef3f14bb5a5b880ec7f8082e691c1ba7aaa30ab 4cf1df290afceb69c4f96e54dca1f4e74ac3c651 jmk88 <jmk88@duke.edu> 1519078299 -0500	pull: Fast-forward
+4cf1df290afceb69c4f96e54dca1f4e74ac3c651 3f3ff75a39b4cbca93592298d73105291cb66f8c jmk88 <jmk88@duke.edu> 1519078328 -0500	commit: Q12B is correct
+3f3ff75a39b4cbca93592298d73105291cb66f8c 7017251ec31ce1f47b245684eb7c8cd5f8b49e45 jmk88 <jmk88@duke.edu> 1519140375 -0500	commit: Q3B->C
+7017251ec31ce1f47b245684eb7c8cd5f8b49e45 afed2ffa064c3a1a50efc786689aa8aba9f1a7dd jmk88 <jmk88@duke.edu> 1519140385 -0500	pull: Merge made by the 'recursive' strategy.
+afed2ffa064c3a1a50efc786689aa8aba9f1a7dd 303dd7db490d7dde279fdacbb965d8dc190b6b27 jmk88 <jmk88@duke.edu> 1519140446 -0500	pull: Fast-forward
+303dd7db490d7dde279fdacbb965d8dc190b6b27 cdf712fd79a6a7a58fb0f0c6cc942ab057117c3b jmk88 <jmk88@duke.edu> 1519222156 -0500	commit: REsutls from code.cpp
+cdf712fd79a6a7a58fb0f0c6cc942ab057117c3b e8071b567a5d003fdfa6a62e96ac0b4c2731595e jmk88 <jmk88@duke.edu> 1519222291 -0500	pull: Fast-forward
+e8071b567a5d003fdfa6a62e96ac0b4c2731595e 690199b116bf6064c330ef97af454a545bd0627f jmk88 <jmk88@duke.edu> 1519224440 -0500	commit: Hand-calcualted results from refs.cpp
+690199b116bf6064c330ef97af454a545bd0627f 774846c3dd0278223e786a7392275251dcf24c28 jmk88 <jmk88@duke.edu> 1519224477 -0500	pull: Fast-forward
+774846c3dd0278223e786a7392275251dcf24c28 6eb5245539c40371e3a3c41e8bf6c27a0a2eea2e jmk88 <jmk88@duke.edu> 1519347216 -0500	commit: Add answers.txt for ch 15 rq
+6eb5245539c40371e3a3c41e8bf6c27a0a2eea2e 7b78a358d856557d38773ad0c6163435b2ff53d0 jmk88 <jmk88@duke.edu> 1519347226 -0500	pull: Merge made by the 'recursive' strategy.
+7b78a358d856557d38773ad0c6163435b2ff53d0 842f7f41865af261b48c7a84c31d7844fcb59f77 jmk88 <jmk88@duke.edu> 1519347290 -0500	pull: Fast-forward
+842f7f41865af261b48c7a84c31d7844fcb59f77 d7d29598634e4f3c33080517d87a8eb2330d690c jmk88 <jmk88@duke.edu> 1519396985 -0500	commit: Changed a number of answers for rq
+d7d29598634e4f3c33080517d87a8eb2330d690c 04dc8bf3a9135d84d14a3ab686ec17a2e58ebd86 jmk88 <jmk88@duke.edu> 1519397002 -0500	pull: Fast-forward
+04dc8bf3a9135d84d14a3ab686ec17a2e58ebd86 5326c0f48065f1040038f994954de46b32a33d1c jmk88 <jmk88@duke.edu> 1519397152 -0500	commit: Change Q4 to C
+5326c0f48065f1040038f994954de46b32a33d1c a9401c9657d55635390901cb25045857dd0233d9 jmk88 <jmk88@duke.edu> 1519397161 -0500	pull: Fast-forward
+a9401c9657d55635390901cb25045857dd0233d9 e4f272492867689e7f11f1b5195e8129d47e8861 jmk88 <jmk88@duke.edu> 1519397396 -0500	commit: Q2D->C
+e4f272492867689e7f11f1b5195e8129d47e8861 5622b6fd28dbd2fba8f7f37be345c5614bd31263 jmk88 <jmk88@duke.edu> 1519397409 -0500	pull: Fast-forward
+5622b6fd28dbd2fba8f7f37be345c5614bd31263 241300cc3bd1a010fcfdb4f3367599634bae363f jmk88 <jmk88@duke.edu> 1519398785 -0500	commit: Q7 from 1 and 4 to 1,3,and 4
+241300cc3bd1a010fcfdb4f3367599634bae363f adeb87cf162de0247bbd2b43d62305924dbfa9d1 jmk88 <jmk88@duke.edu> 1519400151 -0500	commit: Q5D->B
+adeb87cf162de0247bbd2b43d62305924dbfa9d1 693f3ce211dbb8ccdd68349380b3394cfff85ca8 jmk88 <jmk88@duke.edu> 1519400161 -0500	pull: Fast-forward
+693f3ce211dbb8ccdd68349380b3394cfff85ca8 17e84dc5460abd343f17b4f6f63b0298ff4d0057 jmk88 <jmk88@duke.edu> 1519400352 -0500	commit: Q5 back to D..
+17e84dc5460abd343f17b4f6f63b0298ff4d0057 8c220f92dbac1e7ccbb7748b4bff74eee334a86f jmk88 <jmk88@duke.edu> 1519401052 -0500	commit: Q9D->A
+8c220f92dbac1e7ccbb7748b4bff74eee334a86f 9616971bc86f1706204cbac9d5d04b4e069a1733 jmk88 <jmk88@duke.edu> 1519401912 -0500	pull: Fast-forward
+9616971bc86f1706204cbac9d5d04b4e069a1733 fe696f6f04530144f43a77f1544f4e4342d16517 jmk88 <jmk88@duke.edu> 1519401931 -0500	pull: Fast-forward
+fe696f6f04530144f43a77f1544f4e4342d16517 7e0842609d20f5e53c837d79b3d4340838234170 jmk88 <jmk88@duke.edu> 1519402410 -0500	commit: Pushing hand calculated code output and Makefile
+7e0842609d20f5e53c837d79b3d4340838234170 638f2ddb6f07df844754045a7f3809da7fa11807 jmk88 <jmk88@duke.edu> 1519402432 -0500	pull: Fast-forward
+638f2ddb6f07df844754045a7f3809da7fa11807 34de7bdd63c89eeeb55dd3cb3d4541468f5b1f12 jmk88 <jmk88@duke.edu> 1519402454 -0500	pull: Fast-forward
+34de7bdd63c89eeeb55dd3cb3d4541468f5b1f12 130b9bab5204503d4bfda5cf7fcc356dfccfd1dd jmk88 <jmk88@duke.edu> 1519402604 -0500	commit: Create handcalculated code and Makefile
+130b9bab5204503d4bfda5cf7fcc356dfccfd1dd 63d51e407f57fc9d0f07cbf3f2fc29895b527720 jmk88 <jmk88@duke.edu> 1519402622 -0500	pull: Fast-forward
+63d51e407f57fc9d0f07cbf3f2fc29895b527720 25ed638e34b6b10e61c98effd4398a3edf9d7992 jmk88 <jmk88@duke.edu> 1519402632 -0500	pull: Fast-forward
+25ed638e34b6b10e61c98effd4398a3edf9d7992 534b6aa47d39a3e13ca7cc4e026a112fcb11e295 jmk88 <jmk88@duke.edu> 1519412159 -0500	commit: Add point.cpp and point.h files
+534b6aa47d39a3e13ca7cc4e026a112fcb11e295 f20bedae2780264458807804871940faaf8e14ac jmk88 <jmk88@duke.edu> 1519412171 -0500	pull: Fast-forward
+f20bedae2780264458807804871940faaf8e14ac 6d0d90b9ee28316bc208d04f2098beebbaa7a38d jmk88 <jmk88@duke.edu> 1519412184 -0500	pull: Fast-forward
+6d0d90b9ee28316bc208d04f2098beebbaa7a38d 38b17273a4446ef4450789fe0ad85de704a1433f jmk88 <jmk88@duke.edu> 1519437711 -0500	commit: Pushing circle.cpp and circle.h files
+38b17273a4446ef4450789fe0ad85de704a1433f 1dac3728e2aa58a462347978786df20afc60a5ea jmk88 <jmk88@duke.edu> 1519437742 -0500	commit: Adding symbolic links
+1dac3728e2aa58a462347978786df20afc60a5ea 6e8c6195d445c5ecf87aef04fe5cdcc2a6922644 jmk88 <jmk88@duke.edu> 1519437755 -0500	pull: Fast-forward
+6e8c6195d445c5ecf87aef04fe5cdcc2a6922644 581d54e0bede437deb198e4d950d37e4eb76748b jmk88 <jmk88@duke.edu> 1519443897 -0500	commit: Adding test conditions for intersectionArea to return default values
+581d54e0bede437deb198e4d950d37e4eb76748b dd0b8a33ad537cc3b3123c793bc31848a5981707 jmk88 <jmk88@duke.edu> 1519444018 -0500	commit: Adding test conditions for intersectionArea to return default values
+dd0b8a33ad537cc3b3123c793bc31848a5981707 1e7c31a6ea99667c0c89b8fa50cd8b7e8b9cef11 jmk88 <jmk88@duke.edu> 1519444046 -0500	pull: Fast-forward
+1e7c31a6ea99667c0c89b8fa50cd8b7e8b9cef11 e94841433fae8cad9c215c3ea3b1fe64c2510f7a jmk88 <jmk88@duke.edu> 1519444566 -0500	pull: Fast-forward
+e94841433fae8cad9c215c3ea3b1fe64c2510f7a 45183a2e77e425210c44ed32d74355394152bad7 jmk88 <jmk88@duke.edu> 1519444684 -0500	commit: Removed other printf() statements from testing
+45183a2e77e425210c44ed32d74355394152bad7 561a05ae964121ffd5e3dfe9fbf2c585ed0a4f43 jmk88 <jmk88@duke.edu> 1519444710 -0500	pull: Fast-forward
+561a05ae964121ffd5e3dfe9fbf2c585ed0a4f43 6990fafb655056b94c7a324aa9d96186204beece jmk88 <jmk88@duke.edu> 1519444749 -0500	commit: Removed other printf() statements from testing
+6990fafb655056b94c7a324aa9d96186204beece a4544562eb1e39a7479332fa8afa276ab9329c2a jmk88 <jmk88@duke.edu> 1519444771 -0500	pull: Fast-forward
+a4544562eb1e39a7479332fa8afa276ab9329c2a b78e684a8087971ca0368a338ffd53be95912022 jmk88 <jmk88@duke.edu> 1519447076 -0500	commit: Changed algorithm for calculating area of intersection
+b78e684a8087971ca0368a338ffd53be95912022 d4e98867717e6d0751740ef88090fc109b54d301 jmk88 <jmk88@duke.edu> 1519447103 -0500	pull: Fast-forward
+d4e98867717e6d0751740ef88090fc109b54d301 d837c38a39017c75cad17c8b51a1452a5a45ca6d jmk88 <jmk88@duke.edu> 1519566180 -0500	commit: Change intersectionArea() algorithm
+d837c38a39017c75cad17c8b51a1452a5a45ca6d 4a3f52141c1683bac1163ff971c0883dc34337e3 jmk88 <jmk88@duke.edu> 1519566216 -0500	pull: Fast-forward
+4a3f52141c1683bac1163ff971c0883dc34337e3 97dd36aee1fbc9185c262bd2b9e2b018d131650b jmk88 <jmk88@duke.edu> 1519664439 -0500	commit: Code through line 2 of stat. Use switch/case for setting fileType string
+97dd36aee1fbc9185c262bd2b9e2b018d131650b d38bb0cdd01311e8d982b449ad6fc079becd6abc jmk88 <jmk88@duke.edu> 1519665187 -0500	commit: Code through line 3 from stat()
+d38bb0cdd01311e8d982b449ad6fc079becd6abc 1bdff7055294a1542793858164dc394b683992af jmk88 <jmk88@duke.edu> 1519667431 -0500	commit: Code through line 4 (Access only). Use conditionals to set values at each element in char permissions[] string
+1bdff7055294a1542793858164dc394b683992af bfef3f7bd26aedc144bfcfdfb1e807ff4f22bcf3 jmk88 <jmk88@duke.edu> 1519670211 -0500	commit: Code through line 4 including uid and gid info.
+bfef3f7bd26aedc144bfcfdfb1e807ff4f22bcf3 55df71a3f171d6139d551b0423234794c815e3f9 jmk88 <jmk88@duke.edu> 1519672358 -0500	commit: Code through printing the time strings from stat
+55df71a3f171d6139d551b0423234794c815e3f9 7d535027072b8ebf88b64e5b0990c8a479feda13 jmk88 <jmk88@duke.edu> 1519672772 -0500	commit: mystat works with any number of command line arguments
+7d535027072b8ebf88b64e5b0990c8a479feda13 a29f822b1d19eb890b340274b25b86d20ccdcac4 jmk88 <jmk88@duke.edu> 1519674194 -0500	commit: mystat now prints the device type if special file
+a29f822b1d19eb890b340274b25b86d20ccdcac4 4eda91b0a1f19590f1f724ce335b00259b2b81a3 jmk88 <jmk88@duke.edu> 1519674473 -0500	commit: Moved printf() call for line 1 to its own function
+4eda91b0a1f19590f1f724ce335b00259b2b81a3 7172a14c78671d185e0ad8218ccd3428e9ad7079 jmk88 <jmk88@duke.edu> 1519675812 -0500	commit: Add code to handle symbolic links
+7172a14c78671d185e0ad8218ccd3428e9ad7079 9f38950461445d85c92a5558777803105360774d jmk88 <jmk88@duke.edu> 1519676044 -0500	commit: Tested with multiple files, some symbolic, some from other directories, and it works!
+9f38950461445d85c92a5558777803105360774d 64230079bd503e299eb5cf31ea037ea47b3ed525 jmk88 <jmk88@duke.edu> 1519677347 -0500	commit: Add perror() for when lstat() fails
+64230079bd503e299eb5cf31ea037ea47b3ed525 77aee8b6ba4bee6cca428c2586f5a682a8e674a1 jmk88 <jmk88@duke.edu> 1519677599 -0500	commit: Answers for Ch16 rq
+77aee8b6ba4bee6cca428c2586f5a682a8e674a1 95a5bd25d52a531cd7486b390a81e8215909f484 jmk88 <jmk88@duke.edu> 1519677666 -0500	commit: Push Makefile
+95a5bd25d52a531cd7486b390a81e8215909f484 18293378f2cbafdd723c69b0e46e9eb67e68e218 jmk88 <jmk88@duke.edu> 1519677689 -0500	pull: Fast-forward
+18293378f2cbafdd723c69b0e46e9eb67e68e218 4fb40d85251626b9015e5d4499adc54c8370f7dd jmk88 <jmk88@duke.edu> 1519739938 -0500	commit: Added comments to mystat.c
+4fb40d85251626b9015e5d4499adc54c8370f7dd 120007b8ba6c1b73ee0a671c02bfc9fddedaeb57 jmk88 <jmk88@duke.edu> 1519740158 -0500	commit: Made minor changes to comments
+120007b8ba6c1b73ee0a671c02bfc9fddedaeb57 35e86c48c4a8ee3f439d4e58e1a739a88b38ce8f jmk88 <jmk88@duke.edu> 1519746360 -0500	commit: Q5F->A
+35e86c48c4a8ee3f439d4e58e1a739a88b38ce8f 8ccba12b350add870ef8c636d096c71cda06a027 jmk88 <jmk88@duke.edu> 1519746382 -0500	pull: Fast-forward
+8ccba12b350add870ef8c636d096c71cda06a027 231b3039401f17f052335746cba20c7ea391cc96 jmk88 <jmk88@duke.edu> 1519746439 -0500	commit: Q5A->C
+231b3039401f17f052335746cba20c7ea391cc96 9f0c15c52b3af327503babdab4cf0106c9938e46 jmk88 <jmk88@duke.edu> 1519746467 -0500	pull: Fast-forward
+9f0c15c52b3af327503babdab4cf0106c9938e46 603bab889a6b7b544c759034e472dc342035b0df jmk88 <jmk88@duke.edu> 1519746610 -0500	commit: Q5C->I
+603bab889a6b7b544c759034e472dc342035b0df e70a2eeedae046eafa53bc3f3edd581abd6342ca jmk88 <jmk88@duke.edu> 1519746633 -0500	pull: Fast-forward
+e70a2eeedae046eafa53bc3f3edd581abd6342ca ba988a406ab20034f0a276b2e65e6e386afaf26a jmk88 <jmk88@duke.edu> 1519751023 -0500	commit: Q5I->B
+ba988a406ab20034f0a276b2e65e6e386afaf26a 0b748370ca9b59c759d085a755fdfb42aca556d4 jmk88 <jmk88@duke.edu> 1519751045 -0500	pull: Fast-forward
+0b748370ca9b59c759d085a755fdfb42aca556d4 b41cccd249681b2b3fee5e8828e491afa3c7408b jmk88 <jmk88@duke.edu> 1519751551 -0500	commit: Q5B->D
+b41cccd249681b2b3fee5e8828e491afa3c7408b 92af9f3dde5dd4b485566e3fea990b3cea4c5a01 jmk88 <jmk88@duke.edu> 1519751563 -0500	pull: Fast-forward
+92af9f3dde5dd4b485566e3fea990b3cea4c5a01 080f59dacccf8e863921326c175bddf7398fc2e3 jmk88 <jmk88@duke.edu> 1519752260 -0500	commit: Q7B->D
+080f59dacccf8e863921326c175bddf7398fc2e3 b73770d4d1e3546ea0dd9ab535aa914b9203d14e jmk88 <jmk88@duke.edu> 1519752937 -0500	pull: Fast-forward
+b73770d4d1e3546ea0dd9ab535aa914b9203d14e 56596bec293e38ca22ff9c2e3a82268d764c0773 jmk88 <jmk88@duke.edu> 1519752969 -0500	commit: Q8D->C
+56596bec293e38ca22ff9c2e3a82268d764c0773 62d5b04e0431d6592b2a062411d942d6b80c3ae9 jmk88 <jmk88@duke.edu> 1519764222 -0500	pull: Fast-forward
+62d5b04e0431d6592b2a062411d942d6b80c3ae9 bc56e91d6858f72292c08b9a3f35055dd85db78a jmk88 <jmk88@duke.edu> 1519764233 -0500	pull: Fast-forward
+bc56e91d6858f72292c08b9a3f35055dd85db78a f677c5383088c1af22afb444242e9510e3ceee60 jmk88 <jmk88@duke.edu> 1519764306 -0500	commit: Hand calculated output for ref.cpp
+f677c5383088c1af22afb444242e9510e3ceee60 21a890409155c59f8b995e7033a1775021566870 jmk88 <jmk88@duke.edu> 1519764320 -0500	pull: Fast-forward
+21a890409155c59f8b995e7033a1775021566870 fb9347ddb1c36b1af4960a1fe9607820a21f59c5 jmk88 <jmk88@duke.edu> 1519764326 -0500	pull: Fast-forward
+fb9347ddb1c36b1af4960a1fe9607820a21f59c5 65fe39f8cc1184da412bf284d3ba705a79ab34bb jmk88 <jmk88@duke.edu> 1519764422 -0500	commit: Hand calculated output for test.cpp
+65fe39f8cc1184da412bf284d3ba705a79ab34bb 07b2a8bd87c049f17bc458427bc17a3ce3d8635b jmk88 <jmk88@duke.edu> 1519764433 -0500	pull: Fast-forward
+07b2a8bd87c049f17bc458427bc17a3ce3d8635b cb43c1f9b9b4b3e6dd2327a2169b618698ca405a jmk88 <jmk88@duke.edu> 1519764442 -0500	pull: Fast-forward
+cb43c1f9b9b4b3e6dd2327a2169b618698ca405a bd6abecade56176d5a17180f0960a91d3571e444 jmk88 <jmk88@duke.edu> 1519848642 -0500	commit: Code for IntArray class and operators
+bd6abecade56176d5a17180f0960a91d3571e444 47174bede6552c9f0a47d20fabc0756d3c80edcc jmk88 <jmk88@duke.edu> 1519848866 -0500	pull: Fast-forward
+47174bede6552c9f0a47d20fabc0756d3c80edcc 30a2ca3f2563168949e8e2e1c8de9c4a54af1174 jmk88 <jmk88@duke.edu> 1519849189 -0500	commit: Fixed print to stream for empty array case
+30a2ca3f2563168949e8e2e1c8de9c4a54af1174 0a83c6e63c8ddfd414b00589c98b115bf3915f55 jmk88 <jmk88@duke.edu> 1519849230 -0500	pull: Fast-forward
+0a83c6e63c8ddfd414b00589c98b115bf3915f55 af75fe6578f55f0ecb65ac9b84b504ebd588cdbc jmk88 <jmk88@duke.edu> 1519863137 -0500	commit: Code for IntMatrix.cpp. Has some major errors. == operator not working properly. Some sort of malloc() error
+af75fe6578f55f0ecb65ac9b84b504ebd588cdbc f771538e5ada589bbe5226d420480c781b201b21 jmk88 <jmk88@duke.edu> 1519865656 -0500	commit: Still has errors..
+f771538e5ada589bbe5226d420480c781b201b21 8f396f5bf843b6e76a74af8dd7bc2a42621fd3a9 jmk88 <jmk88@duke.edu> 1519869294 -0500	commit: Now it correctly prints when a and b are different
+8f396f5bf843b6e76a74af8dd7bc2a42621fd3a9 c97d038f4dfcbcf7068bdfafdea4b53d1a65fc85 jmk88 <jmk88@duke.edu> 1519874617 -0500	commit: Hadn't initialized rows...
+c97d038f4dfcbcf7068bdfafdea4b53d1a65fc85 6f69cbc8e64340d28b1653dc70b6778772b10fd5 jmk88 <jmk88@duke.edu> 1519874683 -0500	commit: Adding sym links
+6f69cbc8e64340d28b1653dc70b6778772b10fd5 3ff4a51b275cab6c012898ae5bf06b41ce5aa733 jmk88 <jmk88@duke.edu> 1519874708 -0500	pull: Fast-forward
+3ff4a51b275cab6c012898ae5bf06b41ce5aa733 0986d50f28a6b16053d7d69ee016b981cd2cceed jmk88 <jmk88@duke.edu> 1519874717 -0500	pull: Fast-forward

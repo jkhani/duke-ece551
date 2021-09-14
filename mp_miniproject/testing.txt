@@ -1,0 +1,49 @@
+Specific test.txt files were written to test the individual commands for this project. The program supports
+comments by printing 'Comment: [information about problem]' to the terminal. When running the .txt files
+a comment should be printed which explains the expected behavior and describes the particular attribute
+being tested by that input. All program runs will end with a print out of the functions that were defined
+during that session in the following format:
+functionName( parameter1 parameter2 ... parameterN) = expressionString
+
+This behavior was added as confirmation to show that the functions were correctly added to the Function map
+used to keep track of all defined functions and provides proof that the prefix notation was correctly parsed
+into infix notation. Overall, it appears to valgrind cleanly (other than the 72,704 bytes in 1 block issue
+caused by the cstdlib).
+
+1) Run ./numerics testDefine.txt
+   This files tests the following:
+   	-basic 'define' command prints the expected define string and adds the function to the function map
+	-arbitrary spaces are handled appropriately and function is correctly defined
+	-I added a feature that simply ignores repeated variable names in the define string so that if the same
+	variable appears twice, it does not abort() the program but simply reports that the error was handled
+	and continues to define the function
+	-invalid define strings are reported to the user but do not crash the program
+	-repeated functions are not allowed. An error is reported to the user stating the function was not
+	redefined and the program continues to run.
+	-numbers are not allowed as variable names, a message is reported to the user but the program continues to run
+	-each built-in function is tested individual to ensure they are correctly parsed and added to the database
+	-all built-ins are tested in one funciton. This demonstrates that nested functions are handled appropriately,
+	even when there are a mix of single-argument functions nested as right side or left side arguments for other
+	operations. This is important to demonstrate the robustness of the define parsing.
+	-functions with lots of variables that run onto multiples lines are still parsed and handled as desired.
+	-error is thrown when a binary operator only gets a single argument
+	-handles function definition when functions have extremely long variable names
+
+2) Run ./numerics testEval.txt
+   This file tests the following:
+   	-basic test of 'evaluate' command. Comment prints the expected value for the evaluated function
+	-evaluate handles functions as input arguments to other functions
+	-shows all built-in functions behave as expected
+	-check that really, small, large, and negative numebrs are handled correctly
+
+3) Run ./numerics testIntegrate.txt
+   This file tests both the numerical integration (numint) and Monte Carlo integration (mcint) commands
+   	-basic test of numint and mcint demonstrating the answers are quite similar
+	-program catches invalid values for step size or number of trials, reports error, then continues program
+	-catches invalid values for boundary conditions, reports error, then continues program
+	-computes numint and mcint for variety of functions with known values reported as comment
+	-handles large negative, positive, and small values
+
+4) Run ./numerics testGradient
+   This tests the followng:
+   	-basic test of min using gradient descent with know value reported as Comment

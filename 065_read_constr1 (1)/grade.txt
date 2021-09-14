@@ -1,0 +1,10 @@
+Grading at 02/23/2018:16:13:52.053512
+For commit ID 7e0842609d20f5e53c837d79b3d4340838234170
+Attempting to compile:
+g++ -c -g code.cpp
+g++ -g -o code code.o
+Your Makefile produced a binary called 'code'
+Your file matched the expected output
+Your output matched what we expected
+
+Overall Grade: PASSED

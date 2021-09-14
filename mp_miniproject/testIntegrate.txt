@@ -1,0 +1,28 @@
+// define function to test integration
+define (f x y) = (+ (* 2 x) y)
+// check numint command works
+numint f 0.001 -1 1 4 5
+// check mcint command works
+mcint f 100000 -1 1 4 5
+// check program catches invalid values for step or numtrials (should see 2 error messages)
+numint f 0 -1 1 4 5
+mcint f 0 -1 1 4 5
+// Check program catches invalid values for boundaries
+numint f 0.001 -1 -4 4 5
+// compute int and mcint f(x) = x^3, x = [0,1] with step = .01 'numint(f(x)) = .25'
+define (xCubed x) = (pow x 3)
+numint xCubed 0.01 0 1
+mcint xCubed 100000 0 1
+// compute int f(x) = 1/x, x = [1, 100] with step = .099 'numint(f(x) = ~4.6'
+define (oneOverx x) = (/ 1 x)
+numint oneOverx 0.099 1 100
+mcint oneOverx 1000 1 100
+// compute int f(x) = x, x = [0, 5000] with step = .001 'numint(f(x) = 12,500,000'
+define (simpleX x) = (* 1 x)
+numint simpleX .001 0 5000
+mcint simpleX 1000 0 5000
+// handles really large, small, or negative numbers
+numint simpleX .00000000000000000000000000000000000000000000001  -100000000000000000000000000000000000000000 99999999999999999999999999999
+// handles high dimensional functions
+define (highDims a b c d e f g h i ) = (* (- (+ (% (* (sqrt a) b) c) d) e) (* f (- (pow g h) i)))
+numint highDims 1 0 100 -2 2000 4 6 23 24 -1000000000 9999999999999 .2222222 11 12 13 9 14 5 6
